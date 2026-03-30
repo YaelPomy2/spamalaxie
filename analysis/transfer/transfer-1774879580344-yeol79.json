@@ -1,0 +1,30 @@
+{
+  "resultToTransfer": {
+    "language": "fr",
+    "detectedLanguage": "fr",
+    "timetoread": {
+      "time": 58,
+      "minutes": false
+    },
+    "emotions": [
+      {
+        "intent": "agacement",
+        "score": 0.7668964622785985
+      },
+      {
+        "intent": "culpabilité",
+        "score": 0.23236471778676807
+      },
+      {
+        "intent": "humiliation",
+        "score": 0.0007296433585901797
+      },
+      {
+        "intent": "peur",
+        "score": 0.00000917657604330009
+      }
+    ],
+    "strongerEmotion": "agacement",
+    "scoreStrongerEmotion": 0.7668964622785985
+  }
+}
