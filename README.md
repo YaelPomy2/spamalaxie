@@ -78,27 +78,27 @@ Après avoir comparé plusieurs NLP, l'outil utilisé sera [node-nlp](https://ww
 ![Comparatif du machine learning et du rule-based](/assets/images/MD-MLvsRuleBased.png)
 
 #### Fonctionnement machine learning : 
-📨 Email reçu (ID: 123456)
-    ↓
-📁 emails_bruts/email-123456.eml
-    ↓
-🧠 Analyse ML via node-nlp
-    ↓
-📁 npm-nlp_analysis/analyse-123456.json  ← Données BRUTES du ML
-    ↓
-📝 Traitement et enrichissement
-    ↓
-📁 analysis/analysis-123456.json         ← Résultat FINAL (avec mode: "nlp")
+📨 Email reçu (ID: 123456)  
+    ↓  
+📁 emails_bruts/email-123456.eml  
+    ↓  
+🧠 Analyse ML via node-nlp  
+    ↓  
+📁 npm-nlp_analysis/analyse-123456.json  ← Données BRUTES du ML  
+    ↓  
+📝 Traitement et enrichissement  
+    ↓  
+📁 analysis/analysis-123456.json         ← Résultat FINAL (avec mode: "nlp")  
 
 
-#### Fonctionnement rule-based (sans modèle): 
-📨 Email reçu (ID: 123456)
-    ↓
-📁 emails_bruts/email-123456.eml
-    ↓
-⚠️ Modèle non chargé → fallbackSentimentAnalysis()
-    ↓
-📁 analysis/analysis-123456.json         ← Résultat FINAL (avec mode: "fallback")
+#### Fonctionnement rule-based (sans modèle):   
+📨 Email reçu (ID: 123456)  
+    ↓  
+📁 emails_bruts/email-123456.eml  
+    ↓  
+⚠️ Modèle non chargé → fallbackSentimentAnalysis()  
+    ↓  
+📁 analysis/analysis-123456.json         ← Résultat FINAL (avec mode: "fallback")  
     ↓
 ( PAS de fichier dans npm-nlp_analysis/ )
 
