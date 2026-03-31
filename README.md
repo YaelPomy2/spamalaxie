@@ -84,7 +84,7 @@ Après avoir comparé plusieurs NLP, l'outil utilisé sera [node-nlp](https://ww
     ↓  <br>
 🧠 Analyse ML via node-nlp  <br>
     ↓  <br>
-📁 npm-nlp_analysis/analyse-123456.json  ← Données BRUTES du ML  <br>
+📁 mails_bruts.json  ← Données BRUTES du ML  <br>
     ↓  <br>
 📝 Traitement et enrichissement  <br>
     ↓  <br>
