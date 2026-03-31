@@ -27,7 +27,6 @@ const DOSSIER_TEXTES = path.join(__dirname, './analysis/textes');
 const DOSSIER_NLPJS = path.join(__dirname, './analysis/npm-nlp_analysis');
 const DOSSIER_TRANSFER = path.join(__dirname, './analysis/transfer')
 const DOSSIER_MODELS = path.join(__dirname, './models');
-const DOSSIER_DATAUSAGE = path.join(__dirname, './analysis/datausage');
 
 // Créer les dossiers s'ils n'existent pas
 
@@ -37,7 +36,6 @@ if (!fs.existsSync(DOSSIER_TEXTES)) fs.mkdirSync(DOSSIER_TEXTES);
 if (!fs.existsSync(DOSSIER_MODELS)) fs.mkdirSync(DOSSIER_MODELS);
 if (!fs.existsSync(DOSSIER_NLPJS)) fs.mkdirSync(DOSSIER_NLPJS);
 if (!fs.existsSync(DOSSIER_TRANSFER)) fs.mkdirSync(DOSSIER_TRANSFER);
-if (!fs.existsSync(DOSSIER_DATAUSAGE)) fs.mkdirSync(DOSSIER_DATAUSAGE);
 
 
 // ============================================l
@@ -71,7 +69,7 @@ async function initializeNLP() {
   console.log('🔄 Initialisation du module NLP hybride...');
 
   try {
-    manager = new NlpManager({ languages: ['fr', 'en']}); 
+    manager = new NlpManager({ languages: ['fr', 'en'] });
 
     if (fs.existsSync(MODEL_PATH)) {
       manager.load(MODEL_PATH);
@@ -106,16 +104,16 @@ async function analyzeSentiment(text, id) {
   try {
     console.log(`📝 Analyse pour ID: ${id}`);
     console.log(`   modelLoaded = ${modelLoaded}`);
-    
+
     if (modelLoaded && manager) {
       console.log
       const languageDetector = new Language();
       const detectedLang = languageDetector.guessBest(text);
       const langToUse = detectedLang.alpha2 === 'en' ? 'en' : 'fr';
-      
+
       console.log(`   🌐 Langue détectée: ${detectedLang.alpha2} : =>  ${langToUse}`);
       console.log(`   ✅ Mode ML activé pour ID: ${id}`);
-      
+
       // Utiliser la langue détectée
       const result = await manager.process(langToUse, text);
 
@@ -129,7 +127,7 @@ async function analyzeSentiment(text, id) {
       let timeToReadInSeconds = (result.sentiment?.numWords || 0) / 225;
       let minutes = false;
       let timeToReadToTransfer;
-      
+
       if (timeToReadInSeconds >= 1) {
         timeToReadToTransfer = timeToReadInSeconds;
         minutes = true;
@@ -539,8 +537,8 @@ app.post('/index', async (req, res) => {
 
     const cheminEML = path.join(DOSSIER_EML, `email-${id}.eml`);
     fs.writeFileSync(cheminEML, emailBrut);
-    cheminEML1 = 
-    console.log(`   ✅ Sauvegardé: ${cheminEML}`);
+    cheminEML1 =
+      console.log(`   ✅ Sauvegardé: ${cheminEML}`);
 
     const mail = deepParseJSON(req.body).rawEmail;
 
@@ -584,7 +582,7 @@ app.post('/index', async (req, res) => {
 
       console.log(`📊 Sentiment: ${analyse.sentiment.label}`);
     }
-    
+
     analyse.suspect = {
       liens_raccourcis: analyse.liens.some(l => /bit\.ly|tinyurl|short\.link/i.test(l)),
       urls_ip: analyse.liens.some(l => /\d+\.\d+\.\d+\.\d+/.test(l)),
@@ -640,7 +638,6 @@ app.get('/test', (req, res) => {
       models: DOSSIER_MODELS,
       transfer: DOSSIER_TRANSFER,
       npmnlp: DOSSIER_NLPJS,
-      dataused: DOSSIER_DATAUSAGE
     },
     mode_actuel: modelLoaded ? 'ML (node-nlp)' : 'Rule-Based uniquement',
     stats: {
@@ -662,7 +659,6 @@ async function startServer() {
   const PathModels = DOSSIER_MODELS.substring(DOSSIER_MODELS.indexOf("DELETE"));
   const PathTransfer = DOSSIER_TRANSFER.substring(DOSSIER_TRANSFER.indexOf("DELETE"))
   const PathNpmNLP = DOSSIER_NLPJS.substring(DOSSIER_NLPJS.indexOf("DELETE"));
-  const PathDAataUsage = DOSSIER_DATAUSAGE.substring(DOSSIER_DATAUSAGE.indexOf("DELETE"));
 
   app.listen(PORT, () => {
     console.log(`
@@ -681,7 +677,6 @@ async function startServer() {
 ║  📁 Dossier models: ${PathModels}
 ║  📁 Dossier npm-nlp: ${PathNpmNLP}
 ║  📁 Dossier à tranférer :${PathTransfer}
-║  📁 Dossier des données utilisées: ${PathDAataUsage}
 ╚═══════════════════════════════════════════════════════╝
     `);
   });
