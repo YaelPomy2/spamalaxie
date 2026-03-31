@@ -1,0 +1,338 @@
+intent,utterance
+peur,alerte de sécurité : connexion suspecte détectée sur votre compte
+peur,nous avons bloqué une tentative de connexion inhabituelle
+peur,quelqu'un essaie d'accéder à votre compte depuis un nouvel appareil
+peur,changement de mot de passe demandé - confirmez que c'est vous
+peur,votre mot de passe a été modifié il y a 5 minutes
+peur,vos coordonnées bancaires viennent d'être mises à jour
+peur,transaction de 849€ effectuée chez Amazon France
+peur,retrait de 600€ dans un distributeur à Paris
+peur,opération de 1250€ non confirmée
+peur,si ce n'était pas vous contactez notre service fraude
+peur,votre carte sera débitée dans 24h si vous ne répondez pas
+peur,un prélèvement automatique va être effectué
+peur,échéance impayée - majoration de 10% appliquée
+peur,facture en retard - pénalités ajoutées
+peur,votre dossier a été transmis à notre service contentieux
+peur,mise en demeure avant poursuites judiciaires
+peur,vous êtes convoqué devant le tribunal le 15 avril
+peur,plainte déposée à votre encontre pour escroquerie
+peur,un mandat d'arrêt a été émis contre vous
+peur,votre nom apparaît dans une affaire criminelle
+peur,vous êtes sous enquête pour fraude fiscale
+peur,votre contrôle fiscal est programmé pour mai
+peur,redressement fiscal de 12500€ à payer sous 30 jours
+peur,déclaration frauduleuse détectée sur vos impôts
+peur,fraude à la sécurité sociale signalée
+peur,vos droits sociaux vont être suspendus immédiatement
+peur,remboursements sécurité sociale bloqués
+peur,votre carte vitale a été désactivée
+peur,des virus ont été détectés sur votre iPhone
+peur,votre téléphone est infecté par 3 logiciels malveillants
+peur,un logiciel espion enregistre tout ce que vous tapez
+peur,vos mots de passe ont été compromis lors d'une fuite
+peur,vos données personnelles sont en vente sur le dark web
+peur,votre webcam a été piratée - nous vous filmons
+peur,nous enregistrons votre écran en ce moment même
+peur,nous avons des vidéos de vous très compromettantes
+peur,vos conversations privées ont été enregistrées
+peur,nous allons tout envoyer à tous vos contacts
+peur,votre réputation va être détruite si vous ne payez pas
+peur,vos collègues vont découvrir vos secrets
+peur,votre famille va tout savoir sur vous
+peur,payez 1500€ en bitcoin ou nous publions tout
+peur,dernier délai avant publication - plus que 24h
+peur,time-out dans 12h - après c'est trop tard
+peur,plus que 5 exemplaires en stock avant rupture
+peur,stock critique - commandez immédiatement
+peur,77 personnes regardent cette offre en ce moment
+peur,23 clients veulent acheter le même article que vous
+peur,quelqu'un va vous prendre votre réservation
+peur,c'est votre dernière chance de commander
+peur,vous allez regretter de ne pas avoir acheté
+peur,le prix va augmenter dans 3 heures
+peur,cette offre spéciale se termine ce soir
+peur,plus jamais ce prix après minuitpeur,
+peur,alerte de sécurité : connexion suspecte détectée sur votre compte
+peur,nous avons bloqué une tentative de connexion inhabituelle
+peur,quelqu'un essaie d'accéder à votre compte depuis un nouvel appareil
+peur,changement de mot de passe demandé - confirmez que c'est vous
+peur,votre mot de passe a été modifié il y a 5 minutes
+peur,vos coordonnées bancaires viennent d'être mises à jour
+peur,transaction de 849€ effectuée chez Amazon France
+peur,retrait de 600€ dans un distributeur à Paris
+peur,opération de 1250€ non confirmée
+peur,si ce n'était pas vous contactez notre service fraude
+peur,votre carte sera débitée dans 24h si vous ne répondez pas
+peur,un prélèvement automatique va être effectué
+peur,échéance impayée - majoration de 10% appliquée
+peur,facture en retard - pénalités ajoutées
+peur,votre dossier a été transmis à notre service contentieux
+peur,mise en demeure avant poursuites judiciaires
+peur,vous êtes convoqué devant le tribunal le 15 avril
+peur,plainte déposée à votre encontre pour escroquerie
+peur,un mandat d'arrêt a été émis contre vous
+peur,votre nom apparaît dans une affaire criminelle
+peur,vous êtes sous enquête pour fraude fiscale
+peur,votre contrôle fiscal est programmé pour mai
+peur,redressement fiscal de 12500€ à payer sous 30 jours
+peur,déclaration frauduleuse détectée sur vos impôts
+peur,fraude à la sécurité sociale signalée
+peur,vos droits sociaux vont être suspendus immédiatement
+peur,remboursements sécurité sociale bloqués
+peur,votre carte vitale a été désactivée
+peur,des virus ont été détectés sur votre iPhone
+peur,votre téléphone est infecté par 3 logiciels malveillants
+peur,un logiciel espion enregistre tout ce que vous tapez
+peur,vos mots de passe ont été compromis lors d'une fuite
+peur,vos données personnelles sont en vente sur le dark web
+peur,votre webcam a été piratée - nous vous filmons
+peur,nous enregistrons votre écran en ce moment même
+peur,nous avons des vidéos de vous très compromettantes
+peur,vos conversations privées ont été enregistrées
+peur,nous allons tout envoyer à tous vos contacts
+peur,votre réputation va être détruite si vous ne payez pas
+peur,vos collègues vont découvrir vos secrets
+peur,votre famille va tout savoir sur vous
+peur,payez 1500€ en bitcoin ou nous publions tout
+peur,dernier délai avant publication - plus que 24h
+peur,time-out dans 12h - après c'est trop tard
+peur,plus que 5 exemplaires en stock avant rupture
+peur,stock critique - commandez immédiatement
+peur,77 personnes regardent cette offre en ce moment
+peur,23 clients veulent acheter le même article que vous
+peur,quelqu'un va vous prendre votre réservation
+peur,c'est votre dernière chance de commander
+peur,vous allez regretter de ne pas avoir acheté
+peur,le prix va augmenter dans 3 heures
+peur,cette offre spéciale se termine ce soir
+peur,plus jamais ce prix après minuit
+culpabilité,vous avez oublié de confirmer votre adresse email
+culpabilité,votre inscription n'a pas été finalisée
+culpabilité,il manque des documents dans votre dossier
+culpabilité,pièces justificatives non fournies à ce jour
+culpabilité,vous n'avez pas répondu à notre précédent message
+culpabilité,nous attendons toujours votre retour depuis 3 semaines
+culpabilité,vous avez saisi un mauvais numéro de téléphone
+culpabilité,l'adresse email indiquée n'existe pas
+culpabilité,erreur dans le formulaire d'inscription
+culpabilité,vous avez oublié de cocher la case obligatoire
+culpabilité,les conditions générales n'ont pas été acceptées
+culpabilité,vous êtes passé à côté de notre offre limitée
+culpabilité,vous avez raté la promotion qui se terminait hier
+culpabilité,si vous aviez commandé plus tôt vous seriez livré
+culpabilité,c'est de votre faute si l'article est épuisé
+culpabilité,votre colis est en retard à cause de votre adresse erronée
+culpabilité,vous avez mal renseigné votre adresse de livraison
+culpabilité,vous n'étiez pas présent pour signer la livraison
+culpabilité,colis retourné à l'expéditeur car vous n'avez pas répondu
+culpabilité,des frais supplémentaires sont à votre charge
+culpabilité,frais de retard applicables - vous n'avez pas payé à temps
+culpabilité,tout est expliqué dans les conditions que vous avez acceptées
+culpabilité,vous avez accepté sans lire les petits caractères
+culpabilité,personne d'autre que vous n'a ce problème
+culpabilité,les autres clients ont réussi sans difficulté
+culpabilité,vous êtes le seul à avoir cette erreur
+culpabilité,le problème vient probablement de votre côté
+culpabilité,vérifiez encore vos informations personnelles
+culpabilité,relisez notre précédent email que vous avez ignoré
+culpabilité,nous étions pourtant très clairs dans nos explications
+culpabilité,vous n'avez pas suivi les instructions fournies
+culpabilité,la procédure est simple et tout le monde y arrive
+culpabilité,suivez le guide étape par étape comme indiqué
+culpabilité,c'est pourtant expliqué en détail sur notre site
+culpabilité,la réponse à votre question est dans la FAQ
+culpabilité,avez-vous vraiment cherché avant de nous contacter
+culpabilité,à un moment il faut faire un effort de votre côté
+culpabilité,ça fait 5 fois que vous appelez pour la même chose
+culpabilité,on vous a déjà répondu plusieurs fois
+humiliation,vous n'avez vraiment rien compris décidément
+humiliation,c'est pourtant pas compliqué à comprendre
+humiliation,il faut être idiot pour tomber dans ce genre de piège
+humiliation,vous êtes si naïf, 
+humiliation,comment pouvez-vous croire ça
+humiliation,tout le monde sait que c'est une arnaque sauf vous
+humiliation,votre adresse email est dans notre base de pigeons
+humiliation,vous êtes exactement la cible qu'on recherche
+humiliation,vous êtes tellement prévisible avec vos habitudes
+humiliation,123456 comme mot de passe sérieusement
+humiliation,votre prénom en mot de passe c'est risible
+humiliation,vous utilisez le même mot de passe partout
+humiliation,vos photos de profil sont vraiment ridicules
+humiliation,qui pose encore comme ça en 2026
+humiliation,attendez que vos amis voient ça
+humiliation,on va partager dans votre groupe WhatsApp
+humiliation,vous allez être la risée de tout le quartier
+humiliation,votre patron va adorer découvrir ça
+humiliation,imaginez la tête de vos collègues en voyant ça
+humiliation,vous n'avez pas honte à votre âge
+humiliation,vous devriez vraiment avoir honte
+humiliation,c'est d'une nullité absolue ce que vous faites
+humiliation,pathétique comme comportement
+humiliation,pauvre type va
+humiliation,pauvre naïf va
+humiliation,encore un pigeon de plus
+humiliation,un de plus dans la liste
+humiliation,ils sont tous aussi crédules
+humiliation,toujours les mêmes qui se font avoir
+humiliation,vous êtes tellement naïf c'est fou
+humiliation,on vous aura prévenu pourtant
+humiliation,mais vous n'écoutez jamais les conseils
+humiliation,vous êtes prévenus maintenant tant pis pour vous
+humiliation,la prochaine fois vous réfléchirez avant de cliquer
+humiliation,il vous aura fallu du temps pour comprendre
+humiliation,enfin vous réagissez il était temps
+humiliation,on désespérait de vous voir réagir
+humiliation,vous nous avez fait peur à être aussi lent
+humiliation,le mouton retourne au bercail finalement
+humiliation,toujours aussi fidèle et crédule
+humiliation,on peut compter sur vous pour être naïf
+humiliation,vous êtes accro apparemment à nos arnaques
+humiliation,vous ne pouvez pas vous passer de nous
+humiliation,encore vous qui cliquez sur tout
+humiliation,toujours là à cliquer sans réfléchir
+humiliation,vous cliquez sur absolument tout
+humiliation,offre spéciale pour pigeons comme vous
+humiliation,promotion pour naïfs seulement
+humiliation,réduction spéciale pour crédules
+humiliation,code promo facile-à-berner
+humiliation,vous êtes notre client préféré le plus naïf
+humiliation,notre meilleure source de revenus faciles
+humiliation,merci de votre naïveté sans limite
+humiliation,grâce à vous on se fait plaisir
+humiliation,vous payez nos vacances avec votre crédulité
+déception,nous pensions vraiment vous revoir
+déception,vous nous manquez depuis votre départ
+déception,plus de nouvelles depuis longtemps
+déception,vous avez disparu sans explication
+déception,vous étiez si fidèle avant
+déception,que s'est-il passé avec nous
+déception,nous avons été séparés trop tôt
+déception,notre relation s'arrête là malheureusement
+déception,vous nous quittez déjà après si peu de temps
+déception,on croyait vraiment en vous
+déception,vous nous décevez énormément
+déception,nous attendions mieux de votre part
+déception,vous n'êtes pas à la hauteur de nos attentes
+déception,vous avez déçu toute notre équipe
+déception,nos attentes étaient grandes envers vous
+déception,malheureusement vous ne correspondez pas au profil
+déception,votre profil ne convient pas pour ce poste
+déception,nous passons notre tour cette fois-ci
+déception,ce sera sans vous finalement
+déception,vous n'êtes pas retenu pour la suite
+déception,merci d'avoir postulé mais votre candidature n'est pas retenue
+déception,nous avons choisi quelqu'un d'autre que vous
+déception,votre candidature n'a pas été sélectionnée
+déception,malgré votre intérêt nous avons fait un autre choix
+déception,nous regrettons de vous informer que vous n'êtes pas pris
+déception,c'est avec regret que nous vous annonçons ce refus
+déception,nous sommes au regret de décliner votre offre
+déception,malheureusement nous déclinons votre proposition
+déception,votre offre n'a pas été retenue cette fois
+déception,un autre candidat a été choisi à votre place
+déception,vous n'avez pas gagné cette fois-ci
+déception,ce n'était pas votre jour de chance
+déception,personne n'a gagné le gros lot cette semaine
+déception,vous n'êtes pas le millionième client
+déception,désolé vous n'avez pas gagné cette fois
+déception,retentez votre chance la prochaine fois
+déception,ce n'est pas encore cette fois
+déception,la chance n'était pas avec vous aujourd'hui
+déception,malheureusement pas de gain pour vous
+déception,vous n'avez rien gagné cette fois
+déception,désolé ce n'est pas gagné
+déception,peut-être la prochaine fois
+déception,on ne peut pas gagner à tous les coups
+déception,la chance tournera en votre faveur plus tard
+déception,ce sera pour une prochaine fois
+déception,votre fidélité mérite mieux que ça
+déception,nous pouvons faire mieux ensemble
+déception,cette offre n'est pas pour vous apparemment
+déception,vous méritez une offre plus adaptée
+déception,nous allons trouver mieux pour vous
+déception,patience votre tour viendra bientôt
+déception,on ne vous oublie pas malgré tout
+déception,vous êtes dans nos pensées
+agacement,encore un message publicitaire
+agacement,toujours plus de spam dans ma boîte mail
+agacement,vous ne lâchez rien décidément
+agacement,vous êtes vraiment tenaces à envoyer des mails
+agacement,quelle persévérance agaçante
+agacement,vous insistez lourdement là
+agacement,c'est vraiment lourd à la fin
+agacement,combien de fois faudra-t-il vous dire non
+agacement,non c'est non point final
+agacement,vous comprenez pas le mot non
+agacement,STOP j'ai dit stop
+agacement,arrêtez de m'envoyer des mails
+agacement,désabonnez-moi immédiatement svp
+agacement,retirez-moi de vos listes de diffusion
+agacement,faites le nécessaire pour me supprimer
+agacement,exécution de ma demande svp
+agacement,c'est pas compliqué à comprendre
+agacement,vous le faites exprès ou quoi
+agacement,je décroche j'en ai marre
+agacement,je réponds plus à vos messages
+agacement,fin de la partie pour moi
+agacement,j'ai autre chose à faire que vous lire
+agacement,je perds mon temps avec vous
+agacement,quelle perte de temps ces emails
+agacement,encore une minute de ma vie perdue
+agacement,je ne lirai même pas votre message
+agacement,poubelle directe sans ouvrir
+agacement,spam direct en indésirable
+agacement,corbeille automatique
+agacement,indésirable signalé
+agacement,bloqué définitivement
+agacement,signalé comme spam
+agacement,blacklisté pour harcèlement
+agacement,fini de rire avec moi
+agacement,vous allez voir ce qui va arriver
+agacement,plainte pour harcèlement en préparation
+agacement,je porte plainte contre vous
+agacement,mon avocat va vous contacter
+agacement,la CNIL est saisie de l'affaire
+agacement,site frauduleux signalé aux autorités
+agacement,vous allez avoir des problèmes
+agacement,ça va mal finir pour vous
+agacement,vous êtes prévenus c'est le dernier avertissement
+agacement,dernier avertissement avant action
+agacement,si je reçois encore un seul message
+agacement,le prochain mail reçu déclenche une plainte
+agacement,je vous jure c'est fini maintenant
+agacement,plus jamais ça avec vous
+agacement,jamais deux sans trois mais là c'est trop
+agacement,trois messages c'est vraiment trop
+agacement,la goutte d'eau qui fait déborder le vase
+agacement,ras-le-bol général de vos sollicitations
+agacement,j'en peux plus de vous
+agacement,à bout de patience avec vous
+agacement,saturation totale de vos emails
+agacement,overdose de spam
+agacement,trop c'est trop clairement
+agacement,stop l'overdose de publicité
+agacement,ça suffit maintenant
+agacement,ça commence à bien faire
+agacement,ça va bien cinq minutes
+agacement,ça va deux minutes là
+agacement,un peu de sérieux
+agacement,stop au cirque
+agacement,fini la comédie
+agacement,vous fatiguez tout le monde
+agacement,vous nous saoulez avec vos offres
+agacement,circulez y a rien à voir ici
+agacement,allez voir ailleurs si j'y suis
+agacement,dégagez de ma boîte mail
+agacement,libérez ma messagerie
+agacement,foutez le camp de mes emails
+agacement,cassez-vous avec vos promotions
+agacement,ouste
+agacement,dehors
+agacement,next
+agacement,au suivant
+agacement,bon vent
+agacement,bon débarras
+agacement,enfin seuls quand vous serez partis
+agacement,soulagé quand vous arrêterez
+agacement,tranquille maintenant sans vous

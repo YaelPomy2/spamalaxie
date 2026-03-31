@@ -1,0 +1,24 @@
+{
+  "name": "delete",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "test.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "express": "^5.2.1",
+    "ngrok": "^5.0.0-beta.2",
+    "node-nlp": "^5.0.0-alpha.5",
+    "nodemon": "^3.1.14"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "./analysis"
+    ]
+  }
+}
