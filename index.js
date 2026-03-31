@@ -56,7 +56,7 @@ const startMessage = `
 ║                                                                      ║
 ║                    [ START INITIALIZING SYSTEM ]                     ║
 ║                                                                      ║
-║        > boot sequence: Lancement du fichier "test.js"               ║
+║        > boot sequence: Lancement du fichier "index.js"              ║
 ║        > status: ONLINE                                              ║
 ║        > security: 2xmSD33-sa9Km'sMl_aa                              ║
 ║                                                                      ║
@@ -69,7 +69,7 @@ async function initializeNLP() {
   console.log('🔄 Initialisation du module NLP hybride...');
 
   try {
-    manager = new NlpManager({ languages: ['fr', 'en'] });
+    manager = new NlpManager();
 
     if (fs.existsSync(MODEL_PATH)) {
       manager.load(MODEL_PATH);
@@ -90,6 +90,12 @@ async function initializeNLP() {
 // FONCTION ANALYSE SENTIMENT AVEC DÉTECTION AUTO
 // ============================================
 async function analyzeSentiment(text, id) {
+  // Language guesser
+  const mailSplitted = text.split('>')[2];
+  console.log(mailSplitted, "SPLIT");
+  const languageDetector = new Language();
+  const detectedLang = languageDetector.guess('This is clearly an English sentence with multiple words');
+
   if (!text || text.trim() === '') {
     return {
       score: 0,
@@ -103,19 +109,16 @@ async function analyzeSentiment(text, id) {
 
   try {
     console.log(`📝 Analyse pour ID: ${id}`);
-    console.log(`   modelLoaded = ${modelLoaded}`);
+    console.log(`   modelLoaded = ${modelLoaded}`)
 
     if (modelLoaded && manager) {
-      console.log
-      const languageDetector = new Language();
-      const detectedLang = languageDetector.guessBest(text);
-      const langToUse = detectedLang.alpha2 === 'en' ? 'en' : 'fr';
+      console.log(detectedLang, "LANGUE DETECTEE")
 
-      console.log(`   🌐 Langue détectée: ${detectedLang.alpha2} : =>  ${langToUse}`);
+      console.log(`   🌐 Langue détectée: ${detectedLang}`);
       console.log(`   ✅ Mode ML activé pour ID: ${id}`);
 
       // Utiliser la langue détectée
-      const result = await manager.process(langToUse, text);
+      const result = await manager.process(detectedLang, text);
 
       // Sauvegarde
       const cheminNpmNLP = path.join(DOSSIER_NLPJS, `analyse-${id}.json`);
@@ -493,9 +496,9 @@ app.use(express.text({
 // ============================================
 app.post('/index', async (req, res) => {
   try {
-    const emailBrut = req.body;
+    const mailBrut = req.body;
 
-    if (!emailBrut) {
+    if (!mailBrut) {
       return res.status(400).json({ error: 'Email vide' });
     }
 
@@ -512,8 +515,7 @@ app.post('/index', async (req, res) => {
 
           const progress = Math.floor((current / steps) * 100);
           const bar = "█".repeat(current) + "-".repeat(steps - current);
-          process.stdout.write(chalk.red(`\r[${bar}] ${progress}%`));
-
+          process.stdout.write(chalk.hex('#c30051')(`\r[${bar}] ${progress}%`));
 
           if (current >= steps) {
             clearInterval(interval);
@@ -534,11 +536,9 @@ app.post('/index', async (req, res) => {
     const id = `${timestamp}-${Math.random().toString(36).substring(7)}`;
 
     console.log(`📨 Nouvel email (ID: ${id})`);
-
     const cheminEML = path.join(DOSSIER_EML, `email-${id}.eml`);
-    fs.writeFileSync(cheminEML, emailBrut);
-    cheminEML1 =
-      console.log(`   ✅ Sauvegardé: ${cheminEML}`);
+    fs.writeFileSync(cheminEML, mailBrut);
+    console.log(`   ✅ Sauvegardé: ${cheminEML}`);
 
     const mail = deepParseJSON(req.body).rawEmail;
 
@@ -653,16 +653,15 @@ app.get('/test', (req, res) => {
 async function startServer() {
   await initializeNLP();
 
-  const PathEMl = DOSSIER_EML.substring(DOSSIER_EML.indexOf("DELETE"));
-  const PathFallback = DOSSIER_FALLBACK.substring(DOSSIER_FALLBACK.indexOf("DELETE"));
-  const PathTextes = DOSSIER_TEXTES.substring(DOSSIER_TEXTES.indexOf("DELETE"));
-  const PathModels = DOSSIER_MODELS.substring(DOSSIER_MODELS.indexOf("DELETE"));
-  const PathTransfer = DOSSIER_TRANSFER.substring(DOSSIER_TRANSFER.indexOf("DELETE"))
-  const PathNpmNLP = DOSSIER_NLPJS.substring(DOSSIER_NLPJS.indexOf("DELETE"));
+  const PathEMl = DOSSIER_EML.substring(DOSSIER_EML.indexOf("spamalaxie"));
+  const PathFallback = DOSSIER_FALLBACK.substring(DOSSIER_FALLBACK.indexOf("spamalaxie"));
+  const PathTextes = DOSSIER_TEXTES.substring(DOSSIER_TEXTES.indexOf("spamalaxie"));
+  const PathModels = DOSSIER_MODELS.substring(DOSSIER_MODELS.indexOf("spamalaxie"));
+  const PathTransfer = DOSSIER_TRANSFER.substring(DOSSIER_TRANSFER.indexOf("spamalaxie"))
+  const PathNpmNLP = DOSSIER_NLPJS.substring(DOSSIER_NLPJS.indexOf("spamalaxie"));
 
   app.listen(PORT, () => {
     console.log(`
-      
 ╔═══════════════════════════════════════════════════════╗
 ║  SERVEUR WEBHOOK DÉMARRÉ                              ║
 ╠═══════════════════════════════════════════════════════╣
@@ -672,7 +671,7 @@ async function startServer() {
 ║                                              
 ║  🤖 NLP: ${modelLoaded ? '✅ Hybride' : '⚠️ Mode basique'}                      
 ║  📁 Dossier EML: ${PathEMl}    
-║  📁 Dossier analyses: ${PathFallback} 
+║  📁 Dossier fallback: ${PathFallback} 
 ║  📁 Dossier textes: ${PathTextes}
 ║  📁 Dossier models: ${PathModels}
 ║  📁 Dossier npm-nlp: ${PathNpmNLP}

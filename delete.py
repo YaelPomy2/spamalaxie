@@ -2,7 +2,7 @@ import os
 import shutil
 
 # Dossiers à vider
-dossiers = ["./analysis/datausage", "./analysis/mailparsersentimentcode", "./analysis/mails_bruts", "./analysis/npm-nlp_analysis","./analysis/textes", "./analysis/transfer" ]
+dossiers = ["./analysis/fallback", "./analysis/mails_bruts", "./analysis/npm-nlp_analysis","./analysis/textes", "./analysis/transfer" ]
 for dossier in dossiers:
     if not os.path.exists(dossier):
         print(f"Le dossier {dossier} n'existe pas.")
