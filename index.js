@@ -22,7 +22,7 @@ const DOSSIER_ANALYSIS = path.join(__dirname, './analysis');
 if (!fs.existsSync(DOSSIER_ANALYSIS)) fs.mkdirSync(DOSSIER_ANALYSIS);
 
 const DOSSIER_EML = path.join(__dirname, './analysis/mails_bruts');
-const DOSSIER_ANALYSES = path.join(__dirname, './analysis/mailparsersentimentcode');
+const DOSSIER_FALLBACK = path.join(__dirname, './analysis/fallback');
 const DOSSIER_TEXTES = path.join(__dirname, './analysis/textes');
 const DOSSIER_NLPJS = path.join(__dirname, './analysis/npm-nlp_analysis');
 const DOSSIER_TRANSFER = path.join(__dirname, './analysis/transfer')
@@ -31,7 +31,7 @@ const DOSSIER_MODELS = path.join(__dirname, './models');
 // Créer les dossiers s'ils n'existent pas
 
 if (!fs.existsSync(DOSSIER_EML)) fs.mkdirSync(DOSSIER_EML);
-if (!fs.existsSync(DOSSIER_ANALYSES)) fs.mkdirSync(DOSSIER_ANALYSES);
+if (!fs.existsSync(DOSSIER_FALLBACK)) fs.mkdirSync(DOSSIER_FALLBACK);
 if (!fs.existsSync(DOSSIER_TEXTES)) fs.mkdirSync(DOSSIER_TEXTES);
 if (!fs.existsSync(DOSSIER_MODELS)) fs.mkdirSync(DOSSIER_MODELS);
 if (!fs.existsSync(DOSSIER_NLPJS)) fs.mkdirSync(DOSSIER_NLPJS);
@@ -50,9 +50,9 @@ const startMessage = `
 ║               ███████╗████████╗ █████╗ ██████╗ ████████╗             ║   
 ║               ██╔════╝╚══██╔══╝██╔══██╗██╔══██╗╚══██╔══╝             ║   
 ║               ███████╗   ██║   ███████║██████╔╝   ██║                ║   
-║               ╚════██║   ██║   ██╔══██║█████╔╝    ██║                ║   
-║               ███████║   ██║   ██║  ██║██║║███║   ██║                ║                        
-║               ╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝╚═══╝   ╚═╝                ║     
+║               ╚════██║   ██║   ██╔══██║█████╔╝    ██║                ║
+║               ███████║   ██║   ██║  ██║██║║███║   ██║                ║       
+║               ╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝╚═══╝   ╚═╝                ║
 ║                                                                      ║
 ║                    [ START INITIALIZING SYSTEM ]                     ║
 ║                                                                      ║
@@ -604,8 +604,8 @@ app.post('/index', async (req, res) => {
     const cheminTexte = path.join(DOSSIER_TEXTES, `texte-${id}.json`);
     fs.writeFileSync(cheminTexte, JSON.stringify(mail.text, null, 2));
 
-    const cheminAnalyse = path.join(DOSSIER_ANALYSES, `mailparsersentimentcode-${id}.json`);
-    fs.writeFileSync(cheminAnalyse, JSON.stringify(analyse, null, 2));
+    const cheminFallback = path.join(DOSSIER_FALLBACK, `mailparsersentimentcode-${id}.json`);
+    fs.writeFileSync(cheminFallback, JSON.stringify(analyse, null, 2));
 
 
     return res.status(200).json({
@@ -633,7 +633,7 @@ app.get('/test', (req, res) => {
     },
     dossiers: {
       eml: DOSSIER_EML,
-      analyses: DOSSIER_ANALYSES,
+      analyses: DOSSIER_FALLBACK,
       textes: DOSSIER_TEXTES,
       models: DOSSIER_MODELS,
       transfer: DOSSIER_TRANSFER,
@@ -654,7 +654,7 @@ async function startServer() {
   await initializeNLP();
 
   const PathEMl = DOSSIER_EML.substring(DOSSIER_EML.indexOf("DELETE"));
-  const PathAnalyses = DOSSIER_ANALYSES.substring(DOSSIER_ANALYSES.indexOf("DELETE"));
+  const PathFallback = DOSSIER_FALLBACK.substring(DOSSIER_FALLBACK.indexOf("DELETE"));
   const PathTextes = DOSSIER_TEXTES.substring(DOSSIER_TEXTES.indexOf("DELETE"));
   const PathModels = DOSSIER_MODELS.substring(DOSSIER_MODELS.indexOf("DELETE"));
   const PathTransfer = DOSSIER_TRANSFER.substring(DOSSIER_TRANSFER.indexOf("DELETE"))
@@ -672,7 +672,7 @@ async function startServer() {
 ║                                              
 ║  🤖 NLP: ${modelLoaded ? '✅ Hybride' : '⚠️ Mode basique'}                      
 ║  📁 Dossier EML: ${PathEMl}    
-║  📁 Dossier analyses: ${PathAnalyses} 
+║  📁 Dossier analyses: ${PathFallback} 
 ║  📁 Dossier textes: ${PathTextes}
 ║  📁 Dossier models: ${PathModels}
 ║  📁 Dossier npm-nlp: ${PathNpmNLP}
