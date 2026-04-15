@@ -4,8 +4,7 @@ const path = require('path');
 
 async function trainSimple() {
   console.log('🚀 Entraînement...');
-
-  const manager = new NlpManager({ languages: ['fr'], autoSave: false });
+  const manager = new NlpManager({ autoLanguage: true, autoSave: false });
 /*
   const phrases = [
     ['insulte', 'putain'],

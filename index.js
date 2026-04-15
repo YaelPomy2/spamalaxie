@@ -1,16 +1,18 @@
+const languageGuesser = require('./scripts/language-guesser');
 // ============================================
 // SERVEUR WEBHOOK POUR RECEPTION D'EMAILS
 // ============================================
 const express = require('express');
-const fs = require('fs');
-const path = require('path');
 const chalk = require('chalk');
 
 // ============================================
 // MODULE NLP POUR ANALYSE DE SENTIMENT
 // ============================================
 const { NlpManager, Language } = require('node-nlp');
-const { time } = require('console');
+const time = require('console');
+
+const fs = require('fs');
+const path = require('path');
 
 // Initialisation
 const app = express();
@@ -64,13 +66,32 @@ const startMessage = `
 `
 console.log(chalk.hex('#c30051')(startMessage));
 
+(function () {
+
+  const languageDetector = new Language()
+  const languageDetector2 = new Language()
+  const languageDetector3 = new Language()
+
+  const guess = languageDetector.guessBest(
+    'When the night has come And the land is dark And the moon is the only light we see'
+  );
+  const guess2 = languageDetector2.guessBest(
+    'Salut tu vas bien ? Je me demandais comment tu fait pour être aussi bon en développement'
+  );
+  const guess3 = languageDetector3.guessBest(
+    'El sol brillaba suavemente sobre la ciudad mientras la gente caminaba sin prisa. En una pequeña cafetería, alguien sonreía al recordar un momento especial.'
+  )
+  console.log(guess, "GUESS");
+  console.log(guess2, "GUESS2");
+  console.log(guess3, "GUESS3");
+})();
+
 // Initialiser le NLP
 async function initializeNLP() {
   console.log('🔄 Initialisation du module NLP hybride...');
 
   try {
-    manager = new NlpManager();
-
+    manager = new NlpManager({ languages: ['en', 'fr'], nlu: { useNoneFeature: false } });
     if (fs.existsSync(MODEL_PATH)) {
       manager.load(MODEL_PATH);
       modelLoaded = true;
@@ -89,13 +110,15 @@ async function initializeNLP() {
 // ============================================
 // FONCTION ANALYSE SENTIMENT AVEC DÉTECTION AUTO
 // ============================================
-async function analyzeSentiment(text, id) {
+async function analyzeSentiment(mail, id) {
   // Language guesser
-  const mailSplitted = text.split('>')[2];
-  console.log(mailSplitted, "SPLIT");
-  const languageDetector = new Language();
-  const detectedLang = languageDetector.guess('This is clearly an English sentence with multiple words');
-
+  text = mail.text
+  /*
+    const mailSplitted = text.split('>')[2];
+    const languageDetector = new Language();
+    const detectedLang = languageDetector.guess(mailSplitted);
+    console.log(detectedLang, "LANGUE DETECTEE", detectedLang[0], "LANGUE RETENUE")
+  */
   if (!text || text.trim() === '') {
     return {
       score: 0,
@@ -109,16 +132,14 @@ async function analyzeSentiment(text, id) {
 
   try {
     console.log(`📝 Analyse pour ID: ${id}`);
-    console.log(`   modelLoaded = ${modelLoaded}`)
+    console.log(`   modelLoaded = ${modelLoaded}`);
 
     if (modelLoaded && manager) {
-      console.log(detectedLang, "LANGUE DETECTEE")
-
-      console.log(`   🌐 Langue détectée: ${detectedLang}`);
+      // console.log(`   🌐 Langue détectée: ${detectedLang[0]}`);
       console.log(`   ✅ Mode ML activé pour ID: ${id}`);
 
       // Utiliser la langue détectée
-      const result = await manager.process(detectedLang, text);
+      const result = await manager.process(text);
 
       // Sauvegarde
       const cheminNpmNLP = path.join(DOSSIER_NLPJS, `analyse-${id}.json`);
@@ -127,34 +148,50 @@ async function analyzeSentiment(text, id) {
       console.log(`   ✅ Fichier ML créé: ${cheminNpmNLP1}`);
 
       // Temps de lecture
-      let timeToReadInSeconds = (result.sentiment?.numWords || 0) / 225;
+      let timeToReadInSeconds = ((result.sentiment?.numWords || 0) / 225) * 60;
       let minutes = false;
       let timeToReadToTransfer;
 
-      if (timeToReadInSeconds >= 1) {
+      if (timeToReadInSeconds < 60) {
         timeToReadToTransfer = timeToReadInSeconds;
-        minutes = true;
       } else {
         timeToReadToTransfer = Math.round(timeToReadInSeconds * 60);
+        minutes = false;
       };
 
-      // Résultats à transférer (corrigé: language: langToUse au lieu de language: language)
+      // Analyse de l'objet du mail :
+      const objectToAnalyze = mail.subject.split(':')[1]
+      let objectResp;
+      if (mail.subject) {
+        objectResp = await manager.process(objectToAnalyze);
+      };
+      
+      // Résultats à transférer 
       const resultToTransfer = {
-        language: langToUse,
-        detectedLanguage: detectedLang.alpha2,
+        /*
+            principalLanguage: detectedLang[0],
+            language: detectedLang,
+        */
         timetoread: {
           time: timeToReadToTransfer,
           minutes: minutes,
         },
-        emotions: result.classifications || [],
-        strongerEmotion: result.intent,
-        scoreStrongerEmotion: result.score
+        object: {
+          object: objectToAnalyze,
+          emotions: objectResp.classifications || [],
+          strongerEmotion: objectResp.intent,
+          scoreStrongerEmotion: objectResp.score,
+        },
+        mail: {
+          emotions: result.classifications || [],
+          strongerEmotion: result.intent,
+          scoreStrongerEmotion: result.score,
+        },
       };
 
       const cheminToTransfer = path.join(DOSSIER_TRANSFER, `transfer-${id}.json`);
       fs.writeFileSync(cheminToTransfer, JSON.stringify({ resultToTransfer }, null, 2));
-      const cheminToTransfer2 = cheminToTransfer.substring(cheminToTransfer.indexOf("DELETE"));
-      console.log(`   ✅ Fichier Transfer créé: ${cheminToTransfer2}`);
+      console.log(`   ✅ Fichier Transfer créé: ${cheminToTransfer}`);
 
       return {
         score: result.sentiment ? result.sentiment.score : 0,
@@ -491,9 +528,16 @@ app.use(express.text({
   limit: '500mb'
 }));
 
+
+// Variable du texte complet pour le language guesser
+let textToGuessLanguage;
+
 // ============================================
 // ENDPOINT PRINCIPAL - Réception des emails
 // ============================================
+
+
+
 app.post('/index', async (req, res) => {
   try {
     const mailBrut = req.body;
@@ -502,7 +546,7 @@ app.post('/index', async (req, res) => {
       return res.status(400).json({ error: 'Email vide' });
     }
 
-    // =========================
+    // ========================= 
     // BARRE DE CHARGEMENT NON BLOQUANTE
     // =========================
     function loadingBar(duration = 3000, steps = 30) {
@@ -558,7 +602,18 @@ app.post('/index', async (req, res) => {
       })) || []
     };
 
-    const texteComplet = mail.text || mail.html || '';
+    // =========================
+    // LANGUAGE GUESSER
+    // =========================
+    texteComplet = mail.text || mail.html || '';
+
+    let textToGuess;
+    if (mail.text) {
+      textToGuess = mail.text.split('>')[4];
+      console.log("____________________________________");
+      const valeur = languageGuesser(textToGuess);
+      console.log(valeur, "VALEURRRRRRRRRRRRRRRRRRRRRRRRR");
+    }
 
     if (mail.html) {
       analyse.liens = mail.html.match(/https?:\/\/[^\s"'<>(){}|\\^`[\]]+/g) || [];
@@ -567,7 +622,7 @@ app.post('/index', async (req, res) => {
     }
 
     if (texteComplet) {
-      const sentimentResult = await analyzeSentiment(texteComplet, id);
+      const sentimentResult = await analyzeSentiment(mail, id);
 
       analyse.sentiment = {
         score: sentimentResult.score,
@@ -618,6 +673,7 @@ app.post('/index', async (req, res) => {
     console.error('❌ Erreur:', error);
     return res.status(500).json({ success: false, error: error.message });
   }
+
 });
 
 // ============================================
