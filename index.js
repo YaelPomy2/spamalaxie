@@ -1,6 +1,8 @@
-const languageGuesser = require('./scripts/language-guesser');
+
+const fs = require('fs');
+const path = require('path');
 // ============================================
-// SERVEUR WEBHOOK POUR RECEPTION D'EMAILS
+// EXPRESS
 // ============================================
 const express = require('express');
 const chalk = require('chalk');
@@ -11,13 +13,20 @@ const chalk = require('chalk');
 const { NlpManager, Language } = require('node-nlp');
 const time = require('console');
 
-const fs = require('fs');
-const path = require('path');
+// ============================================
+// Language Guesser
+// ============================================
+const languageGuesser = require('./scripts/language-guesser');
+const languageDetector = new Language();
 
-// Initialisation
+
+// Initialisation express
 const app = express();
 const PORT = 3000;
 let manager = null;
+
+
+
 
 // Dossiers pour sauvegarder les fichiers
 const DOSSIER_ANALYSIS = path.join(__dirname, './analysis');
@@ -38,6 +47,7 @@ if (!fs.existsSync(DOSSIER_TEXTES)) fs.mkdirSync(DOSSIER_TEXTES);
 if (!fs.existsSync(DOSSIER_MODELS)) fs.mkdirSync(DOSSIER_MODELS);
 if (!fs.existsSync(DOSSIER_NLPJS)) fs.mkdirSync(DOSSIER_NLPJS);
 if (!fs.existsSync(DOSSIER_TRANSFER)) fs.mkdirSync(DOSSIER_TRANSFER);
+
 
 
 // ============================================l
@@ -66,32 +76,30 @@ const startMessage = `
 `
 console.log(chalk.hex('#c30051')(startMessage));
 
-(function () {
 
-  const languageDetector = new Language()
-  const languageDetector2 = new Language()
-  const languageDetector3 = new Language()
 
-  const guess = languageDetector.guessBest(
-    'When the night has come And the land is dark And the moon is the only light we see'
-  );
-  const guess2 = languageDetector2.guessBest(
-    'Salut tu vas bien ? Je me demandais comment tu fait pour être aussi bon en développement'
-  );
-  const guess3 = languageDetector3.guessBest(
-    'El sol brillaba suavemente sobre la ciudad mientras la gente caminaba sin prisa. En una pequeña cafetería, alguien sonreía al recordar un momento especial.'
-  )
-  console.log(guess, "GUESS");
-  console.log(guess2, "GUESS2");
-  console.log(guess3, "GUESS3");
-})();
+// Simulation d'un UseState avec un setters
+const textTransfer_obj = {
+  _value: 0,
+  set value(v) {
+    this._value = v;
+
+    console.log(chalk.hex('#00c368')("Nouvelle valeur :", v));
+    const valeur = languageGuesser(texteComplet);
+    console.log(chalk.hex('#c30051')(valeur[0], "VALEURRRRRRRR_______________________________________"));
+  }
+};
 
 // Initialiser le NLP
 async function initializeNLP() {
   console.log('🔄 Initialisation du module NLP hybride...');
 
   try {
-    manager = new NlpManager({ languages: ['en', 'fr'], nlu: { useNoneFeature: false } });
+    manager = new NlpManager({
+      languages: ['en', 'fr', 'es'],
+      nlu: { useNoneFeature: false }
+    });
+
     if (fs.existsSync(MODEL_PATH)) {
       manager.load(MODEL_PATH);
       modelLoaded = true;
@@ -119,6 +127,7 @@ async function analyzeSentiment(mail, id) {
     const detectedLang = languageDetector.guess(mailSplitted);
     console.log(detectedLang, "LANGUE DETECTEE", detectedLang[0], "LANGUE RETENUE")
   */
+
   if (!text || text.trim() === '') {
     return {
       score: 0,
@@ -131,6 +140,8 @@ async function analyzeSentiment(mail, id) {
   }
 
   try {
+
+
     console.log(`📝 Analyse pour ID: ${id}`);
     console.log(`   modelLoaded = ${modelLoaded}`);
 
@@ -139,8 +150,13 @@ async function analyzeSentiment(mail, id) {
       console.log(`   ✅ Mode ML activé pour ID: ${id}`);
 
       // Utiliser la langue détectée
-      const result = await manager.process(text);
+      console.log(text,"TEXT");
+      textToGuess = text.split('>')[3];
 
+      const guess = languageDetector.guessBest(textToGuess);
+      const detectedLang = guess.alpha2;
+      const result = await manager.process(detectedLang, text);
+      
       // Sauvegarde
       const cheminNpmNLP = path.join(DOSSIER_NLPJS, `analyse-${id}.json`);
       fs.writeFileSync(cheminNpmNLP, JSON.stringify({ result }, null, 2));
@@ -165,7 +181,7 @@ async function analyzeSentiment(mail, id) {
       if (mail.subject) {
         objectResp = await manager.process(objectToAnalyze);
       };
-      
+
       // Résultats à transférer 
       const resultToTransfer = {
         /*
@@ -520,23 +536,15 @@ function deepParseJSON(value) {
   return value;
 }
 
-
-
 // Middleware pour recevoir du texte brut (emails)
 app.use(express.text({
   type: '*/*',
   limit: '500mb'
 }));
 
-
-// Variable du texte complet pour le language guesser
-let textToGuessLanguage;
-
 // ============================================
 // ENDPOINT PRINCIPAL - Réception des emails
 // ============================================
-
-
 
 app.post('/index', async (req, res) => {
   try {
@@ -553,7 +561,6 @@ app.post('/index', async (req, res) => {
       return new Promise((resolve) => {
         let current = 0;
         const intervalTime = duration / steps;
-
         const interval = setInterval(() => {
           current++;
 
@@ -575,7 +582,6 @@ app.post('/index', async (req, res) => {
     // =========================
     // TRAITEMENT EMAIL (NORMAL)
     // =========================
-
     const timestamp = Date.now();
     const id = `${timestamp}-${Math.random().toString(36).substring(7)}`;
 
@@ -603,23 +609,21 @@ app.post('/index', async (req, res) => {
     };
 
     // =========================
-    // LANGUAGE GUESSER
+    // Transfer for language guesser
     // =========================
     texteComplet = mail.text || mail.html || '';
+    textTransfer_obj.value = texteComplet
 
-    let textToGuess;
-    if (mail.text) {
-      textToGuess = mail.text.split('>')[4];
-      console.log("____________________________________");
-      const valeur = languageGuesser(textToGuess);
-      console.log(valeur, "VALEURRRRRRRRRRRRRRRRRRRRRRRRR");
-    }
+    /*
+            console.log(texteComplet);
+            const valeur = languageGuesser(texteComplet);
+        */
 
     if (mail.html) {
       analyse.liens = mail.html.match(/https?:\/\/[^\s"'<>(){}|\\^`[\]]+/g) || [];
     } else if (mail.text) {
       analyse.liens = mail.text.match(/https?:\/\/[^\s]+/g) || [];
-    }
+    };
 
     if (texteComplet) {
       const sentimentResult = await analyzeSentiment(mail, id);
@@ -636,7 +640,7 @@ app.post('/index', async (req, res) => {
       };
 
       console.log(`📊 Sentiment: ${analyse.sentiment.label}`);
-    }
+    };
 
     analyse.suspect = {
       liens_raccourcis: analyse.liens.some(l => /bit\.ly|tinyurl|short\.link/i.test(l)),
@@ -673,7 +677,6 @@ app.post('/index', async (req, res) => {
     console.error('❌ Erreur:', error);
     return res.status(500).json({ success: false, error: error.message });
   }
-
 });
 
 // ============================================
@@ -701,6 +704,8 @@ app.get('/test', (req, res) => {
     }
   });
 });
+
+
 
 
 // ============================================
