@@ -49,7 +49,6 @@ if (!fs.existsSync(DOSSIER_NLPJS)) fs.mkdirSync(DOSSIER_NLPJS);
 if (!fs.existsSync(DOSSIER_TRANSFER)) fs.mkdirSync(DOSSIER_TRANSFER);
 
 
-
 // ============================================l
 // CONFIGURATION NLP HYBRIDE
 // ============================================
@@ -103,6 +102,19 @@ async function initializeNLP() {
     if (fs.existsSync(MODEL_PATH)) {
       manager.load(MODEL_PATH);
       modelLoaded = true;
+
+      // ===== CORRECTION : RÉINITIALISATION DU GUESSER =====
+      // Après le chargement du modèle, on nettoie les biais linguistiques
+      if (manager.nlp && manager.nlp.languageGuesser) {
+        // Force la réinitialisation du guesser interne
+        manager.nlp.languageGuesser.languages = [];
+        manager.nlp.languageGuesser.languagesAlias = {};
+      }
+      // On réinitialise également l'instance globale de Language
+      // en créant un nouveau détecteur "propre"
+      global.languageDetector = new Language();
+      // ===================================================
+
       console.log('✅ Modèle NLP hybride chargé avec succès');
       console.log('   - Lexique personnalisé actif');
       console.log('   - Intentions entraînées actives');
@@ -150,13 +162,14 @@ async function analyzeSentiment(mail, id) {
       console.log(`   ✅ Mode ML activé pour ID: ${id}`);
 
       // Utiliser la langue détectée
-      console.log(text,"TEXT");
+      console.log(text, "TEXT");
       textToGuess = text.split('>')[3];
 
-      const guess = languageDetector.guessBest(textToGuess);
-      const detectedLang = guess.alpha2;
+      // Dans analyzeSentiment()
+      const guess = global.languageDetector.guess(textToGuess, ['en', 'fr', 'es']); // Restreindre les langues
+      const detectedLang = guess[0].alpha2; // Prendre le premier résultat
       const result = await manager.process(detectedLang, text);
-      
+
       // Sauvegarde
       const cheminNpmNLP = path.join(DOSSIER_NLPJS, `analyse-${id}.json`);
       fs.writeFileSync(cheminNpmNLP, JSON.stringify({ result }, null, 2));
