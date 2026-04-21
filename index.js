@@ -10,23 +10,17 @@ const chalk = require('chalk');
 // ============================================
 // MODULE NLP POUR ANALYSE DE SENTIMENT
 // ============================================
-const { NlpManager, Language } = require('node-nlp');
-const time = require('console');
+const { NlpManager } = require('node-nlp');
 
 // ============================================
 // Language Guesser
 // ============================================
 const languageGuesser = require('./scripts/language-guesser');
-const languageDetector = new Language();
-
 
 // Initialisation express
 const app = express();
 const PORT = 3000;
 let manager = null;
-
-
-
 
 // Dossiers pour sauvegarder les fichiers
 const DOSSIER_ANALYSIS = path.join(__dirname, './analysis');
@@ -48,11 +42,10 @@ if (!fs.existsSync(DOSSIER_MODELS)) fs.mkdirSync(DOSSIER_MODELS);
 if (!fs.existsSync(DOSSIER_NLPJS)) fs.mkdirSync(DOSSIER_NLPJS);
 if (!fs.existsSync(DOSSIER_TRANSFER)) fs.mkdirSync(DOSSIER_TRANSFER);
 
-
 // ============================================l
 // CONFIGURATION NLP HYBRIDE
 // ============================================
-const MODEL_PATH = path.join(DOSSIER_MODELS, 'hybrid-model.nlp');
+const MODEL_PATH = path.join(DOSSIER_MODELS, 'hybrid-model-multilingual.nlp');
 let modelLoaded = false;
 
 const startMessage = `
@@ -75,21 +68,44 @@ const startMessage = `
 `
 console.log(chalk.hex('#c30051')(startMessage));
 
-
-
+// =========================
+// Language Guesser
+// =========================
 // Simulation d'un UseState avec un setters
 const textTransfer_obj = {
-  _value: 0,
-  set value(v) {
-    this._value = v;
+  _value: null,
+  _texteComplet: '',
 
-    console.log(chalk.hex('#00c368')("Nouvelle valeur :", v));
-    const valeur = languageGuesser(texteComplet);
-    console.log(chalk.hex('#c30051')(valeur[0], "VALEURRRRRRRR_______________________________________"));
+  set value(v) {
+    console.log("✅ Setter exécuté ! Valeur reçue:", v ? v.substring(0, 50) + "..." : "vide");
+
+    if (v && typeof v === 'string' && v.trim() !== '') {
+      this._texteComplet = v;
+      try {
+        const guessedLanguages = languageGuesser(v);
+        console.log("🎯 Langues détectées:", guessedLanguages);
+        this._value = guessedLanguages;
+      } catch (error) {
+        console.error("❌ Erreur dans languageGuesser:", error);
+        this._value = [];
+      }
+    } else {
+      this._value = [];
+    }
+  },
+
+  get value() {
+    return this._value;
+  },
+
+  get detectedLanguages() {
+    return this._value;
   }
 };
 
-// Initialiser le NLP
+// =========================
+// Initialisation du NLP
+// =========================
 async function initializeNLP() {
   console.log('🔄 Initialisation du module NLP hybride...');
 
@@ -102,19 +118,6 @@ async function initializeNLP() {
     if (fs.existsSync(MODEL_PATH)) {
       manager.load(MODEL_PATH);
       modelLoaded = true;
-
-      // ===== CORRECTION : RÉINITIALISATION DU GUESSER =====
-      // Après le chargement du modèle, on nettoie les biais linguistiques
-      if (manager.nlp && manager.nlp.languageGuesser) {
-        // Force la réinitialisation du guesser interne
-        manager.nlp.languageGuesser.languages = [];
-        manager.nlp.languageGuesser.languagesAlias = {};
-      }
-      // On réinitialise également l'instance globale de Language
-      // en créant un nouveau détecteur "propre"
-      global.languageDetector = new Language();
-      // ===================================================
-
       console.log('✅ Modèle NLP hybride chargé avec succès');
       console.log('   - Lexique personnalisé actif');
       console.log('   - Intentions entraînées actives');
@@ -131,15 +134,7 @@ async function initializeNLP() {
 // FONCTION ANALYSE SENTIMENT AVEC DÉTECTION AUTO
 // ============================================
 async function analyzeSentiment(mail, id) {
-  // Language guesser
   text = mail.text
-  /*
-    const mailSplitted = text.split('>')[2];
-    const languageDetector = new Language();
-    const detectedLang = languageDetector.guess(mailSplitted);
-    console.log(detectedLang, "LANGUE DETECTEE", detectedLang[0], "LANGUE RETENUE")
-  */
-
   if (!text || text.trim() === '') {
     return {
       score: 0,
@@ -152,22 +147,14 @@ async function analyzeSentiment(mail, id) {
   }
 
   try {
-
-
     console.log(`📝 Analyse pour ID: ${id}`);
     console.log(`   modelLoaded = ${modelLoaded}`);
 
     if (modelLoaded && manager) {
-      // console.log(`   🌐 Langue détectée: ${detectedLang[0]}`);
       console.log(`   ✅ Mode ML activé pour ID: ${id}`);
 
-      // Utiliser la langue détectée
-      console.log(text, "TEXT");
-      textToGuess = text.split('>')[3];
-
-      // Dans analyzeSentiment()
-      const guess = global.languageDetector.guess(textToGuess, ['en', 'fr', 'es']); // Restreindre les langues
-      const detectedLang = guess[0].alpha2; // Prendre le premier résultat
+      const guesses = languageGuesser(text);
+      const detectedLang = guesses.length > 0 ? guesses[0].alpha2 : 'en'; // fallback anglais
       const result = await manager.process(detectedLang, text);
 
       // Sauvegarde
@@ -188,33 +175,37 @@ async function analyzeSentiment(mail, id) {
         minutes = false;
       };
 
-      // Analyse de l'objet du mail :
-      const objectToAnalyze = mail.subject.split(':')[1]
-      let objectResp;
+      // Analyse de l'objet du mail :  
+      let objectToAnalyze;
+
       if (mail.subject) {
-        objectResp = await manager.process(objectToAnalyze);
+        objectResp = await manager.process(mail.subject);
+      }
+      else {
+        console.log(`❌ Mail doesn't have any object`)
       };
 
       // Résultats à transférer 
+      const languages = textTransfer_obj.value.slice(0,4);
       const resultToTransfer = {
-        /*
-            principalLanguage: detectedLang[0],
-            language: detectedLang,
-        */
+        languages: {
+            principalLanguage: textTransfer_obj.value[0],
+            language: textTransfer_obj.value.slice(0,4),
+        },
         timetoread: {
           time: timeToReadToTransfer,
           minutes: minutes,
         },
-        object: {
-          object: objectToAnalyze,
-          emotions: objectResp.classifications || [],
-          strongerEmotion: objectResp.intent,
-          scoreStrongerEmotion: objectResp.score,
-        },
+        object: { //==================================================================
+          object: mail.subject || '(aucun sujet)',
+          emotions: objectResp?.classifications || [],
+          strongerEmotion: objectResp?.intent || 'undefined',
+          scoreStrongerEmotion: objectResp?.score || 'undefined',
+        },//==========================================================================
         mail: {
           emotions: result.classifications || [],
-          strongerEmotion: result.intent,
-          scoreStrongerEmotion: result.score,
+          strongerEmotion: result.intent || 'undefined',
+          scoreStrongerEmotion: result.score || 'undefined',
         },
       };
 
@@ -621,16 +612,10 @@ app.post('/index', async (req, res) => {
       })) || []
     };
 
-    // =========================
-    // Transfer for language guesser
-    // =========================
-    texteComplet = mail.text || mail.html || '';
-    textTransfer_obj.value = texteComplet
-
-    /*
-            console.log(texteComplet);
-            const valeur = languageGuesser(texteComplet);
-        */
+    const texteComplet = mail.text || mail.html || '';
+    console.log("Longueur du texte ", texteComplet.length);
+    textTransfer_obj.value = texteComplet;
+    console.log("Langue détectée après setter ", textTransfer_obj.value);
 
     if (mail.html) {
       analyse.liens = mail.html.match(/https?:\/\/[^\s"'<>(){}|\\^`[\]]+/g) || [];
