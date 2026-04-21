@@ -184,13 +184,20 @@ async function analyzeSentiment(mail, id) {
       else {
         console.log(`❌ Mail doesn't have any object`)
       };
+      console.log(mail,"MAIL")
 
+      
       // Résultats à transférer 
-      const languages = textTransfer_obj.value.slice(0,4);
+      const languages = textTransfer_obj.value.slice(0, 4);
+
+      // L'username sera défini en prenant la chaîne de caractère se trouvant devant le @
+      const username = mail.from?.address.split('@')[0];
+
       const resultToTransfer = {
+        username: username || 'undefined',
         languages: {
-            principalLanguage: textTransfer_obj.value[0],
-            language: textTransfer_obj.value.slice(0,4),
+          principalLanguage: textTransfer_obj.value[0],
+          language: textTransfer_obj.value.slice(0, 4),
         },
         timetoread: {
           time: timeToReadToTransfer,
