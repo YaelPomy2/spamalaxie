@@ -3,11 +3,11 @@
 Script for filter spam mails and recover some informations about the spam
 
 ##  Données utilisables :
-Longueur des mots, liens contenus dans le mail, taille du mail, mail de l'expéditeur, IP du serveur de l'expéditeur, heure d'envoi, et bien plus encore...
-
+Nous pouvons récolter toute les métadonnées se trouvant dans le mail. Grâce à l'utilisation d'un [NLP](https://www.ibm.com/fr-fr/think/topics/natural-language-processing), nous pouvons déterminer les émotions ressenties devant le mail. Nous utilisons aussi par exemple un calcul simple permettant de déterminé grâce au nombre de mot, la vitesse de lecture qu'il nous faudrait pour pouvoir lire le mail au complet.
 ##  Données utilisées :
 
 Voici les données que nous traitons actuellement dans les mails reçus :
+
 
 Émotions ressenties à la lecture du spam, la longueur du message, la date de réception
 
