@@ -1,1699 +1,1075 @@
 intent,utterance,lang
-peur,"alerte de sécurité : connexion suspecte détectée sur votre compte",fr
-peur,"nous avons bloqué une tentative de connexion inhabituelle",fr
-peur,"quelqu'un essaie d'accéder à votre compte depuis un nouvel appareil",fr
-peur,"changement de mot de passe demandé - confirmez que c'est vous",fr
+peur,"alerte de sécurité : connexion suspecte depuis votre compte bancaire",fr
+peur,"quelqu'un a utilisé votre identité pour ouvrir un crédit",fr
 peur,"votre mot de passe a été modifié il y a 5 minutes",fr
-peur,"vos coordonnées bancaires viennent d'être mises à jour",fr
-peur,"transaction de 849€ effectuée chez Amazon France",fr
-peur,"retrait de 600€ dans un distributeur à Paris",fr
-peur,"opération de 1250€ non confirmée",fr
-peur,"si ce n'était pas vous contactez notre service fraude",fr
-peur,"votre carte sera débitée dans 24h si vous ne répondez pas",fr
-peur,"un prélèvement automatique va être effectué",fr
-peur,"échéance impayée - majoration de 10% appliquée",fr
-peur,"facture en retard - pénalités ajoutées",fr
-peur,"votre dossier a été transmis à notre service contentieux",fr
-peur,"mise en demeure avant poursuites judiciaires",fr
-peur,"vous êtes convoqué devant le tribunal le 15 avril",fr
-peur,"plainte déposée à votre encontre pour escroquerie",fr
+peur,"un prélèvement de 849€ a été effectué sur votre carte",fr
+peur,"votre adresse IP est associée à des activités illégales",fr
 peur,"un mandat d'arrêt a été émis contre vous",fr
-peur,"votre nom apparaît dans une affaire criminelle",fr
-peur,"vous êtes sous enquête pour fraude fiscale",fr
-peur,"votre contrôle fiscal est programmé pour mai",fr
-peur,"redressement fiscal de 12500€ à payer sous 30 jours",fr
-peur,"déclaration frauduleuse détectée sur vos impôts",fr
-peur,"fraude à la sécurité sociale signalée",fr
-peur,"vos droits sociaux vont être suspendus immédiatement",fr
-peur,"remboursements sécurité sociale bloqués",fr
-peur,"votre carte vitale a été désactivée",fr
-peur,"des virus ont été détectés sur votre iPhone",fr
-peur,"votre téléphone est infecté par 3 logiciels malveillants",fr
-peur,"un logiciel espion enregistre tout ce que vous tapez",fr
-peur,"vos mots de passe ont été compromis lors d'une fuite",fr
-peur,"vos données personnelles sont en vente sur le dark web",fr
-peur,"votre webcam a été piratée - nous vous filmons",fr
-peur,"nous enregistrons votre écran en ce moment même",fr
-peur,"nous avons des vidéos de vous très compromettantes",fr
-peur,"vos conversations privées ont été enregistrées",fr
-peur,"nous allons tout envoyer à tous vos contacts",fr
-peur,"votre réputation va être détruite si vous ne payez pas",fr
-peur,"vos collègues vont découvrir vos secrets",fr
-peur,"votre famille va tout savoir sur vous",fr
+peur,"vous êtes convoqué au tribunal pour fraude fiscale",fr
+peur,"votre compte France Identité a été piraté",fr
+peur,"nous avons bloqué une tentative d'usurpation de votre numéro SIRET",fr
+peur,"votre boîte mail a été utilisée pour envoyer des menaces",fr
+peur,"une plainte pour escroquerie a été déposée à votre nom",fr
+peur,"votre domicile va être perquisitionné demain matin",fr
+peur,"un logiciel espion enregistre toutes vos frappes clavier",fr
+peur,"votre webcam a été activée à distance",fr
+peur,"nous avons des vidéos compromettantes de vous",fr
 peur,"payez 1500€ en bitcoin ou nous publions tout",fr
-peur,"dernier délai avant publication - plus que 24h",fr
-peur,"time-out dans 12h - après c'est trop tard",fr
+peur,"votre carte vitale a été désactivée pour fraude",fr
+peur,"vos droits sociaux sont suspendus immédiatement",fr
+peur,"un ransomware a chiffré tous vos fichiers",fr
+peur,"votre iPhone est infecté par 3 malwares",fr
+peur,"votre abonnement Netflix expire dans 24h",fr
+peur,"votre colis est bloqué à la douane",fr
 peur,"plus que 5 exemplaires en stock avant rupture",fr
-peur,"stock critique - commandez immédiatement",fr
-peur,"77 personnes regardent cette offre en ce moment",fr
-peur,"23 clients veulent acheter le même article que vous",fr
+peur,"votre offre à 0€ va expirer ce soir",fr
 peur,"quelqu'un va vous prendre votre réservation",fr
-peur,"c'est votre dernière chance de commander",fr
-peur,"vous allez regretter de ne pas avoir acheté",fr
-peur,"le prix va augmenter dans 3 heures",fr
-peur,"cette offre spéciale se termine ce soir",fr
-peur,"plus jamais ce prix après minuit",fr
+peur,"votre patron a reçu une copie de vos messages",fr
+peur,"vos collègues vont découvrir vos secrets",fr
+peur,"votre compte PayPal a été utilisé à l'étranger",fr
+peur,"un prêt à votre nom a été contracté sans votre accord",fr
+peur,"votre numéro de sécurité sociale circule sur le dark web",fr
 culpabilité,"vous avez oublié de confirmer votre adresse email",fr
-culpabilité,"votre inscription n'a pas été finalisée",fr
+culpabilité,"votre inscription n'a pas été finalisée à cause de vous",fr
 culpabilité,"il manque des documents dans votre dossier",fr
-culpabilité,"pièces justificatives non fournies à ce jour",fr
 culpabilité,"vous n'avez pas répondu à notre précédent message",fr
-culpabilité,"nous attendons toujours votre retour depuis 3 semaines",fr
-culpabilité,"vous avez saisi un mauvais numéro de téléphone",fr
-culpabilité,"l'adresse email indiquée n'existe pas",fr
-culpabilité,"erreur dans le formulaire d'inscription",fr
-culpabilité,"vous avez oublié de cocher la case obligatoire",fr
-culpabilité,"les conditions générales n'ont pas été acceptées",fr
-culpabilité,"vous êtes passé à côté de notre offre limitée",fr
-culpabilité,"vous avez raté la promotion qui se terminait hier",fr
-culpabilité,"si vous aviez commandé plus tôt vous seriez livré",fr
-culpabilité,"c'est de votre faute si l'article est épuisé",fr
-culpabilité,"votre colis est en retard à cause de votre adresse erronée",fr
-culpabilité,"vous avez mal renseigné votre adresse de livraison",fr
+culpabilité,"c'est de votre faute si le colis a été retourné",fr
+culpabilité,"vous avez mal saisi votre adresse de livraison",fr
 culpabilité,"vous n'étiez pas présent pour signer la livraison",fr
-culpabilité,"colis retourné à l'expéditeur car vous n'avez pas répondu",fr
-culpabilité,"des frais supplémentaires sont à votre charge",fr
-culpabilité,"frais de retard applicables - vous n'avez pas payé à temps",fr
-culpabilité,"tout est expliqué dans les conditions que vous avez acceptées",fr
-culpabilité,"vous avez accepté sans lire les petits caractères",fr
-culpabilité,"personne d'autre que vous n'a ce problème",fr
+culpabilité,"des frais de retard sont à votre charge",fr
+culpabilité,"vous avez accepté les CGV sans les lire",fr
+culpabilité,"vous êtes le seul à avoir ce problème",fr
 culpabilité,"les autres clients ont réussi sans difficulté",fr
-culpabilité,"vous êtes le seul à avoir cette erreur",fr
 culpabilité,"le problème vient probablement de votre côté",fr
-culpabilité,"vérifiez encore vos informations personnelles",fr
-culpabilité,"relisez notre précédent email que vous avez ignoré",fr
-culpabilité,"nous étions pourtant très clairs dans nos explications",fr
 culpabilité,"vous n'avez pas suivi les instructions fournies",fr
-culpabilité,"la procédure est simple et tout le monde y arrive",fr
-culpabilité,"suivez le guide étape par étape comme indiqué",fr
-culpabilité,"c'est pourtant expliqué en détail sur notre site",fr
-culpabilité,"la réponse à votre question est dans la FAQ",fr
-culpabilité,"avez-vous vraiment cherché avant de nous contacter",fr
-culpabilité,"à un moment il faut faire un effort de votre côté",fr
+culpabilité,"relisez notre précédent email que vous avez ignoré",fr
 culpabilité,"ça fait 5 fois que vous appelez pour la même chose",fr
 culpabilité,"on vous a déjà répondu plusieurs fois",fr
+culpabilité,"vous n'avez pas cliqué sur le lien de confirmation",fr
+culpabilité,"vous avez partagé votre mot de passe, c'est votre erreur",fr
+culpabilité,"vous auriez dû activer le double facteur",fr
+culpabilité,"vous n'avez pas mis à jour votre antivirus",fr
+culpabilité,"vous avez omis de déclarer vos revenus",fr
+culpabilité,"vous avez fraudé sciemment",fr
+culpabilité,"vous avez trompé notre service client",fr
+culpabilité,"vous avez menti sur votre situation",fr
+culpabilité,"vous avez caché des informations essentielles",fr
+culpabilité,"vous avez signé sans vérifier",fr
+culpabilité,"vous avez cliqué sur un lien frauduleux malgré l'avertissement",fr
+culpabilité,"vous n'avez pas sauvegardé vos données",fr
+culpabilité,"vous avez ignoré nos trois précédents messages",fr
 humiliation,"vous n'avez vraiment rien compris décidément",fr
 humiliation,"c'est pourtant pas compliqué à comprendre",fr
 humiliation,"il faut être idiot pour tomber dans ce genre de piège",fr
 humiliation,"vous êtes si naïf",fr
 humiliation,"comment pouvez-vous croire ça",fr
 humiliation,"tout le monde sait que c'est une arnaque sauf vous",fr
-humiliation,"votre adresse email est dans notre base de pigeons",fr
-humiliation,"vous êtes exactement la cible qu'on recherche",fr
-humiliation,"vous êtes tellement prévisible avec vos habitudes",fr
-humiliation,"123456 comme mot de passe sérieusement",fr
+humiliation,"votre mot de passe c'est 123456 sérieusement ?",fr
 humiliation,"votre prénom en mot de passe c'est risible",fr
-humiliation,"vous utilisez le même mot de passe partout",fr
 humiliation,"vos photos de profil sont vraiment ridicules",fr
 humiliation,"qui pose encore comme ça en 2026",fr
-humiliation,"attendez que vos amis voient ça",fr
-humiliation,"on va partager dans votre groupe WhatsApp",fr
 humiliation,"vous allez être la risée de tout le quartier",fr
+humiliation,"attendez que vos amis voient ça",fr
 humiliation,"votre patron va adorer découvrir ça",fr
-humiliation,"imaginez la tête de vos collègues en voyant ça",fr
 humiliation,"vous n'avez pas honte à votre âge",fr
 humiliation,"vous devriez vraiment avoir honte",fr
-humiliation,"c'est d'une nullité absolue ce que vous faites",fr
-humiliation,"pathétique comme comportement",fr
 humiliation,"pauvre type va",fr
 humiliation,"pauvre naïf va",fr
 humiliation,"encore un pigeon de plus",fr
-humiliation,"un de plus dans la liste",fr
-humiliation,"ils sont tous aussi crédules",fr
 humiliation,"toujours les mêmes qui se font avoir",fr
-humiliation,"vous êtes tellement naïf c'est fou",fr
-humiliation,"on vous aura prévenu pourtant",fr
-humiliation,"mais vous n'écoutez jamais les conseils",fr
-humiliation,"vous êtes prévenus maintenant tant pis pour vous",fr
-humiliation,"la prochaine fois vous réfléchirez avant de cliquer",fr
-humiliation,"il vous aura fallu du temps pour comprendre",fr
-humiliation,"enfin vous réagissez il était temps",fr
-humiliation,"on désespérait de vous voir réagir",fr
-humiliation,"vous nous avez fait peur à être aussi lent",fr
-humiliation,"le mouton retourne au bercail finalement",fr
-humiliation,"toujours aussi fidèle et crédule",fr
-humiliation,"on peut compter sur vous pour être naïf",fr
-humiliation,"vous êtes accro apparemment à nos arnaques",fr
-humiliation,"vous ne pouvez pas vous passer de nous",fr
-humiliation,"encore vous qui cliquez sur tout",fr
-humiliation,"toujours là à cliquer sans réfléchir",fr
+humiliation,"vous êtes notre meilleur pigeon",fr
+humiliation,"merci de votre naïveté sans limite",fr
+humiliation,"vous payez nos vacances avec votre crédulité",fr
 humiliation,"vous cliquez sur absolument tout",fr
 humiliation,"offre spéciale pour pigeons comme vous",fr
-humiliation,"promotion pour naïfs seulement",fr
-humiliation,"réduction spéciale pour crédules",fr
-humiliation,"code promo facile-à-berner",fr
-humiliation,"vous êtes notre client préféré le plus naïf",fr
-humiliation,"notre meilleure source de revenus faciles",fr
-humiliation,"merci de votre naïveté sans limite",fr
-humiliation,"grâce à vous on se fait plaisir",fr
-humiliation,"vous payez nos vacances avec votre crédulité",fr
+humiliation,"vous êtes accro à nos arnaques",fr
+humiliation,"vous ne pouvez pas vous passer de nous",fr
+humiliation,"la prochaine fois vous réfléchirez avant de cliquer",fr
+humiliation,"enfin vous réagissez il était temps",fr
+humiliation,"le mouton retourne au bercail",fr
+humiliation,"toujours aussi fidèle et crédule",fr
 déception,"nous pensions vraiment vous revoir",fr
 déception,"vous nous manquez depuis votre départ",fr
-déception,"plus de nouvelles depuis longtemps",fr
 déception,"vous avez disparu sans explication",fr
 déception,"vous étiez si fidèle avant",fr
-déception,"que s'est-il passé avec nous",fr
-déception,"nous avons été séparés trop tôt",fr
-déception,"notre relation s'arrête là malheureusement",fr
-déception,"vous nous quittez déjà après si peu de temps",fr
-déception,"on croyait vraiment en vous",fr
+déception,"nous croyions en vous",fr
 déception,"vous nous décevez énormément",fr
 déception,"nous attendions mieux de votre part",fr
-déception,"vous n'êtes pas à la hauteur de nos attentes",fr
-déception,"vous avez déçu toute notre équipe",fr
-déception,"nos attentes étaient grandes envers vous",fr
-déception,"malheureusement vous ne correspondez pas au profil",fr
-déception,"votre profil ne convient pas pour ce poste",fr
-déception,"nous passons notre tour cette fois-ci",fr
-déception,"ce sera sans vous finalement",fr
-déception,"vous n'êtes pas retenu pour la suite",fr
-déception,"merci d'avoir postulé mais votre candidature n'est pas retenue",fr
-déception,"nous avons choisi quelqu'un d'autre que vous",fr
-déception,"votre candidature n'a pas été sélectionnée",fr
-déception,"malgré votre intérêt nous avons fait un autre choix",fr
-déception,"nous regrettons de vous informer que vous n'êtes pas pris",fr
-déception,"c'est avec regret que nous vous annonçons ce refus",fr
-déception,"nous sommes au regret de décliner votre offre",fr
-déception,"malheureusement nous déclinons votre proposition",fr
-déception,"votre offre n'a pas été retenue cette fois",fr
-déception,"un autre candidat a été choisi à votre place",fr
-déception,"vous n'avez pas gagné cette fois-ci",fr
+déception,"vous n'êtes pas à la hauteur",fr
+déception,"votre candidature n'a pas été retenue",fr
+déception,"nous avons choisi quelqu'un d'autre",fr
+déception,"vous n'avez pas gagné cette fois",fr
 déception,"ce n'était pas votre jour de chance",fr
-déception,"personne n'a gagné le gros lot cette semaine",fr
+déception,"personne n'a gagné le gros lot",fr
 déception,"vous n'êtes pas le millionième client",fr
-déception,"désolé vous n'avez pas gagné cette fois",fr
+déception,"désolé vous n'avez pas gagné",fr
 déception,"retentez votre chance la prochaine fois",fr
-déception,"ce n'est pas encore cette fois",fr
-déception,"la chance n'était pas avec vous aujourd'hui",fr
-déception,"malheureusement pas de gain pour vous",fr
-déception,"vous n'avez rien gagné cette fois",fr
-déception,"désolé ce n'est pas gagné",fr
+déception,"la chance n'était pas avec vous",fr
 déception,"peut-être la prochaine fois",fr
 déception,"on ne peut pas gagner à tous les coups",fr
-déception,"la chance tournera en votre faveur plus tard",fr
-déception,"ce sera pour une prochaine fois",fr
 déception,"votre fidélité mérite mieux que ça",fr
-déception,"nous pouvons faire mieux ensemble",fr
-déception,"cette offre n'est pas pour vous apparemment",fr
+déception,"cette offre n'est pas pour vous",fr
 déception,"vous méritez une offre plus adaptée",fr
 déception,"nous allons trouver mieux pour vous",fr
-déception,"patience votre tour viendra bientôt",fr
-déception,"on ne vous oublie pas malgré tout",fr
-déception,"vous êtes dans nos pensées",fr
+déception,"patience votre tour viendra",fr
+déception,"on ne vous oublie pas",fr
+déception,"vous étiez notre meilleur espoir",fr
+déception,"on croyait que vous étiez différent",fr
+déception,"vous nous avez menti",fr
+déception,"nous sommes très déçus par votre comportement",fr
+déception,"vous n'avez pas tenu vos promesses",fr
 agacement,"encore un message publicitaire",fr
 agacement,"toujours plus de spam dans ma boîte mail",fr
 agacement,"vous ne lâchez rien décidément",fr
-agacement,"vous êtes vraiment tenaces à envoyer des mails",fr
-agacement,"quelle persévérance agaçante",fr
-agacement,"vous insistez lourdement là",fr
-agacement,"c'est vraiment lourd à la fin",fr
-agacement,"combien de fois faudra-t-il vous dire non",fr
-agacement,"non c'est non point final",fr
-agacement,"vous comprenez pas le mot non",fr
-agacement,"STOP j'ai dit stop",fr
+agacement,"stop, j'ai dit stop",fr
 agacement,"arrêtez de m'envoyer des mails",fr
-agacement,"désabonnez-moi immédiatement svp",fr
-agacement,"retirez-moi de vos listes de diffusion",fr
-agacement,"faites le nécessaire pour me supprimer",fr
-agacement,"exécution de ma demande svp",fr
-agacement,"c'est pas compliqué à comprendre",fr
-agacement,"vous le faites exprès ou quoi",fr
-agacement,"je décroche j'en ai marre",fr
-agacement,"je réponds plus à vos messages",fr
-agacement,"fin de la partie pour moi",fr
+agacement,"désabonnez-moi immédiatement",fr
+agacement,"retirez-moi de vos listes",fr
+agacement,"foutez le camp de mes emails",fr
+agacement,"vous me saoulez avec vos offres",fr
+agacement,"cassez-vous avec vos promotions",fr
 agacement,"j'ai autre chose à faire que vous lire",fr
 agacement,"je perds mon temps avec vous",fr
-agacement,"quelle perte de temps ces emails",fr
-agacement,"encore une minute de ma vie perdue",fr
-agacement,"je ne lirai même pas votre message",fr
 agacement,"poubelle directe sans ouvrir",fr
 agacement,"spam direct en indésirable",fr
-agacement,"corbeille automatique",fr
-agacement,"indésirable signalé",fr
-agacement,"bloqué définitivement",fr
 agacement,"signalé comme spam",fr
+agacement,"bloqué définitivement",fr
 agacement,"blacklisté pour harcèlement",fr
-agacement,"fini de rire avec moi",fr
-agacement,"vous allez voir ce qui va arriver",fr
-agacement,"plainte pour harcèlement en préparation",fr
-agacement,"je porte plainte contre vous",fr
+agacement,"je porte plainte pour harcèlement",fr
 agacement,"mon avocat va vous contacter",fr
-agacement,"la CNIL est saisie de l'affaire",fr
-agacement,"site frauduleux signalé aux autorités",fr
+agacement,"la CNIL est saisie",fr
 agacement,"vous allez avoir des problèmes",fr
-agacement,"ça va mal finir pour vous",fr
-agacement,"vous êtes prévenus c'est le dernier avertissement",fr
-agacement,"dernier avertissement avant action",fr
-agacement,"si je reçois encore un seul message",fr
-agacement,"le prochain mail reçu déclenche une plainte",fr
-agacement,"je vous jure c'est fini maintenant",fr
 agacement,"plus jamais ça avec vous",fr
-agacement,"jamais deux sans trois mais là c'est trop",fr
-agacement,"trois messages c'est vraiment trop",fr
-agacement,"la goutte d'eau qui fait déborder le vase",fr
-agacement,"ras-le-bol général de vos sollicitations",fr
-agacement,"j'en peux plus de vous",fr
-agacement,"à bout de patience avec vous",fr
-agacement,"saturation totale de vos emails",fr
-agacement,"overdose de spam",fr
-agacement,"trop c'est trop clairement",fr
-agacement,"stop l'overdose de publicité",fr
 agacement,"ça suffit maintenant",fr
-agacement,"ça commence à bien faire",fr
-agacement,"ça va bien cinq minutes",fr
-agacement,"ça va deux minutes là",fr
-agacement,"un peu de sérieux",fr
-agacement,"stop au cirque",fr
-agacement,"fini la comédie",fr
-agacement,"vous fatiguez tout le monde",fr
-agacement,"vous nous saoulez avec vos offres",fr
-agacement,"circulez y a rien à voir ici",fr
-agacement,"allez voir ailleurs si j'y suis",fr
-agacement,"dégagez de ma boîte mail",fr
-agacement,"libérez ma messagerie",fr
-agacement,"foutez le camp de mes emails",fr
-agacement,"cassez-vous avec vos promotions",fr
-agacement,"ouste",fr
+agacement,"ras-le-bol général",fr
+agacement,"j'en peux plus de vous",fr
+agacement,"à bout de patience",fr
+agacement,"trop c'est trop",fr
+agacement,"circulez y a rien à voir",fr
 agacement,"dehors",fr
 agacement,"next",fr
-agacement,"au suivant",fr
-agacement,"bon vent",fr
-agacement,"bon débarras",fr
-agacement,"enfin seuls quand vous serez partis",fr
-agacement,"soulagé quand vous arrêterez",fr
-agacement,"tranquille maintenant sans vous",fr
-peur,"security alert: suspicious login detected on your account",en
-peur,"we blocked an unusual login attempt",en
-peur,"someone is trying to access your account from a new device",en
-peur,"password change requested – please confirm it's you",en
+indignation,"c'est un scandale absolu de manipuler ainsi les gens",fr
+indignation,"vous devriez avoir honte de vos méthodes",fr
+indignation,"jamais je n'accepterai un tel chantage",fr
+indignation,"vous exploitez la peur des innocents, c'est dégoûtant",fr
+indignation,"je refuse catégoriquement de me laisser intimider",fr
+indignation,"comment osez-vous utiliser la détresse des gens pour gagner de l'argent",fr
+indignation,"c'est immoral et illégal",fr
+indignation,"je vais signaler votre site aux autorités",fr
+indignation,"vous devriez être en prison",fr
+indignation,"quelle honte de profiter des plus faibles",fr
+indignation,"je ne me laisserai pas faire par vos menaces",fr
+indignation,"votre tentative de chantage est pathétique",fr
+indignation,"vous n'avez aucune dignité",fr
+indignation,"je vais porter plainte contre vous",fr
+indignation,"ce que vous faites est criminel",fr
+indignation,"vous êtes une ordure",fr
+indignation,"je vais alerter la presse",fr
+indignation,"toute ma famille va être au courant de votre arnaque",fr
+indignation,"vous n'aurez pas un centime de moi",fr
+indignation,"je préfère tout perdre plutôt que de céder",fr
+indignation,"votre racket ne fonctionnera pas",fr
+indignation,"je ne suis pas né de la dernière pluie",fr
+indignation,"vous vous attaquez à la mauvaise personne",fr
+indignation,"je vais vous démasquer publiquement",fr
+indignation,"vous êtes une honte pour l'espèce humaine",fr
+indignation,"je vais contacter un avocat",fr
+indignation,"attendez-vous à des poursuites",fr
+indignation,"jamais je ne paierai votre rançon",fr
+indignation,"vous pouvez toujours courir",fr
+indignation,"je ne me laisse pas faire par des escrocs",fr
+peur,"security alert: suspicious login detected on your bank account",en
+peur,"someone used your identity to open a loan",en
 peur,"your password was changed 5 minutes ago",en
-peur,"your banking details have just been updated",en
-peur,"€849 transaction made at Amazon France",en
-peur,"€600 withdrawal at an ATM in Paris",en
-peur,"€1250 unconfirmed transaction",en
-peur,"if this wasn't you contact our fraud department",en
-peur,"your card will be charged in 24 hours if you don't respond",en
-peur,"an automatic debit will be processed",en
-peur,"unpaid due date – 10% penalty applied",en
-peur,"late invoice – penalties added",en
-peur,"your file has been forwarded to our collections department",en
-peur,"formal notice before legal action",en
-peur,"you are summoned to court on April 15th",en
-peur,"a complaint has been filed against you for fraud",en
+peur,"a transaction of $849 was made from your card",en
+peur,"your IP address is linked to illegal activities",en
 peur,"an arrest warrant has been issued against you",en
-peur,"your name appears in a criminal case",en
-peur,"you are under investigation for tax fraud",en
-peur,"your tax audit is scheduled for May",en
-peur,"tax adjustment of €12500 to be paid within 30 days",en
-peur,"fraudulent declaration detected on your taxes",en
-peur,"social security fraud reported",en
-peur,"your social benefits will be suspended immediately",en
-peur,"social security reimbursements blocked",en
-peur,"your health insurance card has been deactivated",en
-peur,"viruses have been detected on your iPhone",en
-peur,"your phone is infected with 3 malware programs",en
-peur,"spyware is recording everything you type",en
-peur,"your passwords have been compromised in a leak",en
-peur,"your personal data is for sale on the dark web",en
-peur,"your webcam has been hacked – we are filming you",en
-peur,"we are recording your screen right now",en
-peur,"we have very compromising videos of you",en
-peur,"your private conversations have been recorded",en
-peur,"we will send everything to all your contacts",en
-peur,"your reputation will be destroyed if you don't pay",en
-peur,"your colleagues will discover your secrets",en
-peur,"your family will find out everything about you",en
-peur,"pay €1500 in bitcoin or we publish everything",en
-peur,"final deadline before publication – only 24h left",en
-peur,"time-out in 12h – after that it's too late",en
+peur,"you are summoned to court for tax fraud",en
+peur,"your online identity account has been hacked",en
+peur,"we blocked an identity theft attempt",en
+peur,"your email was used to send threats",en
+peur,"a fraud complaint was filed under your name",en
+peur,"your home will be searched tomorrow morning",en
+peur,"spyware is recording all your keystrokes",en
+peur,"your webcam has been remotely activated",en
+peur,"we have compromising videos of you",en
+peur,"pay $1500 in bitcoin or we publish everything",en
+peur,"your health insurance card has been deactivated for fraud",en
+peur,"your social benefits are suspended immediately",en
+peur,"a ransomware encrypted all your files",en
+peur,"your iPhone is infected with 3 malwares",en
+peur,"your Netflix subscription expires in 24 hours",en
+peur,"your package is stuck at customs",en
 peur,"only 5 items left in stock before sold out",en
-peur,"critical stock – order immediately",en
-peur,"77 people are viewing this offer right now",en
-peur,"23 customers want to buy the same item as you",en
+peur,"your $0 offer expires tonight",en
 peur,"someone is about to take your reservation",en
-peur,"this is your last chance to order",en
-peur,"you'll regret not buying",en
-peur,"the price will increase in 3 hours",en
-peur,"this special offer ends tonight",en
-peur,"this price will never be available after midnight",en
+peur,"your boss received a copy of your messages",en
+peur,"your colleagues will discover your secrets",en
+peur,"your PayPal account was used abroad",en
+peur,"a loan was taken in your name without consent",en
+peur,"your social security number is on the dark web",en
 culpabilité,"you forgot to confirm your email address",en
-culpabilité,"your registration was not completed",en
+culpabilité,"your registration was not completed because of you",en
 culpabilité,"documents are missing from your file",en
-culpabilité,"supporting documents not provided to date",en
 culpabilité,"you did not respond to our previous message",en
-culpabilité,"we are still waiting for your response after 3 weeks",en
-culpabilité,"you entered the wrong phone number",en
-culpabilité,"the email address provided does not exist",en
-culpabilité,"error in the registration form",en
-culpabilité,"you forgot to check the required box",en
-culpabilité,"the terms and conditions were not accepted",en
-culpabilité,"you missed our limited offer",en
-culpabilité,"you missed the promotion that ended yesterday",en
-culpabilité,"if you had ordered earlier you would have been delivered",en
-culpabilité,"it's your fault the item is out of stock",en
-culpabilité,"your package is delayed because of your incorrect address",en
-culpabilité,"you filled in your delivery address incorrectly",en
+culpabilité,"it's your fault if the package was returned",en
+culpabilité,"you entered your delivery address incorrectly",en
 culpabilité,"you were not present to sign for the delivery",en
-culpabilité,"package returned to sender because you did not respond",en
-culpabilité,"additional charges are your responsibility",en
-culpabilité,"late fees apply – you did not pay on time",en
-culpabilité,"everything is explained in the terms you accepted",en
-culpabilité,"you accepted without reading the fine print",en
-culpabilité,"no one else has this problem",en
+culpabilité,"late fees are your responsibility",en
+culpabilité,"you accepted the terms without reading them",en
+culpabilité,"you are the only one having this problem",en
 culpabilité,"other customers succeeded without difficulty",en
-culpabilité,"you are the only one getting this error",en
-culpabilité,"the problem is likely on your end",en
-culpabilité,"check your personal information again",en
-culpabilité,"reread our previous email that you ignored",en
-culpabilité,"we were very clear in our explanations",en
-culpabilité,"you did not follow the instructions provided",en
-culpabilité,"the procedure is simple and everyone manages it",en
-culpabilité,"follow the step-by-step guide as indicated",en
-culpabilité,"it is explained in detail on our website",en
-culpabilité,"the answer to your question is in the FAQ",en
-culpabilité,"did you actually search before contacting us",en
-culpabilité,"at some point you have to make an effort on your side",en
-culpabilité,"you've called 5 times for the same thing",en
+culpabilité,"the problem likely comes from you",en
+culpabilité,"you did not follow the instructions",en
+culpabilité,"please re-read our previous email you ignored",en
+culpabilité,"you called 5 times for the same thing",en
 culpabilité,"we already answered you several times",en
+culpabilité,"you did not click the confirmation link",en
+culpabilité,"you shared your password, it's your mistake",en
+culpabilité,"you should have enabled two-factor authentication",en
+culpabilité,"you did not update your antivirus",en
+culpabilité,"you failed to declare your income",en
+culpabilité,"you knowingly committed fraud",en
+culpabilité,"you misled our customer service",en
+culpabilité,"you lied about your situation",en
+culpabilité,"you hid essential information",en
+culpabilité,"you signed without checking",en
+culpabilité,"you clicked a fraudulent link despite the warning",en
+culpabilité,"you did not back up your data",en
+culpabilité,"you ignored our three previous messages",en
 humiliation,"you really didn't understand anything at all",en
 humiliation,"it's not that complicated to understand",en
 humiliation,"you have to be an idiot to fall for this kind of trap",en
 humiliation,"you're so naive",en
 humiliation,"how can you believe that",en
 humiliation,"everyone knows it's a scam except you",en
-humiliation,"your email address is in our sucker database",en
-humiliation,"you are exactly the target we're looking for",en
-humiliation,"you're so predictable with your habits",en
-humiliation,"123456 as a password seriously",en
+humiliation,"your password is 123456 seriously",en
 humiliation,"using your first name as a password is laughable",en
-humiliation,"you use the same password everywhere",en
 humiliation,"your profile pictures are really ridiculous",en
 humiliation,"who still poses like that in 2026",en
-humiliation,"wait until your friends see this",en
-humiliation,"we're going to share it in your WhatsApp group",en
 humiliation,"you'll be the laughing stock of the whole neighborhood",en
+humiliation,"wait until your friends see this",en
 humiliation,"your boss will love discovering this",en
-humiliation,"imagine the look on your colleagues' faces when they see this",en
 humiliation,"aren't you ashamed at your age",en
 humiliation,"you should really be ashamed",en
-humiliation,"what you're doing is utterly worthless",en
-humiliation,"pathetic behavior",en
 humiliation,"poor guy",en
 humiliation,"poor naive soul",en
 humiliation,"another sucker",en
-humiliation,"one more on the list",en
-humiliation,"they're all so gullible",en
 humiliation,"always the same ones who get fooled",en
-humiliation,"you're so incredibly naive",en
-humiliation,"we warned you though",en
-humiliation,"but you never listen to advice",en
-humiliation,"you've been warned now, too bad for you",en
-humiliation,"next time you'll think before clicking",en
-humiliation,"it took you long enough to understand",en
-humiliation,"finally you react, it was about time",en
-humiliation,"we were despairing of seeing you react",en
-humiliation,"you scared us being so slow",en
-humiliation,"the sheep finally returns to the fold",en
-humiliation,"always so faithful and gullible",en
-humiliation,"we can count on you to be naive",en
-humiliation,"apparently you're addicted to our scams",en
-humiliation,"you can't do without us",en
-humiliation,"you again, clicking on everything",en
-humiliation,"still there clicking without thinking",en
+humiliation,"you are our best sucker",en
+humiliation,"thank you for your boundless naivety",en
+humiliation,"you're paying for our vacations with your gullibility",en
 humiliation,"you click on absolutely everything",en
 humiliation,"special offer for suckers like you",en
-humiliation,"promotion for the naive only",en
-humiliation,"special discount for the gullible",en
-humiliation,"promo code easy-to-fool",en
-humiliation,"you are our favorite customer, the most naive",en
-humiliation,"our best source of easy income",en
-humiliation,"thank you for your boundless naivety",en
-humiliation,"thanks to you we have a good time",en
-humiliation,"you're paying for our vacations with your gullibility",en
+humiliation,"you're addicted to our scams",en
+humiliation,"you can't do without us",en
+humiliation,"next time you'll think before clicking",en
+humiliation,"finally you react it was about time",en
+humiliation,"the sheep finally returns to the fold",en
+humiliation,"always so faithful and gullible",en
 déception,"we really thought we'd see you again",en
 déception,"we've missed you since you left",en
-déception,"no news for a long time",en
 déception,"you disappeared without explanation",en
 déception,"you used to be so loyal",en
-déception,"what happened between us",en
-déception,"we were separated too soon",en
-déception,"our relationship ends here unfortunately",en
-déception,"you're leaving us already after such a short time",en
-déception,"we really believed in you",en
+déception,"we believed in you",en
 déception,"you disappoint us greatly",en
 déception,"we expected better from you",en
-déception,"you do not meet our expectations",en
-déception,"you have disappointed our entire team",en
-déception,"our expectations of you were high",en
-déception,"unfortunately you do not match the profile",en
-déception,"your profile is not suitable for this position",en
-déception,"we'll pass this time",en
-déception,"it will be without you after all",en
-déception,"you have not been selected for the next stage",en
-déception,"thank you for applying but your application has not been accepted",en
-déception,"we chose someone else over you",en
-déception,"your application was not selected",en
-déception,"despite your interest we made another choice",en
-déception,"we regret to inform you that you have not been selected",en
-déception,"it is with regret that we announce this refusal",en
-déception,"we regret to decline your offer",en
-déception,"unfortunately we are declining your proposal",en
-déception,"your offer was not accepted this time",en
-déception,"another candidate was chosen instead of you",en
+déception,"you didn't meet expectations",en
+déception,"your application was not accepted",en
+déception,"we chose someone else",en
 déception,"you didn't win this time",en
 déception,"it wasn't your lucky day",en
-déception,"no one won the jackpot this week",en
+déception,"no one won the jackpot",en
 déception,"you are not the millionth customer",en
-déception,"sorry you didn't win this time",en
+déception,"sorry you didn't win",en
 déception,"try your luck next time",en
-déception,"not this time yet",en
-déception,"luck wasn't on your side today",en
-déception,"unfortunately no winnings for you",en
-déception,"you didn't win anything this time",en
-déception,"sorry it's not a win",en
+déception,"luck wasn't on your side",en
 déception,"maybe next time",en
 déception,"you can't win every time",en
-déception,"luck will turn in your favor later",en
-déception,"it will be for another time",en
-déception,"your loyalty deserves better than this",en
-déception,"we can do better together",en
-déception,"this offer is apparently not for you",en
-déception,"you deserve a more suitable offer",en
+déception,"your loyalty deserves better",en
+déception,"this offer is not for you",en
+déception,"you deserve a better offer",en
 déception,"we'll find something better for you",en
-déception,"patience your turn will come soon",en
-déception,"we haven't forgotten you despite everything",en
-déception,"you are in our thoughts",en
+déception,"patience your turn will come",en
+déception,"we haven't forgotten you",en
+déception,"you were our best hope",en
+déception,"we thought you were different",en
+déception,"you lied to us",en
+déception,"we are very disappointed by your behavior",en
+déception,"you didn't keep your promises",en
 agacement,"another advertising message",en
 agacement,"even more spam in my inbox",en
 agacement,"you never give up do you",en
-agacement,"you are really persistent in sending emails",en
-agacement,"what annoying persistence",en
-agacement,"you're being really heavy-handed",en
-agacement,"this is really annoying",en
-agacement,"how many times do we have to tell you no",en
-agacement,"no means no period",en
-agacement,"don't you understand the word no",en
-agacement,"STOP I said stop",en
+agacement,"stop I said stop",en
 agacement,"stop sending me emails",en
-agacement,"unsubscribe me immediately please",en
-agacement,"remove me from your mailing lists",en
-agacement,"do what's necessary to delete me",en
-agacement,"execute my request please",en
-agacement,"it's not hard to understand",en
-agacement,"are you doing this on purpose or what",en
-agacement,"I'm hanging up, I'm fed up",en
-agacement,"I'm not replying to your messages anymore",en
-agacement,"game over for me",en
+agacement,"unsubscribe me immediately",en
+agacement,"remove me from your lists",en
+agacement,"get the hell out of my emails",en
+agacement,"you're annoying me with your offers",en
+agacement,"buzz off with your promotions",en
 agacement,"I have better things to do than read you",en
 agacement,"I'm wasting my time with you",en
-agacement,"what a waste of time these emails are",en
-agacement,"another minute of my life wasted",en
-agacement,"I won't even read your message",en
 agacement,"straight to trash without opening",en
-agacement,"direct spam in junk folder",en
-agacement,"automatic trash",en
-agacement,"reported as unwanted",en
-agacement,"blocked permanently",en
+agacement,"direct spam to junk folder",en
 agacement,"reported as spam",en
+agacement,"blocked permanently",en
 agacement,"blacklisted for harassment",en
-agacement,"fun and games are over with me",en
-agacement,"you'll see what happens next",en
-agacement,"harassment complaint being prepared",en
-agacement,"I'm filing a complaint against you",en
+agacement,"I'm filing a harassment complaint",en
 agacement,"my lawyer will contact you",en
 agacement,"the data protection authority has been notified",en
-agacement,"fraudulent site reported to the authorities",en
 agacement,"you're going to have problems",en
-agacement,"this is going to end badly for you",en
-agacement,"you've been warned, this is the final warning",en
-agacement,"final warning before action",en
-agacement,"if I receive one more single message",en
-agacement,"the next email I receive will trigger a complaint",en
-agacement,"I swear it's over now",en
 agacement,"never again with you",en
-agacement,"never two without three but this is too much",en
-agacement,"three messages is really too many",en
-agacement,"the straw that broke the camel's back",en
-agacement,"generally fed up with your solicitations",en
-agacement,"I can't stand you anymore",en
-agacement,"at the end of my patience with you",en
-agacement,"total saturation of your emails",en
-agacement,"spam overdose",en
-agacement,"enough is clearly enough",en
-agacement,"stop the advertising overdose",en
 agacement,"that's enough now",en
-agacement,"this is starting to get annoying",en
-agacement,"that's enough for five minutes",en
-agacement,"that's enough for two minutes now",en
-agacement,"a little seriousness please",en
-agacement,"stop the circus",en
-agacement,"the comedy is over",en
-agacement,"you're tiring everyone out",en
-agacement,"you're annoying us with your offers",en
-agacement,"move along, nothing to see here",en
-agacement,"go see somewhere else if I'm there",en
-agacement,"get out of my inbox",en
-agacement,"free up my mailbox",en
-agacement,"get the hell out of my emails",en
-agacement,"buzz off with your promotions",en
-agacement,"shoo",en
+agacement,"totally fed up",en
+agacement,"I can't stand you anymore",en
+agacement,"at the end of my patience",en
+agacement,"enough is enough",en
+agacement,"move along nothing to see here",en
 agacement,"out",en
 agacement,"next",en
-agacement,"next one",en
-agacement,"good riddance",en
-agacement,"good riddance",en
-agacement,"finally alone when you're gone",en
-agacement,"relieved when you stop",en
-agacement,"peaceful now without you",en
-peur,"alerta de seguridad: inicio de sesión sospechoso detectado en su cuenta",es
-peur,"hemos bloqueado un intento de inicio de sesión inusual",es
-peur,"alguien está intentando acceder a su cuenta desde un nuevo dispositivo",es
-peur,"cambio de contraseña solicitado – confirme que es usted",es
-peur,"su contraseña fue cambiada hace 5 minutos",es
-peur,"sus datos bancarios acaban de ser actualizados",es
-peur,"transacción de 849€ realizada en Amazon Francia",es
-peur,"retiro de 600€ en un cajero automático en París",es
-peur,"operación de 1250€ no confirmada",es
-peur,"si no fue usted contacte con nuestro servicio antifraude",es
-peur,"su tarjeta será cargada en 24 horas si no responde",es
-peur,"se procesará un cargo automático",es
-peur,"vencimiento impagado – penalización del 10% aplicada",es
-peur,"factura atrasada – penalizaciones añadidas",es
-peur,"su expediente ha sido remitido a nuestro departamento de cobros",es
-peur,"requerimiento formal antes de acciones legales",es
-peur,"está citado ante el tribunal el 15 de abril",es
-peur,"se ha presentado una denuncia contra usted por estafa",es
-peur,"se ha emitido una orden de arresto contra usted",es
-peur,"su nombre aparece en un caso penal",es
-peur,"está siendo investigado por fraude fiscal",es
-peur,"su inspección fiscal está programada para mayo",es
-peur,"regularización fiscal de 12500€ a pagar en 30 días",es
-peur,"declaración fraudulenta detectada en sus impuestos",es
-peur,"fraude a la seguridad social señalado",es
-peur,"sus prestaciones sociales serán suspendidas inmediatamente",es
-peur,"reembolsos de la seguridad social bloqueados",es
-peur,"su tarjeta sanitaria ha sido desactivada",es
-peur,"se han detectado virus en su iPhone",es
-peur,"su teléfono está infectado con 3 programas maliciosos",es
-peur,"un software espía está grabando todo lo que escribe",es
-peur,"sus contraseñas se han visto comprometidas en una filtración",es
-peur,"sus datos personales están a la venta en la dark web",es
-peur,"su cámara web ha sido pirateada – le estamos filmando",es
-peur,"estamos grabando su pantalla en este momento",es
-peur,"tenemos vídeos muy comprometedores de usted",es
-peur,"sus conversaciones privadas han sido grabadas",es
-peur,"enviaremos todo a todos sus contactos",es
-peur,"su reputación será destruida si no paga",es
-peur,"sus colegas descubrirán sus secretos",es
-peur,"su familia se enterará de todo sobre usted",es
-peur,"pague 1500€ en bitcoin o lo publicamos todo",es
-peur,"fecha límite antes de la publicación – solo quedan 24h",es
-peur,"tiempo fuera en 12h – después será demasiado tarde",es
-peur,"solo quedan 5 unidades en stock antes de agotarse",es
-peur,"stock crítico – pida inmediatamente",es
-peur,"77 personas están viendo esta oferta ahora mismo",es
-peur,"23 clientes quieren comprar el mismo artículo que usted",es
-peur,"alguien va a quitarle su reserva",es
-peur,"es su última oportunidad para pedir",es
-peur,"se arrepentirá de no haber comprado",es
-peur,"el precio subirá en 3 horas",es
-peur,"esta oferta especial termina esta noche",es
-peur,"este precio no volverá a estar disponible después de medianoche",es
-culpabilité,"olvidó confirmar su dirección de correo electrónico",es
-culpabilité,"su registro no se completó",es
-culpabilité,"faltan documentos en su expediente",es
-culpabilité,"documentos justificativos no presentados hasta la fecha",es
-culpabilité,"no respondió a nuestro mensaje anterior",es
-culpabilité,"todavía estamos esperando su respuesta después de 3 semanas",es
-culpabilité,"introdujo un número de teléfono incorrecto",es
-culpabilité,"la dirección de correo electrónico proporcionada no existe",es
-culpabilité,"error en el formulario de inscripción",es
-culpabilité,"olvidó marcar la casilla obligatoria",es
-culpabilité,"los términos y condiciones no fueron aceptados",es
-culpabilité,"se perdió nuestra oferta limitada",es
-culpabilité,"se perdió la promoción que terminó ayer",es
-culpabilité,"si hubiera pedido antes ya habría sido entregado",es
-culpabilité,"es culpa suya que el artículo esté agotado",es
-culpabilité,"su paquete se retrasa debido a su dirección incorrecta",es
-culpabilité,"rellenó mal su dirección de envío",es
-culpabilité,"no estuvo presente para firmar la entrega",es
-culpabilité,"paquete devuelto al remitente porque no respondió",es
-culpabilité,"los gastos adicionales corren por su cuenta",es
-culpabilité,"se aplican recargos por demora – no pagó a tiempo",es
-culpabilité,"todo está explicado en los términos que aceptó",es
-culpabilité,"aceptó sin leer la letra pequeña",es
-culpabilité,"nadie más tiene este problema",es
-culpabilité,"otros clientes lo lograron sin dificultad",es
-culpabilité,"usted es el único que tiene este error",es
-culpabilité,"el problema probablemente sea de su parte",es
-culpabilité,"vuelva a verificar su información personal",es
-culpabilité,"vuelva a leer nuestro correo anterior que ignoró",es
-culpabilité,"fuimos muy claros en nuestras explicaciones",es
-culpabilité,"no siguió las instrucciones proporcionadas",es
-culpabilité,"el procedimiento es simple y todo el mundo lo consigue",es
-culpabilité,"siga la guía paso a paso como se indica",es
-culpabilité,"está explicado en detalle en nuestro sitio web",es
-culpabilité,"la respuesta a su pregunta está en las preguntas frecuentes",es
-culpabilité,"¿buscó realmente antes de contactarnos",es
-culpabilité,"en algún momento tiene que esforzarse por su parte",es
-culpabilité,"ha llamado 5 veces por lo mismo",es
-culpabilité,"ya le hemos respondido varias veces",es
-humiliation,"realmente no ha entendido nada en absoluto",es
-humiliation,"no es tan complicado de entender",es
-humiliation,"hay que ser idiota para caer en este tipo de trampa",es
-humiliation,"es tan ingenuo",es
-humiliation,"¿cómo puede creer eso",es
-humiliation,"todo el mundo sabe que es una estafa excepto usted",es
-humiliation,"su dirección de correo está en nuestra base de datos de incautos",es
-humiliation,"es exactamente el objetivo que buscamos",es
-humiliation,"es tan predecible con sus hábitos",es
-humiliation,"123456 como contraseña en serio",es
-humiliation,"usar su nombre como contraseña es ridículo",es
-humiliation,"usa la misma contraseña en todas partes",es
-humiliation,"sus fotos de perfil son realmente ridículas",es
-humiliation,"¿quién posa así todavía en 2026",es
-humiliation,"espere a que sus amigos vean esto",es
-humiliation,"lo compartiremos en su grupo de WhatsApp",es
-humiliation,"será el hazmerreír de todo el barrio",es
-humiliation,"a su jefe le encantará descubrir esto",es
-humiliation,"imagínese la cara de sus colegas al ver esto",es
-humiliation,"¿no le da vergüenza a su edad",es
-humiliation,"debería darle vergüenza de verdad",es
-humiliation,"lo que hace es una nulidad absoluta",es
-humiliation,"comportamiento patético",es
+indignation,"it's an absolute scandal to manipulate people like this",en
+indignation,"you should be ashamed of your methods",en
+indignation,"I will never accept such blackmail",en
+indignation,"you're exploiting innocent people's fear, that's disgusting",en
+indignation,"I categorically refuse to be intimidated by your lies",en
+indignation,"how dare you use people's distress to make money",en
+indignation,"this is immoral and illegal",en
+indignation,"I will report your site to the authorities",en
+indignation,"you should be in prison",en
+indignation,"what a shame to take advantage of the weak",en
+indignation,"I won't let you get away with your threats",en
+indignation,"your blackmail attempt is pathetic",en
+indignation,"you have no dignity",en
+indignation,"I will file a complaint against you",en
+indignation,"what you're doing is criminal",en
+indignation,"you are garbage",en
+indignation,"I will alert the press",en
+indignation,"my entire family will know about your scam",en
+indignation,"you won't get a single cent from me",en
+indignation,"I'd rather lose everything than give in",en
+indignation,"your racket won't work",en
+indignation,"I wasn't born yesterday",en
+indignation,"you're messing with the wrong person",en
+indignation,"I will expose you publicly",en
+indignation,"you are a disgrace to humankind",en
+indignation,"I will contact a lawyer",en
+indignation,"expect legal action",en
+indignation,"I will never pay your ransom",en
+indignation,"you can keep dreaming",en
+indignation,"I won't let scammers push me around",en
+peur,"alerta de seguridad: inicio sospechoso en tu cuenta bancaria",es
+peur,"alguien usó tu identidad para pedir un préstamo",es
+peur,"tu contraseña fue cambiada hace 5 minutos",es
+peur,"se hizo un cargo de 849€ en tu tarjeta",es
+peur,"tu IP está vinculada a actividades ilegales",es
+peur,"se emitió una orden de arresto contra ti",es
+peur,"estás citado a juicio por fraude fiscal",es
+peur,"tu cuenta de identidad digital fue hackeada",es
+peur,"bloqueamos un intento de suplantación de identidad",es
+peur,"usaron tu correo para enviar amenazas",es
+peur,"presentaron una denuncia por estafa a tu nombre",es
+peur,"registrarán tu casa mañana",es
+peur,"un espía graba todo lo que escribes",es
+peur,"activaron tu webcam a distancia",es
+peur,"tenemos videos comprometedores de ti",es
+peur,"paga 1500€ en bitcoin o lo publicamos todo",es
+peur,"desactivaron tu tarjeta sanitaria por fraude",es
+peur,"tus beneficios sociales están suspendidos",es
+peur,"un ransomware cifró todos tus archivos",es
+peur,"tu iPhone tiene 3 virus",es
+peur,"tu suscripción a Netflix expira en 24h",es
+peur,"tu paquete está retenido en aduanas",es
+peur,"quedan 5 unidades antes de agotarse",es
+peur,"tu oferta a 0€ caduca esta noche",es
+peur,"alguien te va a quitar la reserva",es
+peur,"tu jefe recibió copia de tus mensajes",es
+peur,"tus compañeros descubrirán tus secretos",es
+peur,"usaron tu cuenta de PayPal en el extranjero",es
+peur,"pidieron un préstamo a tu nombre sin consentimiento",es
+peur,"tu número de seguridad social está en la dark web",es
+culpabilité,"olvidaste confirmar tu correo electrónico",es
+culpabilité,"tu registro no se completó por tu culpa",es
+culpabilité,"faltan documentos en tu expediente",es
+culpabilité,"no respondiste a nuestro mensaje anterior",es
+culpabilité,"es tu culpa si devolvieron el paquete",es
+culpabilité,"escribiste mal tu dirección de envío",es
+culpabilité,"no estabas presente para firmar la entrega",es
+culpabilité,"los gastos de demora corren por tu cuenta",es
+culpabilité,"aceptaste las condiciones sin leerlas",es
+culpabilité,"eres el único con este problema",es
+culpabilité,"otros clientes lo lograron sin problema",es
+culpabilité,"el problema viene de tu parte",es
+culpabilité,"no seguiste las instrucciones",es
+culpabilité,"relee nuestro mensaje anterior que ignoraste",es
+culpabilité,"llamaste 5 veces por lo mismo",es
+culpabilité,"ya te respondimos varias veces",es
+culpabilité,"no hiciste clic en el enlace de confirmación",es
+culpabilité,"compartiste tu contraseña, es tu error",es
+culpabilité,"debiste activar la verificación en dos pasos",es
+culpabilité,"no actualizaste tu antivirus",es
+culpabilité,"no declaraste tus ingresos",es
+culpabilité,"cometiste fraude a sabiendas",es
+culpabilité,"engañaste a nuestro servicio al cliente",es
+culpabilité,"mentiste sobre tu situación",es
+culpabilité,"ocultaste información esencial",es
+culpabilité,"firmaste sin revisar",es
+culpabilité,"clicaste un enlace fraudulento pese al aviso",es
+culpabilité,"no respaldaste tus datos",es
+culpabilité,"ignoraste nuestros tres mensajes anteriores",es
+humiliation,"realmente no has entendido nada",es
+humiliation,"no es tan difícil de entender",es
+humiliation,"hay que ser idiota para caer en esta trampa",es
+humiliation,"eres tan ingenuo",es
+humiliation,"¿cómo puedes creer eso?",es
+humiliation,"todos saben que es una estafa menos tú",es
+humiliation,"tu contraseña es 123456 en serio",es
+humiliation,"usar tu nombre como contraseña es ridículo",es
+humiliation,"tus fotos de perfil son ridículas",es
+humiliation,"¿quién posa así en 2026?",es
+humiliation,"serás la burla del barrio",es
+humiliation,"espera a que tus amigos vean esto",es
+humiliation,"a tu jefe le encantará descubrir esto",es
+humiliation,"¿no te da vergüenza a tu edad?",es
+humiliation,"debería darte vergüenza",es
 humiliation,"pobre tipo",es
 humiliation,"pobre ingenuo",es
 humiliation,"otro incauto más",es
-humiliation,"uno más en la lista",es
-humiliation,"todos son igual de crédulos",es
-humiliation,"siempre caen los mismos",es
-humiliation,"es usted increíblemente ingenuo",es
-humiliation,"se lo advertimos",es
-humiliation,"pero nunca escucha los consejos",es
-humiliation,"está advertido ahora, peor para usted",es
-humiliation,"la próxima vez pensará antes de hacer clic",es
-humiliation,"le ha costado entenderlo",es
-humiliation,"por fin reacciona, ya era hora",es
-humiliation,"estábamos desesperando por verle reaccionar",es
-humiliation,"nos asustó siendo tan lento",es
-humiliation,"la oveja vuelve al redil por fin",es
+humiliation,"siempre los mismos caen",es
+humiliation,"eres nuestro mejor incauto",es
+humiliation,"gracias por tu ingenuidad sin límites",es
+humiliation,"pagas nuestras vacaciones con tu credulidad",es
+humiliation,"haces clic en absolutamente todo",es
+humiliation,"oferta especial para incautos como tú",es
+humiliation,"eres adicto a nuestras estafas",es
+humiliation,"no puedes pasar sin nosotros",es
+humiliation,"la próxima vez pensarás antes de hacer clic",es
+humiliation,"por fin reaccionas, ya era hora",es
+humiliation,"la oveja vuelve al redil",es
 humiliation,"siempre tan fiel y crédulo",es
-humiliation,"podemos contar con usted para ser ingenuo",es
-humiliation,"al parecer es adicto a nuestras estafas",es
-humiliation,"no puede pasar sin nosotros",es
-humiliation,"otra vez usted haciendo clic en todo",es
-humiliation,"siempre ahí haciendo clic sin pensar",es
-humiliation,"hace clic en absolutamente todo",es
-humiliation,"oferta especial para incautos como usted",es
-humiliation,"promoción solo para ingenuos",es
-humiliation,"descuento especial para crédulos",es
-humiliation,"código promo fácil-de-engañar",es
-humiliation,"es usted nuestro cliente favorito el más ingenuo",es
-humiliation,"nuestra mejor fuente de ingresos fáciles",es
-humiliation,"gracias por su ingenuidad sin límites",es
-humiliation,"gracias a usted nos damos gustos",es
-humiliation,"paga nuestras vacaciones con su credulidad",es
-déception,"realmente pensábamos volver a verle",es
-déception,"le hemos echado de menos desde que se fue",es
-déception,"sin noticias desde hace mucho tiempo",es
-déception,"desapareció sin explicación",es
-déception,"antes era tan fiel",es
-déception,"¿qué pasó entre nosotros",es
-déception,"nos separaron demasiado pronto",es
-déception,"nuestra relación termina aquí por desgracia",es
-déception,"ya nos deja después de tan poco tiempo",es
-déception,"realmente creíamos en usted",es
-déception,"nos decepciona enormemente",es
-déception,"esperábamos más de su parte",es
-déception,"no está a la altura de nuestras expectativas",es
-déception,"ha decepcionado a todo nuestro equipo",es
-déception,"nuestras expectativas eran altas hacia usted",es
-déception,"por desgracia no encaja en el perfil",es
-déception,"su perfil no es adecuado para este puesto",es
-déception,"pasamos esta vez",es
-déception,"será sin usted finalmente",es
-déception,"no ha sido seleccionado para la siguiente fase",es
-déception,"gracias por presentarse pero su candidatura no ha sido aceptada",es
-déception,"elegimos a otra persona en su lugar",es
-déception,"su candidatura no fue seleccionada",es
-déception,"a pesar de su interés hicimos otra elección",es
-déception,"lamentamos informarle que no ha sido seleccionado",es
-déception,"es con pesar que le anunciamos este rechazo",es
-déception,"lamentamos declinar su oferta",es
-déception,"por desgracia declinamos su propuesta",es
-déception,"su oferta no fue aceptada esta vez",es
-déception,"se eligió a otro candidato en su lugar",es
-déception,"no ha ganado esta vez",es
-déception,"no era su día de suerte",es
-déception,"nadie ganó el premio gordo esta semana",es
-déception,"no es el cliente un millón",es
-déception,"lo siento no ha ganado esta vez",es
-déception,"inténtelo de nuevo la próxima vez",es
-déception,"todavía no es esta vez",es
-déception,"la suerte no estaba de su lado hoy",es
-déception,"por desgracia no hay ganancia para usted",es
-déception,"no ha ganado nada esta vez",es
-déception,"lo siento no es una victoria",es
+déception,"realmente pensamos que volveríamos a verte",es
+déception,"te echamos de menos desde que te fuiste",es
+déception,"desapareciste sin explicación",es
+déception,"antes eras tan fiel",es
+déception,"creíamos en ti",es
+déception,"nos decepcionas enormemente",es
+déception,"esperábamos más de ti",es
+déception,"no estás a la altura",es
+déception,"tu candidatura no fue aceptada",es
+déception,"elegimos a otra persona",es
+déception,"no ganaste esta vez",es
+déception,"no era tu día de suerte",es
+déception,"nadie ganó el premio gordo",es
+déception,"no eres el cliente número un millón",es
+déception,"lo siento, no ganaste",es
+déception,"prueba suerte la próxima vez",es
+déception,"la suerte no estuvo de tu lado",es
 déception,"quizás la próxima vez",es
 déception,"no se puede ganar siempre",es
-déception,"la suerte se pondrá de su lado más tarde",es
-déception,"será para otra ocasión",es
-déception,"su fidelidad merece algo mejor que esto",es
-déception,"podemos hacerlo mejor juntos",es
-déception,"esta oferta aparentemente no es para usted",es
-déception,"merece una oferta más adecuada",es
-déception,"encontraremos algo mejor para usted",es
-déception,"paciencia su turno llegará pronto",es
-déception,"no le hemos olvidado a pesar de todo",es
-déception,"está en nuestros pensamientos",es
+déception,"tu fidelidad merece más",es
+déception,"esta oferta no es para ti",es
+déception,"mereces una oferta mejor",es
+déception,"encontraremos algo mejor para ti",es
+déception,"paciencia, llegará tu turno",es
+déception,"no te olvidamos",es
+déception,"eras nuestra mejor esperanza",es
+déception,"creíamos que eras diferente",es
+déception,"nos mentiste",es
+déception,"estamos muy decepcionados por tu comportamiento",es
+déception,"no cumpliste tus promesas",es
 agacement,"otro mensaje publicitario",es
-agacement,"aún más spam en mi bandeja de entrada",es
-agacement,"no se rinde usted nunca",es
-agacement,"es usted muy persistente enviando correos",es
-agacement,"qué persistencia tan molesta",es
-agacement,"está siendo muy pesado",es
-agacement,"esto es realmente molesto",es
-agacement,"¿cuántas veces hay que decirle que no",es
-agacement,"no significa no y punto",es
-agacement,"¿no entiende la palabra no",es
-agacement,"STOP he dicho stop",es
-agacement,"deje de enviarme correos",es
-agacement,"cancele mi suscripción inmediatamente por favor",es
-agacement,"elimíneme de sus listas de difusión",es
-agacement,"haga lo necesario para suprimirme",es
-agacement,"ejecute mi solicitud por favor",es
-agacement,"no es difícil de entender",es
-agacement,"lo hace a propósito o qué",es
-agacement,"cuelgo, estoy harto",es
-agacement,"ya no respondo a sus mensajes",es
-agacement,"se acabó el juego para mí",es
-agacement,"tengo cosas mejores que hacer que leerle",es
-agacement,"estoy perdiendo el tiempo con usted",es
-agacement,"qué pérdida de tiempo estos correos",es
-agacement,"otro minuto de mi vida perdido",es
-agacement,"ni siquiera leeré su mensaje",es
-agacement,"directo a la papelera sin abrir",es
-agacement,"spam directo a la carpeta de no deseados",es
-agacement,"papelera automática",es
-agacement,"marcado como no deseado",es
+agacement,"cada vez más spam en mi bandeja",es
+agacement,"no te rindes nunca",es
+agacement,"para, he dicho para",es
+agacement,"deja de enviarme correos",es
+agacement,"dame de baja inmediatamente",es
+agacement,"elimíname de tus listas",es
+agacement,"lárgate de mis correos",es
+agacement,"me hartas con tus ofertas",es
+agacement,"fuera con tus promociones",es
+agacement,"tengo cosas mejores que hacer que leerte",es
+agacement,"pierdo el tiempo contigo",es
+agacement,"directo a la basura sin abrir",es
+agacement,"spam directo a no deseado",es
+agacement,"reportado como spam",es
 agacement,"bloqueado permanentemente",es
-agacement,"marcado como spam",es
-agacement,"incluido en la lista negra por acoso",es
-agacement,"se acabaron las bromas conmigo",es
-agacement,"verá lo que pasa",es
-agacement,"preparando denuncia por acoso",es
-agacement,"voy a presentar una denuncia contra usted",es
-agacement,"mi abogado se pondrá en contacto con usted",es
-agacement,"la autoridad de protección de datos ha sido notificada",es
-agacement,"sitio fraudulento denunciado a las autoridades",es
-agacement,"va a tener problemas",es
-agacement,"esto va a acabar mal para usted",es
-agacement,"está advertido, es el último aviso",es
-agacement,"último aviso antes de actuar",es
-agacement,"si recibo un solo mensaje más",es
-agacement,"el próximo correo que reciba desencadenará una denuncia",es
-agacement,"le juro que se acabó",es
-agacement,"nunca más con usted",es
-agacement,"no hay dos sin tres pero esto es demasiado",es
-agacement,"tres mensajes son realmente demasiados",es
-agacement,"la gota que colmó el vaso",es
-agacement,"hastiado en general de sus solicitudes",es
-agacement,"no le soporto más",es
-agacement,"al límite de mi paciencia con usted",es
-agacement,"saturación total de sus correos",es
-agacement,"sobredosis de spam",es
-agacement,"ya está claramente bien",es
-agacement,"pare la sobredosis de publicidad",es
+agacement,"lista negra por acoso",es
+agacement,"voy a denunciar por acoso",es
+agacement,"mi abogado te contactará",es
+agacement,"la agencia de protección de datos está informada",es
+agacement,"vas a tener problemas",es
+agacement,"nunca más contigo",es
 agacement,"ya basta",es
-agacement,"esto empieza a molestar",es
-agacement,"ya está bien por cinco minutos",es
-agacement,"ya está bien por dos minutos",es
-agacement,"un poco de seriedad",es
-agacement,"pare el circo",es
-agacement,"se acabó la comedia",es
-agacement,"está cansando a todo el mundo",es
-agacement,"nos está hartando con sus ofertas",es
-agacement,"circule, aquí no hay nada que ver",es
-agacement,"váyase a ver si estoy en otro lado",es
-agacement,"salga de mi bandeja de entrada",es
-agacement,"libere mi buzón de correo",es
-agacement,"lárguese de mis correos",es
-agacement,"fuera con sus promociones",es
-agacement,"fuchi",es
+agacement,"harto ya",es
+agacement,"no te soporto más",es
+agacement,"al límite de mi paciencia",es
+agacement,"trop es trop",es
+agacement,"circula, no hay nada que ver",es
 agacement,"fuera",es
 agacement,"siguiente",es
-agacement,"el siguiente",es
-agacement,"adiós y buen viaje",es
-agacement,"buen viaje",es
-agacement,"por fin solos cuando se haya ido",es
-agacement,"aliviado cuando pare",es
-agacement,"tranquilo ahora sin usted",es
-peur,"alerta de segurança: login suspeito detectado na sua conta",pt
-peur,"bloqueamos uma tentativa de login incomum",pt
-peur,"alguém está tentando acessar sua conta de um novo dispositivo",pt
-peur,"alteração de senha solicitada – confirme que é você",pt
-peur,"sua senha foi alterada há 5 minutos",pt
-peur,"seus dados bancários acabaram de ser atualizados",pt
-peur,"transação de 849€ efetuada na Amazon França",pt
-peur,"levantamento de 600€ numa caixa multibanco em Paris",pt
-peur,"operação de 1250€ não confirmada",pt
-peur,"se não foi você entre em contato com nosso serviço antifraude",pt
-peur,"seu cartão será debitado em 24 horas se não responder",pt
-peur,"um débito automático será processado",pt
-peur,"vencimento não pago – penalidade de 10% aplicada",pt
-peur,"fatura em atraso – penalidades acrescidas",pt
-peur,"seu processo foi encaminhado ao nosso departamento de cobrança",pt
-peur,"notificação formal antes de ação judicial",pt
-peur,"você está convocado perante o tribunal em 15 de abril",pt
-peur,"foi apresentada queixa contra você por burla",pt
-peur,"foi emitido um mandado de prisão contra você",pt
-peur,"seu nome aparece em um caso criminal",pt
-peur,"você está sob investigação por fraude fiscal",pt
-peur,"sua inspeção fiscal está programada para maio",pt
-peur,"regularização fiscal de 12500€ a pagar em 30 dias",pt
-peur,"declaração fraudulenta detectada nos seus impostos",pt
-peur,"fraude à segurança social sinalizada",pt
-peur,"seus benefícios sociais serão suspensos imediatamente",pt
-peur,"reembolsos da segurança social bloqueados",pt
-peur,"seu cartão de saúde foi desativado",pt
-peur,"vírus foram detectados no seu iPhone",pt
-peur,"seu telefone está infetado com 3 programas maliciosos",pt
-peur,"um software espião está gravando tudo que você digita",pt
-peur,"suas senhas foram comprometidas em um vazamento",pt
-peur,"seus dados pessoais estão à venda na dark web",pt
-peur,"sua webcam foi hackeada – estamos filmando você",pt
-peur,"estamos gravando sua tela neste momento",pt
-peur,"temos vídeos muito comprometedores de você",pt
-peur,"suas conversas privadas foram gravadas",pt
-peur,"enviaremos tudo para todos os seus contatos",pt
-peur,"sua reputação será destruída se não pagar",pt
-peur,"seus colegas vão descobrir seus segredos",pt
-peur,"sua família vai saber tudo sobre você",pt
+indignation,"es un escándalo absoluto manipular así a la gente",es
+indignation,"deberías avergonzarte de tus métodos",es
+indignation,"jamás aceptaré semejante chantaje",es
+indignation,"explotas el miedo de los inocentes, es asqueroso",es
+indignation,"me niego rotundamente a dejarme intimidar por tus mentiras",es
+indignation,"¿cómo te atreves a usar el sufrimiento ajeno para ganar dinero?",es
+indignation,"esto es inmoral e ilegal",es
+indignation,"voy a denunciar tu sitio a las autoridades",es
+indignation,"deberías estar en la cárcel",es
+indignation,"qué vergüenza aprovecharse de los débiles",es
+indignation,"no me dejaré amedrentar por tus amenazas",es
+indignation,"tu intento de chantaje es patético",es
+indignation,"no tienes dignidad",es
+indignation,"voy a presentar una denuncia contra ti",es
+indignation,"lo que haces es criminal",es
+indignation,"eres una basura",es
+indignation,"voy a avisar a la prensa",es
+indignation,"toda mi familia sabrá de tu estafa",es
+indignation,"no recibirás ni un céntimo de mí",es
+indignation,"prefiero perderlo todo antes que ceder",es
+indignation,"tu chantaje no funcionará",es
+indignation,"no nací ayer",es
+indignation,"te has equivocado de persona",es
+indignation,"te voy a desenmascarar públicamente",es
+indignation,"eres una vergüenza para la humanidad",es
+indignation,"voy a contactar a un abogado",es
+indignation,"espérate a las demandas",es
+indignation,"jamás pagaré tu rescate",es
+indignation,"puedes seguir soñando",es
+indignation,"no me dejo pisotear por estafadores",es
+peur,"alerta de segurança: login suspeito na sua conta bancária",pt
+peur,"alguém usou a sua identidade para pedir um empréstimo",pt
+peur,"a sua senha foi alterada há 5 minutos",pt
+peur,"uma transação de 849€ foi feita no seu cartão",pt
+peur,"o seu IP está ligado a atividades ilegais",pt
+peur,"um mandado de prisão foi emitido contra si",pt
+peur,"está convocado a tribunal por fraude fiscal",pt
+peur,"a sua conta de identidade digital foi hackeada",pt
+peur,"bloqueámos uma tentativa de roubo de identidade",pt
+peur,"usaram o seu email para enviar ameaças",pt
+peur,"uma queixa por burla foi apresentada em seu nome",pt
+peur,"a sua casa vai ser vasculhada amanhã",pt
+peur,"um espião grava tudo o que digita",pt
+peur,"ativaram a sua webcam à distância",pt
+peur,"temos vídeos comprometedores seus",pt
 peur,"pague 1500€ em bitcoin ou publicamos tudo",pt
-peur,"prazo final antes da publicação – apenas 24h restantes",pt
-peur,"tempo limite em 12h – depois é tarde demais",pt
-peur,"apenas 5 unidades restantes em stock antes de esgotar",pt
-peur,"stock crítico – peça imediatamente",pt
-peur,"77 pessoas estão vendo esta oferta neste momento",pt
-peur,"23 clientes querem comprar o mesmo artigo que você",pt
-peur,"alguém vai tirar sua reserva",pt
-peur,"é sua última chance de pedir",pt
-peur,"você vai se arrepender de não ter comprado",pt
-peur,"o preço vai aumentar em 3 horas",pt
-peur,"esta oferta especial termina esta noite",pt
-peur,"este preço nunca mais estará disponível após a meia-noite",pt
-culpabilité,"você esqueceu de confirmar seu endereço de e-mail",pt
-culpabilité,"seu registro não foi finalizado",pt
+peur,"o seu cartão de saúde foi desativado por fraude",pt
+peur,"os seus benefícios sociais estão suspensos",pt
+peur,"um ransomware encriptou todos os seus ficheiros",pt
+peur,"o seu iPhone tem 3 vírus",pt
+peur,"a sua subscrição da Netflix expira em 24h",pt
+peur,"a sua encomenda está presa na alfândega",pt
+peur,"restam 5 unidades antes de esgotar",pt
+peur,"a sua oferta a 0€ expira esta noite",pt
+peur,"alguém vai tirar-lhe a reserva",pt
+peur,"o seu chefe recebeu cópia das suas mensagens",pt
+peur,"os seus colegas vão descobrir os seus segredos",pt
+peur,"usaram a sua conta PayPal no estrangeiro",pt
+peur,"um empréstimo foi pedido em seu nome sem consentimento",pt
+peur,"o seu número de segurança social está na dark web",pt
+culpabilité,"esqueceu-se de confirmar o seu email",pt
+culpabilité,"o seu registo não foi concluído por sua culpa",pt
 culpabilité,"faltam documentos no seu processo",pt
-culpabilité,"documentos comprovativos não fornecidos até à data",pt
-culpabilité,"você não respondeu à nossa mensagem anterior",pt
-culpabilité,"ainda aguardamos sua resposta após 3 semanas",pt
-culpabilité,"você inseriu um número de telefone incorreto",pt
-culpabilité,"o endereço de e-mail indicado não existe",pt
-culpabilité,"erro no formulário de inscrição",pt
-culpabilité,"você esqueceu de marcar a caixa obrigatória",pt
-culpabilité,"os termos e condições não foram aceitos",pt
-culpabilité,"você perdeu nossa oferta limitada",pt
-culpabilité,"você perdeu a promoção que terminou ontem",pt
-culpabilité,"se tivesse pedido mais cedo já teria sido entregue",pt
-culpabilité,"a culpa é sua se o artigo está esgotado",pt
-culpabilité,"sua encomenda está atrasada devido ao endereço incorreto",pt
-culpabilité,"você preencheu mal seu endereço de entrega",pt
-culpabilité,"você não estava presente para assinar a entrega",pt
-culpabilité,"encomenda devolvida ao remetente porque você não respondeu",pt
-culpabilité,"custos adicionais são de sua responsabilidade",pt
-culpabilité,"taxas de atraso aplicáveis – você não pagou a tempo",pt
-culpabilité,"tudo está explicado nos termos que você aceitou",pt
-culpabilité,"você aceitou sem ler as letras pequenas",pt
-culpabilité,"ninguém mais tem este problema",pt
+culpabilité,"não respondeu à nossa mensagem anterior",pt
+culpabilité,"é culpa sua se a encomenda foi devolvida",pt
+culpabilité,"escreveu mal a sua morada de entrega",pt
+culpabilité,"não esteve presente para assinar a entrega",pt
+culpabilité,"taxas de atraso são por sua conta",pt
+culpabilité,"aceitou os termos sem os ler",pt
+culpabilité,"é o único com este problema",pt
 culpabilité,"outros clientes conseguiram sem dificuldade",pt
-culpabilité,"você é o único a ter este erro",pt
-culpabilité,"o problema provavelmente é do seu lado",pt
-culpabilité,"verifique novamente suas informações pessoais",pt
-culpabilité,"releia nosso e-mail anterior que você ignorou",pt
-culpabilité,"fomos muito claros nas nossas explicações",pt
-culpabilité,"você não seguiu as instruções fornecidas",pt
-culpabilité,"o procedimento é simples e toda gente consegue",pt
-culpabilité,"siga o guia passo a passo como indicado",pt
-culpabilité,"está explicado detalhadamente no nosso site",pt
-culpabilité,"a resposta à sua pergunta está no FAQ",pt
-culpabilité,"você realmente procurou antes de nos contactar",pt
-culpabilité,"em algum momento tem de fazer um esforço do seu lado",pt
-culpabilité,"já ligou 5 vezes para a mesma coisa",pt
+culpabilité,"o problema vem do seu lado",pt
+culpabilité,"não seguiu as instruções",pt
+culpabilité,"releia o nosso email anterior que ignorou",pt
+culpabilité,"ligou 5 vezes para a mesma coisa",pt
 culpabilité,"já lhe respondemos várias vezes",pt
-humiliation,"você realmente não entendeu nada",pt
-humiliation,"não é assim tão complicado de entender",pt
-humiliation,"é preciso ser idiota para cair neste tipo de armadilha",pt
+culpabilité,"não clicou no link de confirmação",pt
+culpabilité,"partilhou a sua senha, é o seu erro",pt
+culpabilité,"devia ter ativado a verificação em duas etapas",pt
+culpabilité,"não atualizou o seu antivírus",pt
+culpabilité,"não declarou os seus rendimentos",pt
+culpabilité,"cometeu fraude conscientemente",pt
+culpabilité,"enganou o nosso serviço ao cliente",pt
+culpabilité,"mentiu sobre a sua situação",pt
+culpabilité,"escondeu informações essenciais",pt
+culpabilité,"assinou sem verificar",pt
+culpabilité,"clicou num link fraudulento apesar do aviso",pt
+culpabilité,"não fez backup dos seus dados",pt
+culpabilité,"ignorou as nossas três mensagens anteriores",pt
+humiliation,"você não percebeu mesmo nada",pt
+humiliation,"não é assim tão difícil de entender",pt
+humiliation,"é preciso ser idiota para cair nesta armadilha",pt
 humiliation,"você é tão ingénuo",pt
-humiliation,"como pode acreditar nisso",pt
-humiliation,"toda gente sabe que é um esquema menos você",pt
-humiliation,"seu e-mail está na nossa base de dados de patos",pt
-humiliation,"você é exatamente o alvo que procuramos",pt
-humiliation,"você é tão previsível com seus hábitos",pt
-humiliation,"123456 como senha a sério",pt
-humiliation,"usar seu primeiro nome como senha é ridículo",pt
-humiliation,"você usa a mesma senha em todo lugar",pt
-humiliation,"suas fotos de perfil são realmente ridículas",pt
+humiliation,"como é que pode acreditar nisso",pt
+humiliation,"toda a gente sabe que é um esquema menos você",pt
+humiliation,"a sua senha é 123456 a sério",pt
+humiliation,"usar o seu nome como senha é ridículo",pt
+humiliation,"as suas fotos de perfil são ridículas",pt
 humiliation,"quem ainda posa assim em 2026",pt
-humiliation,"espere até seus amigos verem isso",pt
-humiliation,"vamos compartilhar no seu grupo de WhatsApp",pt
-humiliation,"você vai ser motivo de chacota em todo o bairro",pt
-humiliation,"seu chefe vai adorar descobrir isso",pt
-humiliation,"imagine a cara dos seus colegas ao verem isso",pt
-humiliation,"você não tem vergonha na sua idade",pt
-humiliation,"você devia mesmo ter vergonha",pt
-humiliation,"o que você faz é de uma nulidade absoluta",pt
-humiliation,"comportamento patético",pt
+humiliation,"vai ser o motivo de chacota do bairro",pt
+humiliation,"espere até os seus amigos verem isto",pt
+humiliation,"o seu chefe vai adorar descobrir isto",pt
+humiliation,"não tem vergonha na sua idade",pt
+humiliation,"devia ter vergonha",pt
 humiliation,"pobre coitado",pt
 humiliation,"pobre ingénuo",pt
 humiliation,"mais um pato",pt
-humiliation,"mais um na lista",pt
-humiliation,"são todos tão crédulos",pt
-humiliation,"são sempre os mesmos que caem",pt
-humiliation,"você é tão ingénuo que é incrível",pt
-humiliation,"nós avisamos",pt
-humiliation,"mas você nunca ouve os conselhos",pt
-humiliation,"está avisado agora, azar o seu",pt
-humiliation,"da próxima vez vai pensar antes de clicar",pt
-humiliation,"demorou a entender",pt
-humiliation,"por fim você reage, já não era sem tempo",pt
-humiliation,"estávamos a desesperar para vê-lo reagir",pt
-humiliation,"você nos assustou sendo tão lento",pt
-humiliation,"a ovelha volta ao redil finalmente",pt
-humiliation,"sempre tão fiel e crédulo",pt
-humiliation,"podemos contar com você para ser ingénuo",pt
-humiliation,"parece que você é viciado nos nossos golpes",pt
-humiliation,"você não consegue passar sem nós",pt
-humiliation,"você outra vez clicando em tudo",pt
-humiliation,"sempre aí a clicar sem pensar",pt
+humiliation,"são sempre os mesmos a cair",pt
+humiliation,"você é o nosso melhor pato",pt
+humiliation,"obrigado pela sua ingenuidade sem limites",pt
+humiliation,"você paga as nossas férias com a sua credulidade",pt
 humiliation,"você clica em absolutamente tudo",pt
 humiliation,"oferta especial para patos como você",pt
-humiliation,"promoção só para ingénuos",pt
-humiliation,"desconto especial para crédulos",pt
-humiliation,"código promocional fácil-de-enganar",pt
-humiliation,"você é nosso cliente preferido o mais ingénuo",pt
-humiliation,"nossa melhor fonte de renda fácil",pt
-humiliation,"obrigado pela sua ingenuidade sem limites",pt
-humiliation,"graças a você nos damos ao luxo",pt
-humiliation,"você paga as nossas férias com sua credulidade",pt
-déception,"nós pensávamos mesmo em revê-lo",pt
-déception,"sentimos sua falta desde que partiu",pt
-déception,"sem notícias há muito tempo",pt
-déception,"você desapareceu sem explicação",pt
-déception,"você era tão fiel antes",pt
-déception,"o que aconteceu entre nós",pt
-déception,"fomos separados cedo demais",pt
-déception,"nossa relação termina aqui infelizmente",pt
-déception,"você já nos deixa após tão pouco tempo",pt
-déception,"nós acreditávamos mesmo em você",pt
-déception,"você nos dececiona imensamente",pt
+humiliation,"você é viciado nos nossos golpes",pt
+humiliation,"não consegue ficar sem nós",pt
+humiliation,"da próxima vez vai pensar antes de clicar",pt
+humiliation,"finalmente reage, já era tempo",pt
+humiliation,"a ovelha volta ao redil",pt
+humiliation,"sempre tão fiel e crédulo",pt
+déception,"nós pensávamos mesmo que o íamos ver outra vez",pt
+déception,"sentimos a sua falta desde que partiu",pt
+déception,"desapareceu sem explicação",pt
+déception,"era tão fiel antes",pt
+déception,"acreditávamos em si",pt
+déception,"dececiona-nos imenso",pt
 déception,"esperávamos mais de si",pt
-déception,"você não está à altura das nossas expectativas",pt
-déception,"você dececionou toda a nossa equipa",pt
-déception,"as nossas expectativas eram grandes em relação a você",pt
-déception,"infelizmente você não corresponde ao perfil",pt
-déception,"seu perfil não é adequado para esta vaga",pt
-déception,"passamos a vez desta vez",pt
-déception,"será sem você afinal",pt
-déception,"você não foi selecionado para a fase seguinte",pt
-déception,"obrigado por se candidatar mas a sua candidatura não foi aceite",pt
-déception,"escolhemos outra pessoa em vez de você",pt
-déception,"a sua candidatura não foi selecionada",pt
-déception,"apesar do seu interesse fizemos outra escolha",pt
-déception,"lamentamos informar que você não foi selecionado",pt
-déception,"é com pesar que lhe comunicamos esta recusa",pt
-déception,"lamentamos declinar a sua oferta",pt
-déception,"infelizmente declinamos a sua proposta",pt
-déception,"a sua oferta não foi aceite desta vez",pt
-déception,"outro candidato foi escolhido em seu lugar",pt
-déception,"você não ganhou desta vez",pt
+déception,"não está à altura",pt
+déception,"a sua candidatura não foi aceite",pt
+déception,"escolhemos outra pessoa",pt
+déception,"não ganhou desta vez",pt
 déception,"não era o seu dia de sorte",pt
-déception,"ninguém ganhou o grande prémio esta semana",pt
-déception,"você não é o cliente um milhão",pt
-déception,"desculpe você não ganhou desta vez",pt
-déception,"tente a sua sorte novamente na próxima",pt
-déception,"ainda não é desta vez",pt
-déception,"a sorte não estava do seu lado hoje",pt
-déception,"infelizmente não houve ganho para você",pt
-déception,"você não ganhou nada desta vez",pt
-déception,"desculpe não foi desta",pt
-déception,"talvez na próxima",pt
+déception,"ninguém ganhou o prémio",pt
+déception,"não é o cliente número um milhão",pt
+déception,"desculpe, não ganhou",pt
+déception,"tente outra vez",pt
+déception,"a sorte não esteve do seu lado",pt
+déception,"talvez para a próxima",pt
 déception,"não se pode ganhar sempre",pt
-déception,"a sorte vai virar a seu favor mais tarde",pt
-déception,"será para uma próxima vez",pt
-déception,"a sua fidelidade merece melhor que isto",pt
-déception,"podemos fazer melhor juntos",pt
-déception,"esta oferta aparentemente não é para você",pt
-déception,"você merece uma oferta mais adequada",pt
-déception,"vamos encontrar algo melhor para você",pt
-déception,"paciência a sua vez chegará em breve",pt
-déception,"não o esquecemos apesar de tudo",pt
-déception,"você está nos nossos pensamentos",pt
-agacement,"outra mensagem publicitária",pt
-agacement,"ainda mais spam na minha caixa de entrada",pt
-agacement,"você nunca desiste",pt
-agacement,"você é mesmo persistente a enviar e-mails",pt
-agacement,"que persistência irritante",pt
-agacement,"você está a ser muito insistente",pt
-agacement,"isto é realmente irritante",pt
-agacement,"quantas vezes é preciso dizer não",pt
-agacement,"não é não ponto final",pt
-agacement,"você não entende a palavra não",pt
-agacement,"STOP eu disse stop",pt
-agacement,"pare de me enviar e-mails",pt
-agacement,"cancele a minha subscrição imediatamente pf",pt
-agacement,"retire-me das suas listas de distribuição",pt
-agacement,"faça o necessário para me apagar",pt
-agacement,"execute o meu pedido pf",pt
-agacement,"não é difícil de entender",pt
-agacement,"você faz de propósito ou quê",pt
-agacement,"desligo já estou farto",pt
-agacement,"já não respondo às suas mensagens",pt
-agacement,"fim do jogo para mim",pt
+déception,"a sua fidelidade merece mais",pt
+déception,"esta oferta não é para si",pt
+déception,"merece uma oferta melhor",pt
+déception,"vamos encontrar algo melhor para si",pt
+déception,"paciência, a sua vez vai chegar",pt
+déception,"não nos esquecemos de si",pt
+déception,"era a nossa melhor esperança",pt
+déception,"pensávamos que era diferente",pt
+déception,"mentiu-nos",pt
+déception,"estamos muito dececionados com o seu comportamento",pt
+déception,"não cumpriu as suas promessas",pt
+agacement,"mais uma mensagem publicitária",pt
+agacement,"cada vez mais spam na minha caixa",pt
+agacement,"você não desiste mesmo",pt
+agacement,"pára, eu disse pára",pt
+agacement,"pare de me enviar emails",pt
+agacement,"cancele a minha subscrição imediatamente",pt
+agacement,"elimine-me das suas listas",pt
+agacement,"desapareça dos meus emails",pt
+agacement,"chateia-me com as suas ofertas",pt
+agacement,"saia com as suas promoções",pt
 agacement,"tenho mais que fazer do que lê-lo",pt
-agacement,"estou a perder meu tempo consigo",pt
-agacement,"que perda de tempo estes e-mails",pt
-agacement,"mais um minuto da minha vida desperdiçado",pt
-agacement,"nem vou ler a sua mensagem",pt
+agacement,"estou a perder tempo consigo",pt
 agacement,"lixo direto sem abrir",pt
-agacement,"spam direto na caixa de indesejados",pt
-agacement,"lixo automático",pt
-agacement,"indesejado assinalado",pt
+agacement,"spam direto para o lixo",pt
+agacement,"reportado como spam",pt
 agacement,"bloqueado permanentemente",pt
-agacement,"sinalizado como spam",pt
-agacement,"colocado na lista negra por assédio",pt
-agacement,"acabaram-se as brincadeiras comigo",pt
-agacement,"você vai ver o que acontece",pt
-agacement,"queixa por assédio em preparação",pt
-agacement,"vou apresentar queixa contra você",pt
-agacement,"o meu advogado vai entrar em contato consigo",pt
-agacement,"a autoridade de proteção de dados foi notificada",pt
-agacement,"site fraudulento denunciado às autoridades",pt
+agacement,"lista negra por assédio",pt
+agacement,"vou apresentar queixa por assédio",pt
+agacement,"o meu advogado vai contactá-lo",pt
+agacement,"a autoridade de proteção de dados já sabe",pt
 agacement,"você vai ter problemas",pt
-agacement,"isto vai acabar mal para você",pt
-agacement,"você está avisado é o último aviso",pt
-agacement,"último aviso antes de agir",pt
-agacement,"se eu receber mais uma única mensagem",pt
-agacement,"o próximo e-mail que receber desencadeará uma queixa",pt
-agacement,"juro que acabou agora",pt
-agacement,"nunca mais com você",pt
-agacement,"não há duas sem três mas isto é demais",pt
-agacement,"três mensagens é realmente demais",pt
-agacement,"a gota de água que faz transbordar",pt
-agacement,"farto em geral das suas solicitações",pt
-agacement,"já não o suporto mais",pt
-agacement,"no limite da minha paciência consigo",pt
-agacement,"saturação total dos seus e-mails",pt
-agacement,"overdose de spam",pt
-agacement,"já chega claramente",pt
-agacement,"pare a overdose de publicidade",pt
-agacement,"já basta",pt
-agacement,"isto começa a incomodar",pt
-agacement,"já chega por cinco minutos",pt
-agacement,"já chega por dois minutos",pt
-agacement,"um pouco de seriedade",pt
-agacement,"pare o circo",pt
-agacement,"acabou a comédia",pt
-agacement,"você cansa toda gente",pt
-agacement,"você nos enche com as suas ofertas",pt
-agacement,"circule não há nada para ver aqui",pt
-agacement,"vá ver se estou noutro lado",pt
-agacement,"saia da minha caixa de entrada",pt
-agacement,"libere a minha caixa de correio",pt
-agacement,"desapareça dos meus e-mails",pt
-agacement,"desapareça com as suas promoções",pt
-agacement,"xô",pt
+agacement,"nunca mais consigo",pt
+agacement,"já chega",pt
+agacement,"estou farto",pt
+agacement,"não o aturo mais",pt
+agacement,"no limite da paciência",pt
+agacement,"chega",pt
+agacement,"circule, não há nada para ver",pt
 agacement,"fora",pt
 agacement,"próximo",pt
-agacement,"o próximo",pt
-agacement,"boa viagem",pt
-agacement,"bons ventos",pt
-agacement,"finalmente sozinhos quando você se for",pt
-agacement,"aliviado quando você parar",pt
-agacement,"tranquilo agora sem você",pt
-peur,"Sicherheitswarnung: verdächtiger Anmeldeversuch auf Ihrem Konto",de
-peur,"wir haben einen ungewöhnlichen Anmeldeversuch blockiert",de
-peur,"jemand versucht von einem neuen Gerät auf Ihr Konto zuzugreifen",de
-peur,"Passwortänderung angefordert – bitte bestätigen Sie Ihre Identität",de
+indignation,"é um escândalo absoluto manipular as pessoas assim",pt
+indignation,"devia ter vergonha dos seus métodos",pt
+indignation,"nunca aceitarei tal chantagem",pt
+indignation,"explora o medo dos inocentes, é nojento",pt
+indignation,"recuso-me categoricamente a ser intimidado pelas suas mentiras",pt
+indignation,"como se atreve a usar o sofrimento alheio para ganhar dinheiro",pt
+indignation,"isto é imoral e ilegal",pt
+indignation,"vou denunciar o seu site às autoridades",pt
+indignation,"devia estar na cadeia",pt
+indignation,"que vergonha aproveitar-se dos fracos",pt
+indignation,"não me vou deixar intimidar pelas suas ameaças",pt
+indignation,"a sua tentativa de chantagem é patética",pt
+indignation,"não tem dignidade",pt
+indignation,"vou apresentar queixa contra si",pt
+indignation,"o que faz é criminoso",pt
+indignation,"você é um lixo",pt
+indignation,"vou alertar a imprensa",pt
+indignation,"toda a minha família vai saber do seu golpe",pt
+indignation,"não recebe um cêntimo de mim",pt
+indignation,"prefiro perder tudo do que ceder",pt
+indignation,"o seu esquema não vai funcionar",pt
+indignation,"não nasci ontem",pt
+indignation,"enganou-se com a pessoa errada",pt
+indignation,"vou desmascará-lo publicamente",pt
+indignation,"é uma vergonha para a humanidade",pt
+indignation,"vou contactar um advogado",pt
+indignation,"espere as ações judiciais",pt
+indignation,"nunca pagarei o seu resgate",pt
+indignation,"pode continuar a sonhar",pt
+indignation,"não me deixo pisar por burlões",pt
+peur,"Sicherheitswarnung: Verdächtiger Login auf Ihrem Bankkonto",de
+peur,"jemand nutzte Ihre Identität für einen Kredit",de
 peur,"Ihr Passwort wurde vor 5 Minuten geändert",de
-peur,"Ihre Bankdaten wurden soeben aktualisiert",de
-peur,"Zahlung über 849€ bei Amazon Frankreich getätigt",de
-peur,"Abhebung von 600€ an einem Geldautomaten in Paris",de
-peur,"ungeklärte Transaktion über 1250€",de
-peur,"falls Sie das nicht waren kontaktieren Sie unsere Betrugsabteilung",de
-peur,"Ihre Karte wird in 24 Stunden belastet wenn Sie nicht antworten",de
-peur,"eine automatische Abbuchung wird vorgenommen",de
-peur,"unbezahlte Fälligkeit – 10% Mahngebühr erhoben",de
-peur,"überfällige Rechnung – Mahngebühren hinzugefügt",de
-peur,"Ihre Akte wurde an unsere Inkassoabteilung weitergeleitet",de
-peur,"Mahnung vor gerichtlichen Schritten",de
-peur,"Sie sind am 15. April vor Gericht geladen",de
-peur,"es wurde Strafanzeige gegen Sie wegen Betrugs erstattet",de
-peur,"es wurde ein Haftbefehl gegen Sie erlassen",de
-peur,"Ihr Name taucht in einem Strafverfahren auf",de
-peur,"Sie werden wegen Steuerhinterziehung untersucht",de
-peur,"Ihre Steuerprüfung ist für Mai angesetzt",de
-peur,"Steuernachzahlung von 12500€ innerhalb von 30 Tagen zu zahlen",de
-peur,"betrügerische Angabe in Ihrer Steuererklärung festgestellt",de
-peur,"Sozialversicherungsbetrug gemeldet",de
-peur,"Ihre Sozialleistungen werden sofort ausgesetzt",de
-peur,"Erstattungen der Krankenkasse blockiert",de
-peur,"Ihre Gesundheitskarte wurde deaktiviert",de
-peur,"Auf Ihrem iPhone wurden Viren entdeckt",de
-peur,"Ihr Telefon ist mit 3 Schadprogrammen infiziert",de
-peur,"ein Spionageprogramm zeichnet alles auf was Sie tippen",de
-peur,"Ihre Passwörter wurden bei einem Datenleck kompromittiert",de
-peur,"Ihre persönlichen Daten stehen im Darknet zum Verkauf",de
-peur,"Ihre Webcam wurde gehackt – wir filmen Sie",de
-peur,"wir zeichnen gerade Ihren Bildschirm auf",de
-peur,"wir haben sehr kompromittierende Videos von Ihnen",de
-peur,"Ihre privaten Gespräche wurden aufgezeichnet",de
-peur,"wir werden alles an alle Ihre Kontakte schicken",de
-peur,"Ihr Ruf wird zerstört wenn Sie nicht zahlen",de
-peur,"Ihre Kollegen werden Ihre Geheimnisse erfahren",de
-peur,"Ihre Familie wird alles über Sie herausfinden",de
+peur,"eine Transaktion von 849€ wurde von Ihrer Karte durchgeführt",de
+peur,"Ihre IP-Adresse ist mit illegalen Aktivitäten verbunden",de
+peur,"ein Haftbefehl wurde gegen Sie erlassen",de
+peur,"Sie sind wegen Steuerbetrugs vor Gericht geladen",de
+peur,"Ihr digitales Identitätskonto wurde gehackt",de
+peur,"wir haben einen Identitätsdiebstahlversuch blockiert",de
+peur,"Ihre E-Mail wurde verwendet, um Drohungen zu senden",de
+peur,"eine Betrugsanzeige wurde auf Ihren Namen erstattet",de
+peur,"Ihr Haus wird morgen durchsucht",de
+peur,"Spyware zeichnet alle Ihre Tastatureingaben auf",de
+peur,"Ihre Webcam wurde aus der Ferne aktiviert",de
+peur,"wir haben kompromittierende Videos von Ihnen",de
 peur,"zahlen Sie 1500€ in Bitcoin oder wir veröffentlichen alles",de
-peur,"letzte Frist vor Veröffentlichung – nur noch 24h",de
-peur,"Zeitüberschreitung in 12h – danach ist es zu spät",de
-peur,"nur noch 5 Exemplare auf Lager bevor ausverkauft",de
-peur,"kritischer Lagerbestand – sofort bestellen",de
-peur,"77 Personen sehen sich dieses Angebot gerade an",de
-peur,"23 Kunden möchten denselben Artikel wie Sie kaufen",de
+peur,"Ihre Krankenkassenkarte wurde wegen Betrugs deaktiviert",de
+peur,"Ihre Sozialleistungen sind sofort ausgesetzt",de
+peur,"eine Ransomware hat alle Ihre Dateien verschlüsselt",de
+peur,"Ihr iPhone ist mit 3 Viren infiziert",de
+peur,"Ihr Netflix-Abo läuft in 24 Stunden ab",de
+peur,"Ihr Paket steckt im Zoll fest",de
+peur,"nur noch 5 Stück vor dem Ausverkauf",de
+peur,"Ihr 0€-Angebot endet heute Nacht",de
 peur,"jemand wird Ihnen Ihre Reservierung wegnehmen",de
-peur,"das ist Ihre letzte Chance zu bestellen",de
-peur,"Sie werden es bereuen nicht gekauft zu haben",de
-peur,"der Preis steigt in 3 Stunden",de
-peur,"dieses Sonderangebot endet heute Abend",de
-peur,"dieser Preis ist nach Mitternacht nie wieder erhältlich",de
-culpabilité,"Sie haben vergessen Ihre E-Mail-Adresse zu bestätigen",de
-culpabilité,"Ihre Registrierung wurde nicht abgeschlossen",de
-culpabilité,"es fehlen Dokumente in Ihrer Akte",de
-culpabilité,"Belege wurden bis heute nicht eingereicht",de
+peur,"Ihr Chef hat eine Kopie Ihrer Nachrichten erhalten",de
+peur,"Ihre Kollegen werden Ihre Geheimnisse entdecken",de
+peur,"Ihr PayPal-Konto wurde im Ausland genutzt",de
+peur,"ein Kredit wurde ohne Ihre Zustimmung auf Ihren Namen aufgenommen",de
+peur,"Ihre Sozialversicherungsnummer ist im Darknet",de
+culpabilité,"Sie haben vergessen, Ihre E-Mail-Adresse zu bestätigen",de
+culpabilité,"Ihre Registrierung wurde wegen Ihnen nicht abgeschlossen",de
+culpabilité,"in Ihrer Akte fehlen Dokumente",de
 culpabilité,"Sie haben auf unsere vorherige Nachricht nicht geantwortet",de
-culpabilité,"wir warten seit 3 Wochen auf Ihre Rückmeldung",de
-culpabilité,"Sie haben eine falsche Telefonnummer eingegeben",de
-culpabilité,"die angegebene E-Mail-Adresse existiert nicht",de
-culpabilité,"Fehler im Anmeldeformular",de
-culpabilité,"Sie haben vergessen das Pflichtfeld anzukreuzen",de
-culpabilité,"die Allgemeinen Geschäftsbedingungen wurden nicht akzeptiert",de
-culpabilité,"Sie haben unser limitiertes Angebot verpasst",de
-culpabilité,"Sie haben die gestrige Aktion verpasst",de
-culpabilité,"wenn Sie früher bestellt hätten wären Sie jetzt beliefert",de
-culpabilité,"es ist Ihre Schuld dass der Artikel ausverkauft ist",de
-culpabilité,"Ihr Paket verspätet sich wegen Ihrer falschen Adresse",de
-culpabilité,"Sie haben Ihre Lieferadresse falsch angegeben",de
-culpabilité,"Sie waren zur Unterzeichnung der Lieferung nicht anwesend",de
-culpabilité,"Paket zurück an Absender weil Sie nicht reagiert haben",de
-culpabilité,"zusätzliche Gebühren gehen zu Ihren Lasten",de
-culpabilité,"Säumniszuschläge fallen an – Sie haben nicht rechtzeitig bezahlt",de
-culpabilité,"alles steht in den von Ihnen akzeptierten Bedingungen",de
-culpabilité,"Sie haben akzeptiert ohne das Kleingedruckte zu lesen",de
-culpabilité,"niemand sonst hat dieses Problem",de
-culpabilité,"andere Kunden haben es ohne Schwierigkeiten geschafft",de
-culpabilité,"Sie sind der Einzige mit diesem Fehler",de
-culpabilité,"das Problem liegt wahrscheinlich bei Ihnen",de
-culpabilité,"überprüfen Sie Ihre persönlichen Daten erneut",de
-culpabilité,"lesen Sie unsere vorherige E-Mail die Sie ignoriert haben",de
-culpabilité,"wir waren sehr deutlich in unseren Erklärungen",de
-culpabilité,"Sie haben die mitgelieferten Anweisungen nicht befolgt",de
-culpabilité,"das Verfahren ist einfach und jeder schafft es",de
-culpabilité,"folgen Sie der Schritt-für-Schritt-Anleitung wie angegeben",de
-culpabilité,"es ist doch ausführlich auf unserer Website erklärt",de
-culpabilité,"die Antwort auf Ihre Frage steht in den FAQ",de
-culpabilité,"haben Sie überhaupt gesucht bevor Sie uns kontaktierten",de
-culpabilité,"irgendwann müssen Sie sich auch mal bemühen",de
-culpabilité,"Sie rufen jetzt schon 5 Mal wegen derselben Sache an",de
+culpabilité,"es ist Ihre Schuld, wenn das Paket zurückging",de
+culpabilité,"Sie haben Ihre Lieferadresse falsch eingegeben",de
+culpabilité,"Sie waren nicht zur Unterschrift anwesend",de
+culpabilité,"Verzugskosten gehen zu Ihren Lasten",de
+culpabilité,"Sie haben die AGB ohne Lesen akzeptiert",de
+culpabilité,"Sie sind der Einzige mit diesem Problem",de
+culpabilité,"andere Kunden haben es problemlos geschafft",de
+culpabilité,"das Problem liegt bei Ihnen",de
+culpabilité,"Sie haben die Anweisungen nicht befolgt",de
+culpabilité,"lesen Sie unsere vorherige E-Mail, die Sie ignoriert haben",de
+culpabilité,"Sie haben 5 Mal wegen derselben Sache angerufen",de
 culpabilité,"wir haben Ihnen bereits mehrmals geantwortet",de
+culpabilité,"Sie haben nicht auf den Bestätigungslink geklickt",de
+culpabilité,"Sie haben Ihr Passwort geteilt, das ist Ihr Fehler",de
+culpabilité,"Sie hätten die Zwei-Faktor-Authentifizierung aktivieren sollen",de
+culpabilité,"Sie haben Ihr Antivirenprogramm nicht aktualisiert",de
+culpabilité,"Sie haben Ihr Einkommen nicht angegeben",de
+culpabilité,"Sie haben wissentlich Betrug begangen",de
+culpabilité,"Sie haben unseren Kundendienst getäuscht",de
+culpabilité,"Sie haben über Ihre Situation gelogen",de
+culpabilité,"Sie haben wichtige Informationen verheimlicht",de
+culpabilité,"Sie haben unterschrieben, ohne zu prüfen",de
+culpabilité,"Sie haben trotz Warnung auf einen betrügerischen Link geklickt",de
+culpabilité,"Sie haben keine Datensicherung gemacht",de
+culpabilité,"Sie haben unsere drei vorherigen Nachrichten ignoriert",de
 humiliation,"Sie haben wirklich gar nichts verstanden",de
 humiliation,"so schwer ist das doch nicht zu verstehen",de
-humiliation,"man muss schon blöd sein um auf so eine Masche hereinzufallen",de
+humiliation,"man muss schon ein Idiot sein, um auf diese Masche reinzufallen",de
 humiliation,"Sie sind so naiv",de
-humiliation,"wie können Sie das nur glauben",de
-humiliation,"jeder weiß dass das Betrug ist außer Ihnen",de
-humiliation,"Ihre E-Mail-Adresse ist in unserer Datenbank der Leichtgläubigen",de
-humiliation,"Sie sind genau das Ziel das wir suchen",de
-humiliation,"Sie sind so berechenbar mit Ihren Gewohnheiten",de
-humiliation,"123456 als Passwort im Ernst",de
+humiliation,"wie können Sie das glauben",de
+humiliation,"jeder weiß, dass das Betrug ist, außer Ihnen",de
+humiliation,"Ihr Passwort ist 123456, ernsthaft",de
 humiliation,"Ihren Vornamen als Passwort zu nehmen ist lächerlich",de
-humiliation,"Sie benutzen überall dasselbe Passwort",de
 humiliation,"Ihre Profilbilder sind wirklich lächerlich",de
 humiliation,"wer posiert 2026 noch so",de
-humiliation,"warten Sie nur bis Ihre Freunde das sehen",de
-humiliation,"wir werden das in Ihrer WhatsApp-Gruppe teilen",de
-humiliation,"Sie werden das Gespött des ganzen Viertels sein",de
-humiliation,"Ihr Chef wird begeistert sein das zu entdecken",de
-humiliation,"stellen Sie sich die Gesichter Ihrer Kollegen vor wenn sie das sehen",de
+humiliation,"Sie werden das Gespött der ganzen Nachbarschaft sein",de
+humiliation,"warten Sie, bis Ihre Freunde das sehen",de
+humiliation,"Ihr Chef wird begeistert sein, das zu entdecken",de
 humiliation,"schämen Sie sich nicht in Ihrem Alter",de
 humiliation,"Sie sollten sich wirklich schämen",de
-humiliation,"was Sie da machen ist absolut nichtssagend",de
-humiliation,"erbärmliches Verhalten",de
 humiliation,"armer Kerl",de
 humiliation,"armer Naivling",de
-humiliation,"noch ein Leichtgläubiger mehr",de
-humiliation,"noch einer auf der Liste",de
-humiliation,"sie sind alle so leichtgläubig",de
-humiliation,"immer dieselben die drauf reinfallen",de
-humiliation,"Sie sind so unglaublich naiv",de
-humiliation,"wir hatten Sie doch gewarnt",de
-humiliation,"aber Sie hören ja nie auf Ratschläge",de
-humiliation,"Sie sind jetzt gewarnt Pech für Sie",de
-humiliation,"nächstes Mal denken Sie nach bevor Sie klicken",de
-humiliation,"hat ja lange genug gedauert bis Sie es kapiert haben",de
-humiliation,"endlich reagieren Sie wurde auch Zeit",de
-humiliation,"wir haben schon verzweifelt auf Ihre Reaktion gewartet",de
-humiliation,"Sie haben uns Angst gemacht so langsam zu sein",de
-humiliation,"das Schaf kehrt endlich in den Stall zurück",de
-humiliation,"immer noch so treu und leichtgläubig",de
-humiliation,"auf Sie kann man sich verlassen naiv zu sein",de
-humiliation,"Sie sind anscheinend süchtig nach unseren Betrugsmaschen",de
-humiliation,"Sie können wohl nicht ohne uns",de
-humiliation,"schon wieder Sie klicken auf alles",de
-humiliation,"immer noch da und klicken ohne nachzudenken",de
+humiliation,"schon wieder ein Leichtgläubiger",de
+humiliation,"immer dieselben, die drauf reinfallen",de
+humiliation,"Sie sind unser bester Leichtgläubiger",de
+humiliation,"danke für Ihre grenzenlose Naivität",de
+humiliation,"Sie bezahlen unseren Urlaub mit Ihrer Leichtgläubigkeit",de
 humiliation,"Sie klicken auf absolut alles",de
 humiliation,"Sonderangebot für Leichtgläubige wie Sie",de
-humiliation,"Aktion nur für Naive",de
-humiliation,"Spezialrabatt für Leichtgläubige",de
-humiliation,"Promo-Code leicht-zu-übertölpeln",de
-humiliation,"Sie sind unser liebster naivster Kunde",de
-humiliation,"unsere beste Einnahmequelle für leichtes Geld",de
-humiliation,"danke für Ihre grenzenlose Naivität",de
-humiliation,"dank Ihnen gönnen wir uns was",de
-humiliation,"Sie bezahlen unseren Urlaub mit Ihrer Leichtgläubigkeit",de
-déception,"wir dachten wirklich Sie wiederzusehen",de
-déception,"Sie haben uns gefehlt seit Sie gegangen sind",de
-déception,"schon lange nichts mehr gehört",de
+humiliation,"Sie sind süchtig nach unseren Betrugsmaschen",de
+humiliation,"Sie können nicht ohne uns",de
+humiliation,"nächstes Mal denken Sie nach, bevor Sie klicken",de
+humiliation,"endlich reagieren Sie, wurde auch Zeit",de
+humiliation,"das Schaf kehrt endlich in den Stall zurück",de
+humiliation,"immer so treu und leichtgläubig",de
+déception,"wir dachten wirklich, wir würden Sie wiedersehen",de
+déception,"Sie haben uns gefehlt, seit Sie weg sind",de
 déception,"Sie sind ohne Erklärung verschwunden",de
 déception,"Sie waren früher so treu",de
-déception,"was ist mit uns passiert",de
-déception,"wir wurden zu früh getrennt",de
-déception,"unsere Beziehung endet hier leider",de
-déception,"Sie verlassen uns schon nach so kurzer Zeit",de
-déception,"wir haben wirklich an Sie geglaubt",de
+déception,"wir haben an Sie geglaubt",de
 déception,"Sie enttäuschen uns sehr",de
 déception,"wir hatten mehr von Ihnen erwartet",de
-déception,"Sie werden unseren Erwartungen nicht gerecht",de
-déception,"Sie haben unser ganzes Team enttäuscht",de
-déception,"unsere Erwartungen an Sie waren groß",de
-déception,"leider passen Sie nicht ins Profil",de
-déception,"Ihr Profil passt nicht zu dieser Stelle",de
-déception,"wir geben diesmal keinen Zuschlag",de
-déception,"es wird letztlich ohne Sie sein",de
-déception,"Sie wurden nicht für die nächste Runde ausgewählt",de
-déception,"danke für Ihre Bewerbung aber sie wurde nicht angenommen",de
-déception,"wir haben jemand anderen statt Ihnen gewählt",de
-déception,"Ihre Bewerbung wurde nicht ausgewählt",de
-déception,"trotz Ihres Interesses haben wir eine andere Wahl getroffen",de
-déception,"wir bedauern Ihnen mitteilen zu müssen dass Sie nicht genommen wurden",de
-déception,"mit Bedauern teilen wir Ihnen diese Absage mit",de
-déception,"wir bedauern Ihr Angebot ablehnen zu müssen",de
-déception,"leider müssen wir Ihren Vorschlag ablehnen",de
-déception,"Ihr Angebot wurde diesmal nicht angenommen",de
-déception,"an Ihrer Stelle wurde ein anderer Kandidat gewählt",de
+déception,"Sie sind nicht auf der Höhe",de
+déception,"Ihre Bewerbung wurde nicht angenommen",de
+déception,"wir haben jemand anderen gewählt",de
 déception,"Sie haben diesmal nicht gewonnen",de
 déception,"es war nicht Ihr Glückstag",de
-déception,"niemand hat diese Woche den Hauptpreis gewonnen",de
+déception,"niemand hat den Jackpot gewonnen",de
 déception,"Sie sind nicht der millionste Kunde",de
-déception,"tut uns leid Sie haben diesmal nicht gewonnen",de
-déception,"versuchen Sie Ihr Glück beim nächsten Mal",de
-déception,"noch ist es nicht soweit",de
-déception,"das Glück war heute nicht auf Ihrer Seite",de
-déception,"leider kein Gewinn für Sie",de
-déception,"Sie haben diesmal nichts gewonnen",de
-déception,"tut uns leid das war nichts",de
+déception,"tut uns leid, Sie haben nicht gewonnen",de
+déception,"versuchen Sie es nächstes Mal wieder",de
+déception,"das Glück war nicht auf Ihrer Seite",de
 déception,"vielleicht nächstes Mal",de
 déception,"man kann nicht immer gewinnen",de
-déception,"das Glück wird sich später zu Ihren Gunsten wenden",de
-déception,"das wird ein andermal sein",de
-déception,"Ihre Treue hätte etwas Besseres verdient",de
-déception,"wir können das gemeinsam besser machen",de
-déception,"dieses Angebot ist scheinbar nichts für Sie",de
-déception,"Sie haben ein passenderes Angebot verdient",de
+déception,"Ihre Treue verdient mehr",de
+déception,"dieses Angebot ist nichts für Sie",de
+déception,"Sie verdienen ein besseres Angebot",de
 déception,"wir werden etwas Besseres für Sie finden",de
-déception,"Geduld Ihre Zeit wird bald kommen",de
-déception,"wir haben Sie trotz allem nicht vergessen",de
-déception,"Sie sind in unseren Gedanken",de
+déception,"Geduld, Ihre Zeit wird kommen",de
+déception,"wir haben Sie nicht vergessen",de
+déception,"Sie waren unsere beste Hoffnung",de
+déception,"wir dachten, Sie wären anders",de
+déception,"Sie haben uns belogen",de
+déception,"wir sind sehr enttäuscht von Ihrem Verhalten",de
+déception,"Sie haben Ihre Versprechen nicht gehalten",de
 agacement,"schon wieder eine Werbebotschaft",de
 agacement,"immer mehr Spam in meinem Posteingang",de
-agacement,"Sie geben wohl nie auf",de
-agacement,"Sie sind wirklich hartnäckig mit Ihren E-Mails",de
-agacement,"was für eine lästige Beharrlichkeit",de
-agacement,"Sie sind wirklich aufdringlich",de
-agacement,"das ist wirklich lästig",de
-agacement,"wie oft muss man Ihnen noch Nein sagen",de
-agacement,"Nein heißt Nein Punkt",de
-agacement,"verstehen Sie das Wort Nein nicht",de
-agacement,"STOPP ich sagte Stopp",de
-agacement,"hören Sie auf mir E-Mails zu schicken",de
-agacement,"melden Sie mich bitte sofort ab",de
-agacement,"löschen Sie mich aus Ihren Verteilern",de
-agacement,"tun Sie das Nötige um mich zu entfernen",de
-agacement,"führen Sie meine Bitte bitte aus",de
-agacement,"so schwer ist das nicht zu verstehen",de
-agacement,"machen Sie das mit Absicht oder was",de
-agacement,"ich leg auf ich hab die Nase voll",de
-agacement,"ich antworte nicht mehr auf Ihre Nachrichten",de
-agacement,"das Spiel ist für mich aus",de
-agacement,"ich habe Besseres zu tun als Sie zu lesen",de
+agacement,"Sie geben nie auf, oder",de
+agacement,"Stopp, ich sagte Stopp",de
+agacement,"hören Sie auf, mir E-Mails zu schicken",de
+agacement,"melden Sie mich sofort ab",de
+agacement,"löschen Sie mich aus Ihren Listen",de
+agacement,"verschwinden Sie aus meinen E-Mails",de
+agacement,"Sie nerven mich mit Ihren Angeboten",de
+agacement,"verpissen Sie sich mit Ihren Aktionen",de
+agacement,"ich habe Besseres zu tun, als Sie zu lesen",de
 agacement,"ich verschwende meine Zeit mit Ihnen",de
-agacement,"was für eine Zeitverschwendung diese E-Mails",de
-agacement,"noch eine Minute meines Lebens verschwendet",de
-agacement,"ich werde Ihre Nachricht nicht einmal lesen",de
-agacement,"ungelesen in den Müll",de
+agacement,"direkt in den Müll ohne zu öffnen",de
 agacement,"direkt Spam in den Junk-Ordner",de
-agacement,"automatisch in den Papierkorb",de
-agacement,"als unerwünscht gemeldet",de
-agacement,"dauerhaft blockiert",de
 agacement,"als Spam gemeldet",de
-agacement,"wegen Belästigung auf die schwarze Liste gesetzt",de
-agacement,"der Spaß hört bei mir auf",de
-agacement,"Sie werden schon sehen was passiert",de
-agacement,"Anzeige wegen Belästigung in Vorbereitung",de
-agacement,"ich erstatte Anzeige gegen Sie",de
+agacement,"dauerhaft blockiert",de
+agacement,"wegen Belästigung auf der schwarzen Liste",de
+agacement,"ich erstatte Anzeige wegen Belästigung",de
 agacement,"mein Anwalt wird Sie kontaktieren",de
-agacement,"die Datenschutzbehörde ist eingeschaltet",de
-agacement,"betrügerische Website bei den Behörden gemeldet",de
-agacement,"Sie werden Probleme bekommen",de
-agacement,"das wird schlecht für Sie ausgehen",de
-agacement,"Sie sind gewarnt das ist die letzte Warnung",de
-agacement,"letzte Warnung vor Maßnahmen",de
-agacement,"wenn ich noch eine einzige Nachricht erhalte",de
-agacement,"die nächste eingehende E-Mail löst eine Anzeige aus",de
-agacement,"ich schwöre es ist jetzt vorbei",de
+agacement,"die Datenschutzbehörde wurde informiert",de
+agacement,"Sie werden Ärger bekommen",de
 agacement,"nie wieder mit Ihnen",de
-agacement,"aller guten Dinge sind drei aber das ist zu viel",de
-agacement,"drei Nachrichten sind wirklich zu viel",de
-agacement,"der Tropfen der das Fass zum Überlaufen bringt",de
-agacement,"generell die Schnauze voll von Ihren Anfragen",de
-agacement,"ich kann Sie nicht mehr ertragen",de
-agacement,"meine Geduld mit Ihnen ist am Ende",de
-agacement,"völlige Sättigung durch Ihre E-Mails",de
-agacement,"Spam-Überdosis",de
-agacement,"es reicht jetzt wirklich",de
-agacement,"stoppt die Werbeüberflutung",de
 agacement,"das reicht jetzt",de
-agacement,"so langsam reicht es",de
-agacement,"jetzt reicht's mal für fünf Minuten",de
-agacement,"jetzt reicht's mal für zwei Minuten",de
-agacement,"ein bisschen Ernsthaftigkeit",de
-agacement,"Stopp dem Zirkus",de
-agacement,"die Komödie ist vorbei",de
-agacement,"Sie ermüden alle",de
-agacement,"Sie nerven uns mit Ihren Angeboten",de
-agacement,"weitergehen hier gibt's nichts zu sehen",de
-agacement,"gehen Sie woanders hin um zu sehen ob ich da bin",de
-agacement,"verschwinden Sie aus meinem Posteingang",de
-agacement,"geben Sie mein Postfach frei",de
-agacement,"hauen Sie ab aus meinen E-Mails",de
-agacement,"verpissen Sie sich mit Ihren Angeboten",de
-agacement,"husch",de
+agacement,"ich habe die Nase voll",de
+agacement,"ich kann Sie nicht mehr ertragen",de
+agacement,"am Ende meiner Geduld",de
+agacement,"genug ist genug",de
+agacement,"weitergehen, hier gibt es nichts zu sehen",de
 agacement,"raus",de
-agacement,"weiter",de
-agacement,"der Nächste",de
-agacement,"gute Reise",de
-agacement,"auf Nimmerwiedersehen",de
-agacement,"endlich allein wenn Sie weg sind",de
-agacement,"erleichtert wenn Sie aufhören",de
-agacement,"endlich Ruhe ohne Sie",de
-peur,"allerta di sicurezza: accesso sospetto rilevato sul tuo account",it
-peur,"abbiamo bloccato un tentativo di accesso insolito",it
-peur,"qualcuno sta cercando di accedere al tuo account da un nuovo dispositivo",it
-peur,"richiesta di cambio password – conferma di essere tu",it
-peur,"la tua password è stata modificata 5 minuti fa",it
-peur,"i tuoi dati bancari sono appena stati aggiornati",it
-peur,"transazione da 849€ effettuata su Amazon Francia",it
-peur,"prelievo di 600€ presso un bancomat a Parigi",it
-peur,"operazione da 1250€ non confermata",it
-peur,"se non sei stato tu contatta il nostro servizio antifrode",it
-peur,"la tua carta verrà addebitata entro 24 ore se non rispondi",it
-peur,"verrà effettuato un addebito automatico",it
-peur,"scadenza non pagata – maggiorazione del 10% applicata",it
-peur,"fattura in ritardo – penali aggiunte",it
-peur,"il tuo fascicolo è stato trasmesso al nostro ufficio recupero crediti",it
-peur,"diffida prima di azioni legali",it
-peur,"sei convocato in tribunale il 15 aprile",it
-peur,"è stata sporta denuncia contro di te per truffa",it
+agacement,"nächster",de
+indignation,"es ist ein absoluter Skandal, Leute so zu manipulieren",de
+indignation,"Sie sollten sich für Ihre Methoden schämen",de
+indignation,"ich werde solche Erpressung nie akzeptieren",de
+indignation,"Sie nutzen die Angst Unschuldiger aus, das ist widerlich",de
+indignation,"ich weigere mich kategorisch, mich von Ihren Lügen einschüchtern zu lassen",de
+indignation,"wie können Sie es wagen, die Not anderer für Geld auszunutzen",de
+indignation,"das ist unmoralisch und illegal",de
+indignation,"ich werde Ihre Seite den Behörden melden",de
+indignation,"Sie gehören ins Gefängnis",de
+indignation,"was für eine Schande, sich an den Schwachen zu bereichern",de
+indignation,"ich lasse mich von Ihren Drohungen nicht einschüchtern",de
+indignation,"Ihr Erpressungsversuch ist erbärmlich",de
+indignation,"Sie haben keine Würde",de
+indignation,"ich werde Anzeige gegen Sie erstatten",de
+indignation,"was Sie tun, ist kriminell",de
+indignation,"Sie sind Abschaum",de
+indignation,"ich werde die Presse alarmieren",de
+indignation,"meine ganze Familie wird von Ihrem Betrug erfahren",de
+indignation,"Sie bekommen keinen Cent von mir",de
+indignation,"ich verliere lieber alles, als nachzugeben",de
+indignation,"Ihre Erpressung wird nicht funktionieren",de
+indignation,"ich bin nicht von gestern",de
+indignation,"Sie haben sich an die Falsche geraten",de
+indignation,"ich werde Sie öffentlich bloßstellen",de
+indignation,"Sie sind eine Schande für die Menschheit",de
+indignation,"ich werde einen Anwalt kontaktieren",de
+indignation,"erwarten Sie rechtliche Schritte",de
+indignation,"ich werde niemals Ihr Lösegeld zahlen",de
+indignation,"Sie können weiter träumen",de
+indignation,"ich lasse mich von Betrügern nicht herumschubsen",de
+peur,"allarme sicurezza: accesso sospetto sul tuo conto corrente",it
+peur,"qualcuno ha usato la tua identità per aprire un prestito",it
+peur,"la tua password è stata cambiata 5 minuti fa",it
+peur,"una transazione di 849€ è stata fatta sulla tua carta",it
+peur,"il tuo IP è collegato ad attività illegali",it
 peur,"è stato emesso un mandato di arresto contro di te",it
-peur,"il tuo nome compare in un procedimento penale",it
-peur,"sei indagato per frode fiscale",it
-peur,"il tuo controllo fiscale è programmato per maggio",it
-peur,"accertamento fiscale di 12500€ da pagare entro 30 giorni",it
-peur,"dichiarazione fraudolenta rilevata sulle tue tasse",it
-peur,"frode ai danni della previdenza sociale segnalata",it
-peur,"i tuoi diritti sociali saranno sospesi immediatamente",it
-peur,"rimborsi della previdenza sociale bloccati",it
-peur,"la tua tessera sanitaria è stata disattivata",it
-peur,"sono stati rilevati virus sul tuo iPhone",it
-peur,"il tuo telefono è infetto da 3 malware",it
+peur,"sei convocato in tribunale per frode fiscale",it
+peur,"il tuo account di identità digitale è stato hackerato",it
+peur,"abbiamo bloccato un tentativo di furto d'identità",it
+peur,"la tua email è stata usata per inviare minacce",it
+peur,"una denuncia per truffa è stata presentata a tuo nome",it
+peur,"la tua casa sarà perquisita domani mattina",it
 peur,"uno spyware registra tutto ciò che digiti",it
-peur,"le tue password sono state compromesse in una fuga di dati",it
-peur,"i tuoi dati personali sono in vendita sul dark web",it
-peur,"la tua webcam è stata hackerata – ti stiamo filmando",it
-peur,"stiamo registrando il tuo schermo in questo momento",it
-peur,"abbiamo video molto compromettenti di te",it
-peur,"le tue conversazioni private sono state registrate",it
-peur,"manderemo tutto a tutti i tuoi contatti",it
-peur,"la tua reputazione sarà distrutta se non paghi",it
-peur,"i tuoi colleghi scopriranno i tuoi segreti",it
-peur,"la tua famiglia saprà tutto di te",it
+peur,"la tua webcam è stata attivata a distanza",it
+peur,"abbiamo video compromettenti su di te",it
 peur,"paga 1500€ in bitcoin o pubblichiamo tutto",it
-peur,"termine ultimo prima della pubblicazione – solo 24 ore rimaste",it
-peur,"time-out tra 12 ore – dopo sarà troppo tardi",it
-peur,"solo 5 pezzi rimasti in stock prima dell'esaurimento",it
-peur,"scorte critiche – ordina immediatamente",it
-peur,"77 persone stanno guardando questa offerta in questo momento",it
-peur,"23 clienti vogliono acquistare lo stesso articolo che hai scelto tu",it
-peur,"qualcuno ti porterà via la prenotazione",it
-peur,"questa è la tua ultima possibilità per ordinare",it
-peur,"ti pentirai di non aver comprato",it
-peur,"il prezzo aumenterà tra 3 ore",it
-peur,"questa offerta speciale termina stasera",it
-peur,"questo prezzo non sarà più disponibile dopo mezzanotte",it
+peur,"la tua tessera sanitaria è stata disattivata per frode",it
+peur,"i tuoi benefici sociali sono sospesi immediatamente",it
+peur,"un ransomware ha criptato tutti i tuoi file",it
+peur,"il tuo iPhone ha 3 virus",it
+peur,"il tuo abbonamento Netflix scade tra 24 ore",it
+peur,"il tuo pacco è bloccato in dogana",it
+peur,"solo 5 pezzi rimasti prima dell'esaurimento",it
+peur,"la tua offerta a 0€ scade stasera",it
+peur,"qualcuno ti ruberà la prenotazione",it
+peur,"il tuo capo ha ricevuto copia dei tuoi messaggi",it
+peur,"i tuoi colleghi scopriranno i tuoi segreti",it
+peur,"il tuo account PayPal è stato usato all'estero",it
+peur,"un prestito è stato acceso a tuo nome senza consenso",it
+peur,"il tuo numero di previdenza sociale è sul dark web",it
 culpabilité,"hai dimenticato di confermare il tuo indirizzo email",it
-culpabilité,"la tua registrazione non è stata completata",it
-culpabilité,"mancano dei documenti nel tuo fascicolo",it
-culpabilité,"giustificativi non forniti ad oggi",it
+culpabilité,"la tua registrazione non è stata completata per colpa tua",it
+culpabilité,"mancano documenti nel tuo fascicolo",it
 culpabilité,"non hai risposto al nostro precedente messaggio",it
-culpabilité,"stiamo ancora aspettando un tuo riscontro dopo 3 settimane",it
-culpabilité,"hai inserito un numero di telefono sbagliato",it
-culpabilité,"l'indirizzo email indicato non esiste",it
-culpabilité,"errore nel modulo di iscrizione",it
-culpabilité,"hai dimenticato di spuntare la casella obbligatoria",it
-culpabilité,"i termini e le condizioni non sono stati accettati",it
-culpabilité,"ti sei perso la nostra offerta limitata",it
-culpabilité,"hai perso la promozione che è scaduta ieri",it
-culpabilité,"se avessi ordinato prima saresti già stato consegnato",it
-culpabilité,"è colpa tua se l'articolo è esaurito",it
-culpabilité,"il tuo pacco è in ritardo a causa del tuo indirizzo errato",it
-culpabilité,"hai compilato male il tuo indirizzo di consegna",it
+culpabilité,"è colpa tua se il pacco è stato rispedito",it
+culpabilité,"hai sbagliato a scrivere l'indirizzo di consegna",it
 culpabilité,"non eri presente per firmare la consegna",it
-culpabilité,"pacco restituito al mittente perché non hai risposto",it
-culpabilité,"costi aggiuntivi a tuo carico",it
-culpabilité,"si applicano penali di ritardo – non hai pagato in tempo",it
-culpabilité,"tutto è spiegato nelle condizioni che hai accettato",it
-culpabilité,"hai accettato senza leggere le clausole in piccolo",it
-culpabilité,"nessun altro ha questo problema",it
-culpabilité,"gli altri clienti ci sono riusciti senza difficoltà",it
-culpabilité,"sei l'unico ad avere questo errore",it
-culpabilité,"il problema è probabilmente da parte tua",it
-culpabilité,"verifica di nuovo i tuoi dati personali",it
-culpabilité,"rileggi la nostra precedente email che hai ignorato",it
-culpabilité,"siamo stati molto chiari nelle nostre spiegazioni",it
-culpabilité,"non hai seguito le istruzioni fornite",it
-culpabilité,"la procedura è semplice e tutti ci riescono",it
-culpabilité,"segui la guida passo passo come indicato",it
-culpabilité,"è pur sempre spiegato nel dettaglio sul nostro sito",it
-culpabilité,"la risposta alla tua domanda è nelle FAQ",it
-culpabilité,"hai davvero cercato prima di contattarci",it
-culpabilité,"a un certo punto devi fare uno sforzo da parte tua",it
-culpabilité,"sono 5 volte che chiami per la stessa cosa",it
+culpabilité,"le spese di ritardo sono a tuo carico",it
+culpabilité,"hai accettato i termini senza leggerli",it
+culpabilité,"sei l'unico ad avere questo problema",it
+culpabilité,"gli altri clienti ce l'hanno fatta senza difficoltà",it
+culpabilité,"il problema viene da te",it
+culpabilité,"non hai seguito le istruzioni",it
+culpabilité,"rileggi la nostra email precedente che hai ignorato",it
+culpabilité,"hai chiamato 5 volte per la stessa cosa",it
 culpabilité,"ti abbiamo già risposto più volte",it
-humiliation,"non hai davvero capito niente insomma",it
+culpabilité,"non hai cliccato sul link di conferma",it
+culpabilité,"hai condiviso la tua password, è un tuo errore",it
+culpabilité,"avresti dovuto attivare la verifica a due fattori",it
+culpabilité,"non hai aggiornato l'antivirus",it
+culpabilité,"non hai dichiarato i tuoi redditi",it
+culpabilité,"hai commesso frode consapevolmente",it
+culpabilité,"hai ingannato il nostro servizio clienti",it
+culpabilité,"hai mentito sulla tua situazione",it
+culpabilité,"hai nascosto informazioni essenziali",it
+culpabilité,"hai firmato senza controllare",it
+culpabilité,"hai cliccato su un link fraudolento nonostante l'avviso",it
+culpabilité,"non hai fatto il backup dei tuoi dati",it
+culpabilité,"hai ignorato i nostri tre messaggi precedenti",it
+humiliation,"non hai davvero capito niente",it
 humiliation,"non è mica difficile da capire",it
-humiliation,"bisogna essere idioti per cadere in questo tipo di trappola",it
+humiliation,"bisogna essere idioti per cadere in questa trappola",it
 humiliation,"sei così ingenuo",it
 humiliation,"come puoi crederci",it
 humiliation,"tutti sanno che è una truffa tranne te",it
-humiliation,"il tuo indirizzo email è nel nostro database di polli",it
-humiliation,"sei esattamente il bersaglio che cerchiamo",it
-humiliation,"sei così prevedibile con le tue abitudini",it
-humiliation,"123456 come password seriamente",it
+humiliation,"la tua password è 123456, sul serio",it
 humiliation,"usare il tuo nome come password è ridicolo",it
-humiliation,"usi la stessa password ovunque",it
 humiliation,"le tue foto del profilo sono davvero ridicole",it
 humiliation,"chi posa ancora così nel 2026",it
-humiliation,"aspetta che i tuoi amici vedano questo",it
-humiliation,"lo condivideremo nel tuo gruppo WhatsApp",it
 humiliation,"sarai lo zimbello di tutto il quartiere",it
+humiliation,"aspetta che i tuoi amici vedano questo",it
 humiliation,"al tuo capo piacerà un sacco scoprirlo",it
-humiliation,"immagina la faccia dei tuoi colleghi quando vedranno questo",it
 humiliation,"non ti vergogni alla tua età",it
 humiliation,"dovresti davvero vergognarti",it
-humiliation,"quello che fai è di una nullità assoluta",it
-humiliation,"comportamento patetico",it
 humiliation,"povero cristo",it
 humiliation,"povero ingenuo",it
 humiliation,"ancora un pollo",it
-humiliation,"uno in più nella lista",it
-humiliation,"sono tutti così creduloni",it
 humiliation,"sempre gli stessi che ci cascano",it
-humiliation,"sei così incredibilmente ingenuo",it
-humiliation,"ti avevamo avvertito però",it
-humiliation,"ma non ascolti mai i consigli",it
-humiliation,"sei avvertito ora peggio per te",it
-humiliation,"la prossima volta penserai prima di cliccare",it
-humiliation,"ce ne hai messo di tempo a capire",it
-humiliation,"finalmente reagisci era ora",it
-humiliation,"disperavamo di vederti reagire",it
-humiliation,"ci hai fatto paura a essere così lento",it
-humiliation,"la pecora torna all'ovile finalmente",it
-humiliation,"sempre così fedele e credulone",it
-humiliation,"possiamo contare su di te per essere ingenuo",it
-humiliation,"a quanto pare sei dipendente dalle nostre truffe",it
-humiliation,"non puoi fare a meno di noi",it
-humiliation,"ancora tu che clicchi su tutto",it
-humiliation,"sempre lì a cliccare senza pensare",it
-humiliation,"clicchi su proprio tutto",it
-humiliation,"offerta speciale per polli come te",it
-humiliation,"promozione solo per ingenui",it
-humiliation,"sconto speciale per creduloni",it
-humiliation,"codice promo facile-da-imbrogliare",it
-humiliation,"sei il nostro cliente preferito il più ingenuo",it
-humiliation,"la nostra migliore fonte di reddito facile",it
+humiliation,"sei il nostro miglior pollo",it
 humiliation,"grazie della tua ingenuità senza limiti",it
-humiliation,"grazie a te ci togliamo delle soddisfazioni",it
-humiliation,"paghi le nostre vacanze con la tua credulità",it
+humiliation,"paghiamo le nostre vacanze con la tua credulità",it
+humiliation,"clicchi su assolutamente tutto",it
+humiliation,"offerta speciale per polli come te",it
+humiliation,"sei dipendente dalle nostre truffe",it
+humiliation,"non puoi fare a meno di noi",it
+humiliation,"la prossima volta penserai prima di cliccare",it
+humiliation,"finalmente reagisci, era ora",it
+humiliation,"la pecora torna all'ovile",it
+humiliation,"sempre così fedele e credulone",it
 déception,"pensavamo davvero di rivederti",it
-déception,"ci manchi da quando te ne sei andato",it
-déception,"nessuna notizia da molto tempo",it
+déception,"ci sei mancato da quando sei andato via",it
 déception,"sei sparito senza spiegazioni",it
 déception,"eri così fedele prima",it
-déception,"cos'è successo tra noi",it
-déception,"siamo stati separati troppo presto",it
-déception,"la nostra relazione finisce qui purtroppo",it
-déception,"ci lasci già dopo così poco tempo",it
-déception,"credevamo davvero in te",it
+déception,"credevamo in te",it
 déception,"ci deludi enormemente",it
-déception,"ci aspettavamo di meglio da te",it
-déception,"non sei all'altezza delle nostre aspettative",it
-déception,"hai deluso tutto il nostro team",it
-déception,"le nostre aspettative nei tuoi confronti erano grandi",it
-déception,"purtroppo non corrispondi al profilo",it
-déception,"il tuo profilo non è adatto per questa posizione",it
-déception,"per questa volta passiamo",it
-déception,"sarà senza di te alla fine",it
-déception,"non sei stato selezionato per il prosieguo",it
-déception,"grazie per aver fatto domanda ma la tua candidatura non è stata accettata",it
-déception,"abbiamo scelto qualcun altro al posto tuo",it
-déception,"la tua candidatura non è stata selezionata",it
-déception,"nonostante il tuo interesse abbiamo fatto un'altra scelta",it
-déception,"siamo spiacenti di informarti che non sei stato preso",it
-déception,"è con rammarico che ti comunichiamo questo rifiuto",it
-déception,"siamo spiacenti di declinare la tua offerta",it
-déception,"purtroppo decliniamo la tua proposta",it
-déception,"la tua offerta non è stata accettata questa volta",it
-déception,"è stato scelto un altro candidato al posto tuo",it
+déception,"ci aspettavamo di più da te",it
+déception,"non sei all'altezza",it
+déception,"la tua candidatura non è stata accettata",it
+déception,"abbiamo scelto qualcun altro",it
 déception,"non hai vinto questa volta",it
 déception,"non era il tuo giorno fortunato",it
-déception,"nessuno ha vinto il jackpot questa settimana",it
-déception,"non sei il milionesimo cliente",it
-déception,"spiacente non hai vinto questa volta",it
-déception,"ritenta la prossima volta",it
-déception,"non è ancora questa volta",it
-déception,"la fortuna non era dalla tua parte oggi",it
-déception,"purtroppo nessuna vincita per te",it
-déception,"non hai vinto niente questa volta",it
-déception,"spiacente non è vincente",it
+déception,"nessuno ha vinto il jackpot",it
+déception,"non sei il cliente milionesimo",it
+déception,"spiacente, non hai vinto",it
+déception,"riprova la prossima volta",it
+déception,"la fortuna non era dalla tua parte",it
 déception,"forse la prossima volta",it
 déception,"non si può vincere sempre",it
-déception,"la fortuna girerà a tuo favore più tardi",it
-déception,"sarà per un'altra volta",it
-déception,"la tua fedeltà merita di meglio",it
-déception,"possiamo fare meglio insieme",it
-déception,"questa offerta a quanto pare non fa per te",it
-déception,"meriti un'offerta più adatta",it
+déception,"la tua fedeltà merita di più",it
+déception,"questa offerta non fa per te",it
+déception,"meriti un'offerta migliore",it
 déception,"troveremo qualcosa di meglio per te",it
-déception,"pazienza il tuo turno arriverà presto",it
-déception,"non ti abbiamo dimenticato nonostante tutto",it
-déception,"sei nei nostri pensieri",it
-agacement,"ancora un messaggio pubblicitario",it
-agacement,"ancora più spam nella mia casella di posta",it
-agacement,"non mollate mai eh",it
-agacement,"siete davvero tenaci a inviare email",it
-agacement,"che persistenza fastidiosa",it
-agacement,"state insistendo pesantemente",it
-agacement,"è davvero fastidioso alla fine",it
-agacement,"quante volte ve lo dobbiamo dire di no",it
-agacement,"no è no punto e basta",it
-agacement,"non capite la parola no",it
-agacement,"STOP ho detto stop",it
-agacement,"smettetela di mandarmi email",it
-agacement,"cancellatemi immediatamente per favore",it
-agacement,"rimuovetemi dalle vostre liste di distribuzione",it
-agacement,"fate il necessario per eliminarmi",it
-agacement,"eseguite la mia richiesta per favore",it
-agacement,"non è difficile da capire",it
-agacement,"lo fate apposta o cosa",it
-agacement,"riaggancio sono stufo",it
-agacement,"non rispondo più ai vostri messaggi",it
-agacement,"fine dei giochi per me",it
-agacement,"ho di meglio da fare che leggervi",it
-agacement,"sto perdendo tempo con voi",it
-agacement,"che spreco di tempo queste email",it
-agacement,"ancora un minuto della mia vita perso",it
-agacement,"non leggerò nemmeno il vostro messaggio",it
+déception,"pazienza, arriverà il tuo turno",it
+déception,"non ti abbiamo dimenticato",it
+déception,"eri la nostra migliore speranza",it
+déception,"pensavamo fossi diverso",it
+déception,"ci hai mentito",it
+déception,"siamo molto delusi dal tuo comportamento",it
+déception,"non hai mantenuto le promesse",it
+agacement,"un altro messaggio pubblicitario",it
+agacement,"sempre più spam nella mia casella",it
+agacement,"non molla mai eh",it
+agacement,"stop, ho detto stop",it
+agacement,"smettila di mandarmi email",it
+agacement,"cancellami subito",it
+agacement,"rimuovimi dalle tue liste",it
+agacement,"levati dalle mie email",it
+agacement,"mi scassi con le tue offerte",it
+agacement,"vai via con le tue promozioni",it
+agacement,"ho di meglio da fare che leggerti",it
+agacement,"sto perdendo tempo con te",it
 agacement,"cestino diretto senza aprire",it
 agacement,"spam diretto nella posta indesiderata",it
-agacement,"cestino automatico",it
-agacement,"indesiderato segnalato",it
-agacement,"bloccato definitivamente",it
 agacement,"segnalato come spam",it
-agacement,"inserito nella lista nera per molestie",it
-agacement,"basta ridere con me",it
-agacement,"vedrete cosa succederà",it
-agacement,"denuncia per molestie in preparazione",it
-agacement,"sporgo denuncia contro di voi",it
-agacement,"il mio avvocato vi contatterà",it
+agacement,"bloccato definitivamente",it
+agacement,"lista nera per molestie",it
+agacement,"sporgherò denuncia per molestie",it
+agacement,"il mio avvocato ti contatterà",it
 agacement,"l'autorità per la protezione dei dati è stata informata",it
-agacement,"sito fraudolento segnalato alle autorità",it
-agacement,"avrete dei problemi",it
-agacement,"andrà a finire male per voi",it
-agacement,"siete avvertiti è l'ultimo avvertimento",it
-agacement,"ultimo avvertimento prima di agire",it
-agacement,"se ricevo ancora un solo messaggio",it
-agacement,"la prossima email ricevuta farà scattare una denuncia",it
-agacement,"giuro che è finita adesso",it
-agacement,"mai più con voi",it
-agacement,"non c'è due senza tre ma questo è troppo",it
-agacement,"tre messaggi sono davvero troppi",it
-agacement,"la goccia che fa traboccare il vaso",it
-agacement,"stufo in generale delle vostre sollecitazioni",it
-agacement,"non vi sopporto più",it
-agacement,"al limite della pazienza con voi",it
-agacement,"saturazione totale delle vostre email",it
-agacement,"overdose di spam",it
-agacement,"troppo è chiaramente troppo",it
-agacement,"stop all'overdose di pubblicità",it
+agacement,"avrai dei problemi",it
+agacement,"mai più con te",it
 agacement,"ora basta",it
-agacement,"comincia a diventare fastidioso",it
-agacement,"basta così per cinque minuti",it
-agacement,"basta così per due minuti",it
-agacement,"un po' di serietà",it
-agacement,"basta con il circo",it
-agacement,"finita la commedia",it
-agacement,"state stancando tutti",it
-agacement,"ci state scocciando con le vostre offerte",it
-agacement,"circolare non c'è niente da vedere qui",it
-agacement,"andate a vedere altrove se ci sono",it
-agacement,"toglietevi dalla mia casella di posta",it
-agacement,"liberate la mia casella di posta",it
-agacement,"levatevi dai piedi dalle mie email",it
-agacement,"fuori dalle scatole con le vostre promozioni",it
-agacement,"sciò",it
+agacement,"sono stufo",it
+agacement,"non ti sopporto più",it
+agacement,"al limite della pazienza",it
+agacement,"troppo è troppo",it
+agacement,"circola, non c'è niente da vedere",it
 agacement,"fuori",it
-agacement,"avanti un altro",it
-agacement,"il prossimo",it
-agacement,"bon voyage",it
-agacement,"bella liberazione",it
-agacement,"finalmente soli quando ve ne sarete andati",it
-agacement,"sollevato quando la smetterete",it
-agacement,"tranquilli ora senza di voi",it
+agacement,"prossimo",it
+indignation,"è uno scandalo assoluto manipolare la gente così",it
+indignation,"dovresti vergognarti dei tuoi metodi",it
+indignation,"non accetterò mai un tale ricatto",it
+indignation,"sfruttate la paura degli innocenti, è disgustoso",it
+indignation,"mi rifiuto categoricamente di farmi intimidire dalle tue bugie",it
+indignation,"come osi usare la sofferenza altrui per fare soldi",it
+indignation,"è immorale e illegale",it
+indignation,"segnalerò il tuo sito alle autorità",it
+indignation,"dovresti stare in prigione",it
+indignation,"che vergogna approfittarsi dei più deboli",it
+indignation,"non mi lascerò intimidire dalle tue minacce",it
+indignation,"il tuo tentativo di ricatto è patetico",it
+indignation,"non hai dignità",it
+indignation,"sporgherò denuncia contro di te",it
+indignation,"quello che fai è criminale",it
+indignation,"sei uno schifo",it
+indignation,"allerrerò la stampa",it
+indignation,"tutta la mia famiglia saprà della tua truffa",it
+indignation,"non avrai un centesimo da me",it
+indignation,"preferisco perdere tutto piuttosto che cedere",it
+indignation,"il tuo ricatto non funzionerà",it
+indignation,"non sono nato ieri",it
+indignation,"hai sbagliato persona",it
+indignation,"ti smaschererò pubblicamente",it
+indignation,"sei una vergogna per l'umanità",it
+indignation,"contatterò un avvocato",it
+indignation,"aspettati azioni legali",it
+indignation,"non pagherò mai il tuo riscatto",it
+indignation,"puoi continuare a sognare",it
+indignation,"non mi faccio mettere i piedi in testa dai truffatori",it

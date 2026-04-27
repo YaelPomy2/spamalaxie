@@ -164,28 +164,14 @@ async function analyzeSentiment(mail, id) {
 
       // Temps de lecture
       let timeToReadInSeconds = ((result.sentiment?.numWords || 0) / 225) * 60;
-      let minutes = false;
-      let timeToReadToTransfer;
-
-      if (timeToReadInSeconds < 60) {
-        timeToReadToTransfer = timeToReadInSeconds;
-      } else {
-        timeToReadToTransfer = Math.round(timeToReadInSeconds * 60);
-        minutes = false;
-      };
 
       // Analyse de l'objet du mail :  
-      let objectToAnalyze;
-
       if (mail.subject) {
         objectResp = await manager.process(mail.subject);
       }
       else {
-        console.log(`❌ Mail doesn't have any object`)
-      };
-      console.log(mail,"MAIL")
-
-      
+        console.log(`❌ Mail doesn't have object`)
+      };      
       // Résultats à transférer 
       const languages = textTransfer_obj.value.slice(0, 4);
 
@@ -197,10 +183,10 @@ async function analyzeSentiment(mail, id) {
         date: mail.date || null,
         languages: {
           principalLanguage: textTransfer_obj.value[0],
-          language: textTransfer_obj.value.slice(0, 4),
+          language: textTransfer_obj.value.slice(0, 3),
         },
         timetoread: {
-          time: timeToReadToTransfer,
+          time: timeToReadInSeconds,
           minutes: minutes,
         },
         object: {
@@ -230,11 +216,10 @@ async function analyzeSentiment(mail, id) {
       };
 
     } else {
-      return fallbackSentimentAnalysis(text);
+        console.log('Erreur analyse sentiment:', error);
     }
   } catch (error) {
     console.error('Erreur analyse sentiment:', error);
-    return fallbackSentimentAnalysis(text);
   }
 }
 
