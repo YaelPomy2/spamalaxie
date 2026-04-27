@@ -8,7 +8,8 @@ Nous pouvons récolter toute les métadonnées se trouvant dans le mail. Grâce 
 
 Voici les données que nous traitons actuellement dans les mails reçus :
 
-Émotions ressenties à la lecture du spam, la longueur du message, la date dee réception, l'expéditeur, la langue du mail, 
+
+Émotions ressenties à la lecture du spam, la longueur du message, la date de réception
 
 **A MODIFIER**
 <br>
